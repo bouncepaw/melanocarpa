@@ -1,0 +1,25 @@
+img { https://cdn.arstechnica.net//wp-content/uploads/2012/05/cosmic-osmo.png }
+**HyperCard** was an early hypermedia platform. This hypha is an attempt to collect some relevant links and cool stuff. Feel free to extend. Please write in English here.
+
+=> https://en.wikipedia.org/wiki/HyperCard HyperCard on Wikipedia
+
+----
+=> https://dercuano.github.io/notes/quasicard.html Quasicard: a hypothetical reimagining of HyperCard and TiddlyWiki
+> Quasicard is a hypothetical reimagining of HyperCard and TiddlyWiki, born out of my combined frustration and contentment with reading textbooks and taking lab notes on an iPhone and doing exploratory data analysis and algorithm design in IPython/Jupyter.
+
+----
+=> https://arstechnica.com/gadgets/2019/05/25-years-of-hypercard-the-missing-link-to-the-web/ 30-plus years of HyperCard, the missing link to the Web
+Cool article.
+
+=> https://habr.com/ru/post/457718/ Russian translation
+
+----
+=> https://hypercard.org
+A really good collection of links with a nice introductory video (30 min). Worth of backing up?
+
+=> https://hypercard.org/HyperTalk%20Reference%202.4.pdf PDF screenshots of HyperTalk reference as Hypercards
+
+=> https://hypercard.org/Pantechnicon/ A collection of stacks?
+
+----
+There are numerous application ‘inspired by HyperCard’, all of them is not what we need. Lots of them advertise themselves as a way of making programs without programming. We need a reimplementation of HyperCard for modern systems, not this.
