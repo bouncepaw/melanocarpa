@@ -1,0 +1,11 @@
+**Python** is a scripting programming language.
+
+= Packaging
+Packaging in Python is a pain for me. From now on, I will try to collect some articles describing people failing to publish a Python package.
+
+=> https://warmedal.se/~bjorn/posts/2021-09-12-python-packaging-woes.html Python Packaging Woes
+> I've been trying to figure out python3 packaging, but have only had some success. As always I guess it comes down to the combination of me not having the prerequisite knowledge to understand some docs, and me wanting to do something that isn't really supported.
+
+----
+
+I tell you what. On all the machines I've tried, never have I succeeded to install a Python package and get it running on the first attempt. Never. Be it GNU+Linux, be it Mac, whatever. Never happened. Always, there are problems that require some shamanic actions.
