@@ -13,3 +13,6 @@ I tell you what. On all the machines I've tried, never have I succeeded to insta
 ---- 
 
 **chekoopa**: "You just don't know how to cook 'em". No problems with `pip`, except of some exotic C\+\+-FFI libs requiring on-site compilation. Even more, after switching to NixOS the only reason Python ecosystem could fail for me is a rare library or packaging bug. Even more, with Nix it becomes dead simple to package a Python app. No virtualenv's, no requirements.txt, ever.
+
+= Multithreading.
+chekoopa: GIL is a dirty workaround and sucks. The only reasonable way to do parallel jobs with Python is `asyncio`, which is still a single thread with sugared control passing.
