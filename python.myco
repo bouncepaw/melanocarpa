@@ -9,3 +9,7 @@ Packaging in Python is a pain for me. From now on, I will try to collect some ar
 ----
 
 I tell you what. On all the machines I've tried, never have I succeeded to install a Python package and get it running on the first attempt. Never. Be it GNU+Linux, be it Mac, whatever. Never happened. Always, there are problems that require some shamanic actions.
+
+---- 
+
+**chekoopa**: "You just don't know how to cook 'em". No problems with `pip`, except of some exotic C\+\+-FFI libs requiring on-site compilation. Even more, after switching to NixOS the only reason Python ecosystem could fail for me is a rare library or packaging bug. Even more, with Nix it becomes dead simple to package a Python app. No virtualenv's, no requirements.txt, ever.
