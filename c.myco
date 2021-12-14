@@ -18,3 +18,12 @@ A read.
 > Do not use const or restrict. const does not have any effect during runtime. restrict can introduce extra bugs. Both have no real use.
 >
 > Many people seem to like const claiming that it "prevents bugs". I'm honestly not sure if I have ever come across a single bug that would have been prevented by const. Even if there is the odd examples for which it is true, const is a cancer that spreads through entire codebases as the only sane way to use it is to use it consistently (or else you require casts which could mask real bugs). Considering that it serves little to no purpose it's, in my opinion, just not worth effort. If you do find yourself stuck with code that insists on it, the magic incantation is #define const.
+
+----
+=> https://club.hugeping.ru/9Qqh3fEBRA9SW48rMQhh#9Qqh3fEBRA9SW48rMQhh Си должен умереть?
+> Как программист на Си, я понимаю, что по современным меркам этот язык нарушает все мыслимые правила приличия. Но при этом я действительно НЕ ВИЖУ адекватной замены в той сфере где он применяется. Это как с самолётами. Неустойчивый самолёт -- маневренный и опасный. Устойчивый -- безопасный и неманевренный. Что выбрать? Что-то среднее? Чем мы готовы пожертвовать?
+>
+> ...
+>
+> Да, работая на индустрию не удастся вернуться в прошлое. Однако, Plan9 научил меня тому, что во многих случаях у меня, как у программиста, всё-таки есть свобода избежать сложного кода, в том числе ценой выбора более подходящей архитектуры. Например, написав небольшое ядро приложения на Си и функциональную часть на Lua. Если я вижу, что код на Си становится сложным, это повод остановиться. Стоп! Что-то не так!
+
