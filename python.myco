@@ -8,11 +8,11 @@ Packaging in Python is a pain for me. From now on, I will try to collect some ar
 
 ----
 
-I tell you what. On all the machines I've tried, never have I succeeded to install a Python package and get it running on the first attempt. Never. Be it GNU+Linux, be it Mac, whatever. Never happened. Always, there are problems that require some shamanic actions.
+**bouncepaw:** I tell you what. On all the machines I've tried, never have I succeeded to install a Python package and get it running on the first attempt. Never. Be it GNU+Linux, be it Mac, whatever. Never happened. Always, there are problems that require some shamanic actions.
 
----- 
+**chekoopa:** "You just don't know how to cook 'em". No problems with `pip`, except of some exotic C\+\+-FFI libs requiring on-site compilation. Even more, after switching to NixOS the only reason Python ecosystem could fail for me is a rare library or packaging bug. Even more, with Nix it becomes dead simple to package a Python app. No virtualenv's, no requirements.txt, ever.
 
-**chekoopa**: "You just don't know how to cook 'em". No problems with `pip`, except of some exotic C\+\+-FFI libs requiring on-site compilation. Even more, after switching to NixOS the only reason Python ecosystem could fail for me is a rare library or packaging bug. Even more, with Nix it becomes dead simple to package a Python app. No virtualenv's, no requirements.txt, ever.
+**bouncepaw:** Yeah, I have no idea how to cook em. But I do expect that installing a random package will succeed with no prior configuration. That's what package managers are what, right? NixOS saves the day!
 
 = Multithreading.
-**chekoopa**: GIL is a dirty workaround and sucks. The only reasonable way to do parallel jobs with Python is `asyncio`, which is still a single thread with sugared control passing.
+**chekoopa:** GIL is a dirty workaround and sucks. The only reasonable way to do parallel jobs with Python is `asyncio`, which is still a single thread with sugared control passing.
