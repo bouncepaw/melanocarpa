@@ -6,7 +6,7 @@ This wiki runs [[https://mycorrhiza.wiki | Mycorrhiza]] as its wiki engine. It i
 The buses:
 table {
 ! Bus ! Tour ! Next stop
-| #200 | Public Personal Wiki Tour | [[https://wiki.recursive.one/TourBusStop | Recursive Wiki]]
+| #200 | Personal Wiki Tour | [[https://wiki.recursive.one/TourBusStop | Recursive Wiki]]
 }
 
 => http://meatballwiki.org/wiki/TourBusMap Full bus map
