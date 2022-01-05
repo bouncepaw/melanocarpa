@@ -1,0 +1,44 @@
+**ed(1)** is line-oriented text editor, originally created in the times when people used teletypes to operate computers.
+
+Nowadays, it is mostly useless, yet I am somewhat capable of using it. Here are the use-cases for using it I had:
+
+* When the previous text in the shell is needed for me to edit the file and I'm lazy to make an extra effort to have both the text and a visual (visual as in not line-oriented) editor. For example: {
+```sh
+$ ls
+i-need-this-filename  this-one-too
+$ ed ~/important.txt
+a
+some important text that i cannot write without remembering the filenames
+.
+```
+
+Easy as that.
+}
+* In vim or neovim, when I have an opened terminal pane and I want to quickly edit a file in the same window (using vim terms) without removing the terminal from there.
+
+Both use-cases are questionable, yet I used ed(1) in these cases. What're you gonna do?
+
+So, the fact that ed(1) does not overlay the shell is a useful trait. Another useful trait is that it opens files on the last line. It lets you make quick notes along the way, with no need for extra software!
+
+```sh
+$ doing something very important
+this is an important output
+$ ed ~/notes.txt
+a
+Here's a very cool idea I had and that I do not want to forget and I'm scared to switch the window to a note-taking program or a browser.
+.
+```
+
+Actually, ed(1) is quite good for adding new text to documents! But actually editing them? Thanks, no.
+
+= What's that (1)?
+ed(1)'s documentation is available in `man`. Run `man ed` to read if, if you have ed(1) installed.
+
+In man, there are 8 standard sections of manuals, numbered from 1 to 8, with 1 corresponding to general commands, which ed(1) seems to be. The man viewer even says `ED(1)` on top of the document.
+
+I guess that's where that comes from.
+
+Why do I write it like that? Because that's what the person managing [[https://twitter.com/ed1conf]] does and I like it and find it fun and funny. I wonder if they were the first to do so.
+
+= See also
+* [[Edbrowse]], an ed(1)-inspired editor+browser+mail client.
