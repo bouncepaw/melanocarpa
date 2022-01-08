@@ -8,6 +8,8 @@ img end { цкищима с палкой }
 
 This website is multilingual, i/e the content is written in English and Russian. When choosing a language for writing, choose the one closer to the topic. Thus, when writing about information technologies, you would probably choose English. In the future, I might want to integrate other languages; perhaps, including those I made up by myself, why not. There is no limit.
 
+This wiki's hyphae are backed up in [[https://github.com/bouncepaw/melanocarpa | this GitHub repo]].
+
 = Contents
 == Programming languages
 => C
