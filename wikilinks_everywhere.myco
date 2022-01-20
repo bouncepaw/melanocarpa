@@ -1,0 +1,9 @@
+[[Agora]] has this idea of having [[https://anagora.org/wikilinks-everywhere | wikilinks everywhere]]. And they actually write them everywhere. There is a [[https://anagora.org/agora-ext | browser extension for Firefox]]. I do not use Firefox but I would enjoy having an easy way of following the wikilinks.
+
+My main computer is Mac. It has this thing called Automator (deprecated in Monterey afaik) with [[AppleScript]] workflows. My Mycorrhiza web clipper works this way. Here's the description of my little hack for wikilinks everywhere.
+
+*. Select text anywhere
+*. Press the hotkey (one key hotkey would be perfect) or select the action from the context menu
+*. An An [[Agora]] hypha with such name will be opened in your default browser
+
+I can do this in a day when I have the correct mood.
