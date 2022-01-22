@@ -30,3 +30,11 @@ Test it on the text below. [[https://anagora.org/melanocarpa]] should be opened:
 ```
 [[melanocarpa]]
 ```
+
+= Possible X11 implementation
+Just links and ideas for a possible implementor:
+
+=> https://stackoverflow.com/questions/3983354/getting-selected-text-in-current-window Get selected text like that
+=> https://wiki.archlinux.org/title/Xbindkeys Bind hotkeys with xbindkeys or whatever
+
+And replace `open` with `xdg-open`.
