@@ -1,9 +1,30 @@
 [[Agora]] has this idea of having [[https://anagora.org/wikilinks-everywhere | wikilinks everywhere]]. And they actually write them everywhere. There is a [[https://anagora.org/agora-ext | browser extension for Firefox]]. I do not use Firefox but I would enjoy having an easy way of following the wikilinks.
 
-My main computer is Mac. It has this thing called Automator (deprecated in Monterey afaik) with [[AppleScript]] workflows. My Mycorrhiza web clipper works this way. Here's the description of my little hack for wikilinks everywhere.
+= My implementation
+I did this in ten minutes. The workflow is as follows:
 
 *. Select text anywhere
 *. Press the hotkey (one key hotkey would be perfect) or select the action from the context menu
-*. An An [[Agora]] hypha with such name will be opened in your default browser
+*. An An [[Agora]] hypha with such name will be opened in a browser
 
-I can do this in a day when I have the correct mood.
+If you have a Mac, you can recreate it by following these steps:
+
+*. **Open Automator.** On Monterey, it is replaces with something else. Dunno, open the replacement.
+*. **Create a new document.** Type = //Service// | //Быстрое действие//.
+*. **Make the service accept text from any program** somewhere in the dropdowns above. It's the default option afaik.
+*. **Add shell element.** Find it in the menu to left. In Russian, it's called //Запустить shell-скрипт//, in English it might be called //Execute shell script//.
+*. **Paste** this code: {
+```sh
+HYPHA_NAME="$(cat /dev/stdin | sed -e's/.*\[\[//' -e's/\]\].*//' -e's/ /-/g')"
+URL="https://anagora.org/$HYPHA_NAME"
+open "$URL"
+```
+}
+*. Save.
+
+Now, this service shall be available in both context menu and menu bar whenever you //select// text. You might also want to bind it to a hotkey. It can be done in the hotkey settings. You service shall appear there somewhere. I've bound the service to ⌥B.
+
+Test it on the text below. [[https://anagora.org/melanocarpa]] should be opened:
+```
+[[melanocarpa]]
+```
