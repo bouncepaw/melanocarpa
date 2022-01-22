@@ -22,7 +22,7 @@ open "$URL"
 }
 *. Save.
 
-Now, this service shall be available in both context menu and menu bar whenever you //select// text. You might also want to bind it to a hotkey. It can be done in the hotkey settings. You service shall appear there somewhere. I've bound the service to ⌥B.
+Now, this service shall be available in both context menu and menu bar whenever you //select// text. You might also want to bind it to a hotkey. It can be done in the hotkey settings. You service shall appear there somewhere. I've bound the service to ⌘§.
 
 Test it on the text below. [[https://anagora.org/melanocarpa]] should be opened:
 ```
