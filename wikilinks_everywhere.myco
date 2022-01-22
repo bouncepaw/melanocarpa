@@ -1,7 +1,9 @@
-[[Agora]] has this idea of having [[https://anagora.org/wikilinks-everywhere | wikilinks everywhere]]. And they actually write them everywhere. There is a [[https://anagora.org/agora-ext | browser extension for Firefox]]. I do not use Firefox but I would enjoy having an easy way of following the wikilinks.
+[[Agora]] has this idea of having [[https://anagora.org/wikilinks-everywhere | wikilinks everywhere]]. And they actually write them everywhere.
+
+The basic idea is as follow. Surround words with square brackets (as you would in marked up text) in places where you are not supposed to, like social networks. Look at [[https://social.coop/@flancian | all the toots by @flancian]] and how he surrounds every second word with them. You gotta follow the links somehow. You can copy and paste them to Agora, or you can get [[https://anagora.org/agora-ext | an extension]] for your browser.
 
 = My implementation
-I did this in ten minutes. The workflow is as follows:
+I don't use Firefox, so gotta make something up. I did this in ten minutes. The workflow is as follows:
 
 *. Select text anywhere
 *. Press the hotkey (one key hotkey would be perfect) or select the action from the context menu
