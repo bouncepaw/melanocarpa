@@ -1,0 +1,42 @@
+[[MediaWiki]] has its own markup, they call it **wiki markup**.
+
+=> https://www.mediawiki.org/wiki/Help:Formatting
+=> https://en.wikipedia.org/wiki/Help:Wikitext
+
+= Why I don't like it
+* **Syntax for bold and italic.** `''italic''` and `'''bold'''`. This is classic! This syntax comes from very first wikis. But it's bad:
+** Easy to confuse `''` and `"` when editing in proportional font. This alone is enough.
+** Six characters in total for one of the most used emphases (bold) is kinda uh.
+* **Headings** have to be closed at the end: {
+```mediawiki
+== heading ==
+```
+
+And they also haven't resolved the [[level 1 problem]].
+}
+* Indentation-based preformatted text.
+* Inclusion of HTML tags such as `<br>` and pseudo-HTML tags such as `<nowiki>`.
+* Support of inline CSS.
+* Ridiculous linking of namespaces `File` and `Category`.
+* Two different syntaxes for local links and external links: {
+```
+[https://example.org text after space]
+[[article | text after bar]]
+```
+}
+* List items are limited to one paragraph.
+* The syntax for image insertion is the same as linking a text page, except it's different.
+* Tables that are //so// strong they replace everything not supported by the markup.
+* Magic words like `__NOTOC__` and `#REDIRECT`.
+* Wrong line-break logic.
+
+And for some reason, on mature MediaWiki wikis, almost every page is filled with countless `{{}}`.
+
+= Why I like it
+Still much better than [[Markdown]].
+
+* Bracketed links.
+* Character-repetition-based list nesting.
+* `=` for headings.
+* Tables are useful.
+* The colon element is cute.
