@@ -5,3 +5,6 @@ I have quite a collection of Gemini-related links in other places, links here ar
 = Links
 => gemini://rawtext.club/~ploum/2021-12-17-offline-gemini.gmi Browsing Gemini Offline
 Автор рассказывает, как он браузит геминисферу в оффлайне при помощи клиента AV-98 и его функции «тура». Прикольно.
+
+=> gemini://phreedom.club/~tolstoevsky/glog/2022-01-22-gemrss.gmi читаем RSS через Gemini
+> я привык получать новости посредством rss/atom, используя для этого прекраснейший консольный инструмент под названием newsboat - он гибко настраивается, позволяя назначать обработчики для типов файлов и различный ссылок, например, и давно и прочно занял своё место в моём сердце и моей повседневной активности.
