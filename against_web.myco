@@ -1,3 +1,9 @@
+=> gemini://phreedom.club/~tolstoevsky/glog/2022-01-20-smolnet.gmi Обезжиренный Веб
+> Но данные инициативы хороши именно своей декларативной простотой. Разумеется, реализация поначалу будет кривой и профанации неизбежны, но вектор верен - дать людям ориентир и примеры реализации. Там не ставилось (возможно, до поры) отделять агнцев от козлищ. Эти "клубы", наравне с возрождающимися в Малом Интернете WebRing'ами (кольцами маленьких частных сайтов, объединённых какой-либо идеей или тематикой) являют собой замечательную иллюстрацию правильного вектора движения. 
+>
+> Помимо указанной критики народ порождает и идеи. Вдохновившись одной из них, я запустил инстанцию YaCy, индексирующую именно указанные клубы и несколько WebRings:
+> => https://smolnet.phreedom.club/
+
 => gemini://inconsistentuniverse.space/gemlog/2021-12-26-protocols.gmi
 > So to me the connection is that I think we can make better systems if we only use as much power as is necessary for our tasks. We don't need to have the full power of a web browser with its own general recursive programming language that executes arbitrary code on every page. Are you serving static rigidly organized information? Use gopher. Do you need something just a little more freeform in the kinds of content it can server? Maybe the ability to identify users in some way? You can probably just use gemini. Are you actually intending to deliver an audiovisual application across the internet or do actual financial transactions without any kind of installation of new software? Sure, then you need the modern web as your platform. But how often are we actually doing those things? How necessary are they, really?
 > ----
