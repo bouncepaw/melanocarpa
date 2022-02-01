@@ -1,0 +1,7 @@
+**Command-line interface** is a [[user interface]] in a command line.
+
+= Links
+=> http://sdi.thoughtstorms.info/?p=1444 | Command line HTTP apps
+> I just rediscovered a question I wrote on Stack Exchange. I can’t remember much about the context, but the idea is to have an ordinary “web server” application accessed through http, but simply sending plain-text backwards and forwards to a command-line based client.
+
+=> https://clig.dev/
