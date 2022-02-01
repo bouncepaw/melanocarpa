@@ -1,5 +1,22 @@
 **Git** is a scary technology.
 
-= Articles
+= Links
 => https://warmedal.se/~bjorn/posts/2021-09-20-finally-understanding-the-power-of-git.html | Finally Understanding the Power of Git
 > A platform like Github makes this different, in that it abstracts these tools into a web UI and expect all collaborators to have an account at the platform. The more I learn about ways of collaborating outside of a centralised service like that, the more I've come to dislike them. Decentralised collaboration is a lot more enjoyable and empowering.
+
+=> https://blog.sulami.xyz/posts/cleaning-up-git-history/ | Cleaning Up Git History - sulami's blog
+> Cleaning up the history might seem tedious at first for marginal cosmetic benefits, but it gets much easier and faster with practice. Here I am collecting some tips for cleaning up a git commit history before publishing it to others, for example in the form of a pull request.
+
+=> https://www.banterly.net/2021/07/31/new-in-git-switch-and-restore/ | New in Git: switch and restore
+
+=> https://martowen.com/2016/05/01/git-submodules-vs-git-subtrees/ | Git Submodules vs Git Subtrees
+> Submodules are easier to push but harder to pull – This is because they are pointers to the original repository
+> Subtrees are easier to pull but harder to push – This is because they are copies of the original repository
+
+=> https://git-annex.branchable.com/
+> git-annex allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
+
+> git-annex is designed for git users who love the command line. For everyone else, the git-annex assistant turns git-annex into an easy to use folder synchroniser.
+
+=> https://ladycat.wordpress.com/2020/03/04/flashbake-автосохранение-в-git/ | Flashbake — автосохранение в git
+> Собственно, по-хорошему, тут надо начинать с того, что есть целая тема — «системы управления версиями», предназначенные вообще-то для программистов, но я уверена, что пишущим — не менее нужные. Из них я уже который год использую git.
