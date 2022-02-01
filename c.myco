@@ -2,30 +2,30 @@
 
 = Articles
 
-=> https://nullprogram.com/blog/2021/07/30/ strcpy: a niche function you don't need
+=> https://nullprogram.com/blog/2021/07/30/ | strcpy: a niche function you don't need
 Милая напоминалка.
 
 ----
 
-=> https://hackaday.com/2021/11/18/c-is-the-greenest-programming-language/ C is the greenest programming language
+=> https://hackaday.com/2021/11/18/c-is-the-greenest-programming-language/ | C is the greenest programming language
 
 Greenest meaning least impactful on the Earth environment. Combined with its portability, C might be the best language for the most sustainable systems.
 
 ----
 
-=> http://doc.cat-v.org/bell_labs/pikestyle Rob Pike: Notes on Programming in C
+=> http://doc.cat-v.org/bell_labs/pikestyle | Rob Pike: Notes on Programming in C
 
 A read.
 
 ----
 
-=> http://aiju.de/misc/c-style aiju: Notes On Programming In C
+=> http://aiju.de/misc/c-style | aiju: Notes On Programming In C
 > Do not use const or restrict. const does not have any effect during runtime. restrict can introduce extra bugs. Both have no real use.
 >
 > Many people seem to like const claiming that it "prevents bugs". I'm honestly not sure if I have ever come across a single bug that would have been prevented by const. Even if there is the odd examples for which it is true, const is a cancer that spreads through entire codebases as the only sane way to use it is to use it consistently (or else you require casts which could mask real bugs). Considering that it serves little to no purpose it's, in my opinion, just not worth effort. If you do find yourself stuck with code that insists on it, the magic incantation is #define const.
 
 ----
-=> https://club.hugeping.ru/9Qqh3fEBRA9SW48rMQhh#9Qqh3fEBRA9SW48rMQhh Си должен умереть?
+=> https://club.hugeping.ru/9Qqh3fEBRA9SW48rMQhh#9Qqh3fEBRA9SW48rMQhh | Си должен умереть?
 > Как программист на Си, я понимаю, что по современным меркам этот язык нарушает все мыслимые правила приличия. Но при этом я действительно НЕ ВИЖУ адекватной замены в той сфере где он применяется. Это как с самолётами. Неустойчивый самолёт -- маневренный и опасный. Устойчивый -- безопасный и неманевренный. Что выбрать? Что-то среднее? Чем мы готовы пожертвовать?
 >
 > ...

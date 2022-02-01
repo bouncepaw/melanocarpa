@@ -3,7 +3,7 @@
 = Packaging
 Packaging in Python is a pain for me. From now on, I will try to collect some articles describing people failing to publish a Python package.
 
-=> https://warmedal.se/~bjorn/posts/2021-09-12-python-packaging-woes.html Python Packaging Woes
+=> https://warmedal.se/~bjorn/posts/2021-09-12-python-packaging-woes.html | Python Packaging Woes
 > I've been trying to figure out python3 packaging, but have only had some success. As always I guess it comes down to the combination of me not having the prerequisite knowledge to understand some docs, and me wanting to do something that isn't really supported.
 
 ----

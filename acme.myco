@@ -4,11 +4,11 @@ img { https://raw.githubusercontent.com/evbogdanov/acme/master/acme.png }
 
 = Links
 
-=> https://club.hugeping.ru/S4sJA2iZYo83k8ZnpjEX#S4sJA2iZYo83k8ZnpjEX Редактор acme: пишем почтовый клиент
+=> https://club.hugeping.ru/S4sJA2iZYo83k8ZnpjEX#S4sJA2iZYo83k8ZnpjEX | Редактор acme: пишем почтовый клиент
 > Отвыкнуть от emacs очень сложно, а мне было интересно проводить в acme больше времени, поэтому я решил попробовать перенести в него работу с почтой.
 
-=> http://acme.cat-v.org The Acme User Interface for Programmers
+=> http://acme.cat-v.org | The Acme User Interface for Programmers
 > Acme is a powerful text editor, development environment and textual-user-interface platform developed by Rob Pike originally for Plan 9 from Bell Labs research operating system, and now has ports available for all major platforms.
 
-=> http://research.swtch.com/acme Russ Cox: A Tour of Acme
+=> http://research.swtch.com/acme | Russ Cox: A Tour of Acme
 > People I work with recognize my computer easily: it's the one with nothing but yellow windows and blue bars on the screen. That's the text editor acme, written by Rob Pike for Plan 9 in the early 1990s. Acme focuses entirely on the idea of text as user interface. It's difficult to explain acme without seeing it, though, so I've put together a screencast explaining the basics of acme and showing a brief programming session.
