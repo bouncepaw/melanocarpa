@@ -1,0 +1,30 @@
+**Go** is a compiled programming language that makes some sense. [[Mycorrhiza]] is written in Go.
+
+= Links
+
+=> https://www.arp242.net/static-go.html | Statically compiling Go programs
+> Go creates static binaries by default unless you use cgo to call C code, in which case it will create a dynamically linked binary. Using cgo is more common than many people assume as the os/user and net packages use cgo, so importing either (directly or indirectly) will result in a dynamic binary.
+
+=> https://felix.plesoianu.ro/blog/using-go-despite-misgivings.html | Felix Rambles: Using Go despite misgivings
+> And do I need to explain how bad it looks to have GitHub support baked right into your toolchain in 2020? We tried to warn you, folks.
+
+=> https://foxcpp.dev/articles/the-right-way-to-use-go-sqlite3 | fox.cpp / The right way to use go-sqlite3
+> SQLite is a wonderful piece of software and it is completely meaningful to use it in a project written in Go even though SQLite itself is in C. Though people has been hitting lots of issues with it, mostly "database is locked" error that seems to appear out of nowhere.
+>
+> First of all, SQLite allows concurrent readers but only a single writer. Unlike most places where you may encounter some sort of synchronization SQLite does not wait for the write lock to become available - instead it just returns an error, letting the caller deal with it. This is why you are getting "database is locked" errors.
+
+=> https://github.com/gonum/plot/wiki/Example-plots
+Примеры графиков, рисуемых гонумом.
+
+=> http://ebiten.org
+> Ebiten (/ebíteɴ/) is an open source game library for the Go programming language. Ebiten's simple API allows you to quickly and easily develop 2D games that can be deployed across multiple platforms.
+
+=> https://m.habr.com/ru/company/skillfactory/blog/556938/ | Запускаем Golang на Jupyter Notebook
+=> https://levelup.gitconnected.com/running-golang-on-jupyter-notebook-f7f9fba37812 | Running Golang on Jupyter Notebook
+=> https://github.com/gopherdata/gophernotes
+> **Gophernotes** is a Go kernel for Jupyter notebooks and nteract. It lets you use Go interactively in a browser-based notebook or desktop app. Use gophernotes to create and share documents that contain live Go code, equations, visualizations and explanatory text. These notebooks, with the live Go code, can then be shared with others via email, Dropbox, GitHub and the Jupyter Notebook Viewer. Go forth and do data science, or anything else interesting, with Go notebooks!
+
+=> https://vporoshok.me/post/2019/01/decorators/
+
+=> https://drewdevault.com/2021/04/02/Go-is-a-great-language.html | Go is a great programming language
+> Perhaps the matter I most appreciate Go for is its long-term commitment to simplicity, stability, and robustness. I prize these traits more strongly than any other object of software design. The Go team works with an ethos of careful restraint, with each feature given deliberate consideration towards identifying the simplest and most complete solution, and they carefully constrain the scope of their implementations to closely fit those solutions. The areas where Go has failed in this regard are frightfully scarce.
