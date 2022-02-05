@@ -14,10 +14,6 @@ Wikis are important, a lot of stuff I do is wiki-related.
 => https://alexschroeder.ch/wiki/2021-07-13_The_wiki_aesthetic | Alex Schroeder: 2021-07-13 The wiki aesthetic
 > I like wikis. I develop and maintain wiki engines (the software), and I run wikis (various sites, including this one). Whenever I dabble in new protocols like Gopher, Gemini, or Spartan, and whenever start using a particular markup language some more, I think about how one would integrate all this into a wiki.
 
-=> gemini://alexschroeder.ch:1965/page/2021-07-23_Phoebe_4_released
-=> https://alexschroeder.ch:1965/page/2021-07-23_Phoebe_4_released
-> This leads me to the next issue I finally fixed. I really wanted better documentation. I’m not happy with how documentation for Oddmuse code ended up on the wiki. I keep thinking about that old adage: “wiki wiki is short for can’t find shit.” For this code, I wanted the code to be part of the source file such that sites like metacpan display it correctly. I also wanted to concatenate all the documentation into a single README document to use as a manual, and to have that show on code hosting services like cgit. This required some improvements to my ‘update-readme’ script, but I think it was worth it.
-
 => https://alexschroeder.ch/wiki/2020-06-15_Why_Wiki%E2%80%BD | Alex Schroeder: 2020-06-15 Why Wiki‽
 > The effort required to maintain a wiki is worth it, to me, because we have a viable alternative to the isolation of self-hosting, and the surrender to value-extracting corporations. Doing things together, achieving things together, is important to teach the new generation of people coming online, it is important to teach ourselves that resistance is not futile, resistance is not a struggle, resistance to the machine is the simple act of having fun and building things together.
 
