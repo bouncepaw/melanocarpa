@@ -1,6 +1,9 @@
 **Git** is a scary technology.
 
 = Links
+=> https://matrix.to/#/!ORfrUEFeWFcHAMLFLr:matrix.org/$1644101095103BLdVu:grin.hu?via=matrix.org&via=matrix.allmende.io&via=privacytools.io | Matrix message by @grin
+> That is probably an inherent lazyness of me, for example I passionately hate `git` and pretty much like `mercurial`, because the first was created by a dozen hackers to themselves, and nobody really understands it, and nobody else can really use it to its full potentials, and all the documentation and help pages are obscure, complex and generally written from the perspective of someone already knowing the system and being pretty annoyed that have to explain it to anyone else; mercurial on th eother hand has an excellend handbook, good structured help system, easy to use commands which can be very complex if someone take the time and efforts to learn it. And both systems are basically the same, do the same, using the same principles. The difference is the attitude towards the people not yet being fluent in the system.
+
 => https://warmedal.se/~bjorn/posts/2021-09-20-finally-understanding-the-power-of-git.html | Finally Understanding the Power of Git
 > A platform like Github makes this different, in that it abstracts these tools into a web UI and expect all collaborators to have an account at the platform. The more I learn about ways of collaborating outside of a centralised service like that, the more I've come to dislike them. Decentralised collaboration is a lot more enjoyable and empowering.
 
