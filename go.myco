@@ -28,3 +28,35 @@
 
 => https://drewdevault.com/2021/04/02/Go-is-a-great-language.html | Go is a great programming language
 > Perhaps the matter I most appreciate Go for is its long-term commitment to simplicity, stability, and robustness. I prize these traits more strongly than any other object of software design. The Go team works with an ethos of careful restraint, with each feature given deliberate consideration towards identifying the simplest and most complete solution, and they carefully constrain the scope of their implementations to closely fit those solutions. The areas where Go has failed in this regard are frightfully scarce.
+
+=> https://t.me/teamerlin/6483
+> Любопытный, но довольно бесполезный пример полиморфизма в Go
+>
+> В гошечке есть несколько способов писать полиморфные функции: 
+>
+> *. интерфейсы;
+> *. тайп свитчи и тайп кастинг интерфейсов;
+> *. рефлексия;
+>
+> Недавно мне понял, что есть чётвёртый подход, который стал возможен с появлением type alias — назовём его апкастингом типов. Работает оно так:
+>
+>```go
+>func main() {
+>  printName(Cat{"Whiskey"})
+>  printName(Dog{"Chappie"})
+>}
+>
+>type Cat struct { Name string }
+>
+>type Dog struct { Name string }
+>
+>type named = struct { Name string }
+>
+>func printName(n named) {
+>  fmt.Println(n.Name)
+>}
+>```
+>
+> В спеке Go указано, что присваивание x типа V к переменной типа T валидно в случае, если V и T основаны на одинаковых типах и T — не именованный тип  ("x's type V and T have identical underlying types and at least one of V or T is not a defined type."). Псевдонимы типов не считются именованными типами, так что мы можем принимать в аргумент n любую кастуемую структуру.
+>
+> К сожалению, это не слишком полезно — наверное только если вы не хотите делать пачку геттеров и у вас есть пачка одинаковых структур разных типов.
