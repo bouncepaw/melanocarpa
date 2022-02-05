@@ -7,3 +7,44 @@ Wikis are important, a lot of stuff I do is wiki-related.
 = Links
 => http://thoughtstorms.info/view/OnWiki
 => http://thoughtstorms.info/view/WikiSyntaxIsTheUserInterface
+
+=> https://miraheze.org/ | Miraheze
+> В июле 2015 Джон Льюис и Ферран Тьюфан создали новую вики-ферму — Miraheze. При помощи краудфандинга и персональных инвестиций Miraheze официально был запущен в августе 2015. За несколько лет проект сильно вырос, чтобы стать одной из крупнейших и самых узнаваемых вики-ферм, предлагающих MediaWiki. Несмотря на успех и эволюцию, один аспект Miraheze не изменился — формальное существование. В ноябре 2019 Miraheze был зарегистрирован в Великобритании в качестве некоммерческой организации как Miraheze Limited.
+
+=> https://alexschroeder.ch/wiki/2021-07-13_The_wiki_aesthetic | Alex Schroeder: 2021-07-13 The wiki aesthetic
+> I like wikis. I develop and maintain wiki engines (the software), and I run wikis (various sites, including this one). Whenever I dabble in new protocols like Gopher, Gemini, or Spartan, and whenever start using a particular markup language some more, I think about how one would integrate all this into a wiki.
+
+=> gemini://alexschroeder.ch:1965/page/2021-07-23_Phoebe_4_released
+=> https://alexschroeder.ch:1965/page/2021-07-23_Phoebe_4_released
+> This leads me to the next issue I finally fixed. I really wanted better documentation. I’m not happy with how documentation for Oddmuse code ended up on the wiki. I keep thinking about that old adage: “wiki wiki is short for can’t find shit.” For this code, I wanted the code to be part of the source file such that sites like metacpan display it correctly. I also wanted to concatenate all the documentation into a single README document to use as a manual, and to have that show on code hosting services like cgit. This required some improvements to my ‘update-readme’ script, but I think it was worth it.
+
+=> https://alexschroeder.ch/wiki/2020-06-15_Why_Wiki%E2%80%BD | Alex Schroeder: 2020-06-15 Why Wiki‽
+> The effort required to maintain a wiki is worth it, to me, because we have a viable alternative to the isolation of self-hosting, and the surrender to value-extracting corporations. Doing things together, achieving things together, is important to teach the new generation of people coming online, it is important to teach ourselves that resistance is not futile, resistance is not a struggle, resistance to the machine is the simple act of having fun and building things together.
+
+=> https://felix.plesoianu.ro/blog/where-to-wiki.html | Felix Rambles: Where to, wiki?
+> Wait, I know: it's simply too easy for me to open a text file and add a couple of lines. So easy in fact, I have little reason to bother with a wiki. No wonder many developers use one big Org Mode file for the purpose. As for the less technical of us, they'll want rich text, and I can't even blame them.
+>
+> But plain text files can't bring together communities. No, not even if you put them up on a software forge. Also, they're kind of banal. That's a good thing usually. Except sometimes you want them cool. And Org Mode is much too linear.
+>
+> A wiki solves all these problems and more. It would be nice if I could recapture that spirit. Timely, too: over on the Community Wiki, they seem to think the medium is due for a revival, if it hasn't started already.
+
+=> https://observable.wiki.dbbs.co/view/observable-and-federated-wiki |  Observable and Federated Wiki
+> Observable is an approachable programming environment for data visualization, or really, almost anything you can imagine in Javascript. With the frame plugin, a wiki page is also a programming environment. Here we share one example integrating the two. We hope to encourage other examples.
+
+=> http://this.how/littleoutliner/ | What is Little Outliner?
+> Little Outliner is an easy to learn, entry-level outliner that runs in a web browser.
+>
+> It's written in JavaScript. You must have JS turned on in the browser to be able to use it.
+
+=> http://sdi.thoughtstorms.info/?p=1450 | The Lower-Case Mistake
+> The mistake is that wiki page names are obviously CamelCased for readability. A convention I like very much and continue to use. But I decided to make the file-names all lower-case. In other words, I throw away the capitalization of the name.
+
+=> https://www.liberafolio.org/2021/05/25/vikipedio-atingos-novan-rekordon-cu-gravas/ | Vikipedio atingos novan rekordon – ĉu gravas?
+> Tre baldaŭ la Esperanta Vikipedio atingos novan rekordon: 300 000 artikoloj. Sed ĉu plej gravas la kvanto aŭ la kvalito de la artikoloj, kaj ĉu ekzistas rilato inter tiuj du? Sojle al la nova atingo Libera Folio intervjuis Michal Matúšov, unu el la ĉefaj aktivuloj de la Esperanta Vikipedio.
+
+=> http://thoughtstorms.info/view/ForgettingInThoughtStorms
+Автора смущает, что у него больше старого контента, чем нового.
+> I don't want to throw the old ones away wholesale. It's not that they aren't interesting, or sometimes very informative. But somehow the weighting is wrong. We need ways for older ideas to naturally recede and not be "deleted" but gradually overwritten / swamped by the newer stuff.
+
+=> https://github.com/NerdyPepper/taizen
+curses+cursed based mediawiki browser.
