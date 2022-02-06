@@ -60,3 +60,10 @@
 > В спеке Go указано, что присваивание x типа V к переменной типа T валидно в случае, если V и T основаны на одинаковых типах и T — не именованный тип  ("x's type V and T have identical underlying types and at least one of V or T is not a defined type."). Псевдонимы типов не считются именованными типами, так что мы можем принимать в аргумент n любую кастуемую структуру.
 >
 > К сожалению, это не слишком полезно — наверное только если вы не хотите делать пачку геттеров и у вас есть пачка одинаковых структур разных типов.
+
+=> https://t.me/letMyGophersGo/12
+> Очень велик соблазн узнать, как писать идиоматичный, каноничный код на Go (да и вообще в целом).
+Потом ссылается на статью ниже:
+
+=> https://dave.cheney.net/2020/02/23/the-zen-of-go | The Zen of Go — Dave Cheney
+The author applies the Zen of [[Python]] to Go and tells us how Go programs should be written. This is a well-written article.
