@@ -1,7 +1,10 @@
-img side { lapin 15 }
-img side { lapin 28 }
-img side { lapin 29 }
-img side { lapin 30 }
-img side { lapin 46 }
-img side { lapin 47 }
-img side { lapin 58 }
+This is a **gallery** of my drawings related to [[pipepunk]]. [[🎨]].
+img grid {
+lapin 15
+lapin 28
+lapin 29
+lapin 30
+lapin 46
+lapin 47
+lapin 58
+}
