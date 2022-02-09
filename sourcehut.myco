@@ -1,11 +1,10 @@
 **SourceHut** is an [[open source]] suite for software development, including:
-* [[git]] and [[mercurial]] repo hosting
-* ci
-* mailing list
-* code review stuff
+* [[Git]] and [[Mercurial]] repo hosting
+* continuous integration and delivery
+* mailing lists
 * ticket system
-* static website hosting
-* and a so-called git+[[markdown]]-driven [[wiki]]
+* static website and Gemini hosting
+* and a so-called Git+[[Markdown]]-driven [[wiki]]
 
 => https://sourcehut.org/ | Official website
 
