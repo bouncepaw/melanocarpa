@@ -1,0 +1,12 @@
+**SourceHut** is an [[open source]] suite for software development, including:
+* [[git]] and [[mercurial]] repo hosting
+* ci
+* mailing list
+* code review stuff
+* ticket system
+* static website hosting
+* and a so-called git+[[markdown]]-driven [[wiki]]
+
+=> https://sourcehut.org/ | Official website
+
+SourceHut is a competitor to [[GitHub]].
