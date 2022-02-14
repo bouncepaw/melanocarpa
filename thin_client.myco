@@ -3,3 +3,6 @@
 = Links
 => https://cheapskatesguide.org/articles/thin-clients.html | Some of the Newer Thin Clients are Dirt-Cheap General-Purpose Computers
 > When my T620, arrived in the mail, I was immediately impressed. It has a substantial weight, due to its stong metal case surrounded by a thick plastic with many perforations for air flow. The T620 is fan-less, so it is absolutely silent while running, perfect for an HTPC. It reminded me of a Dell business desktop computer, because its cover can be removed without tools. Inside, the T620 was completely dust free. It looked new on the outside and the inside. This was almost like buying a new computer for $26.35. I immediately removed the 16 GB SSD and booted the T620 from an external USB flash drive with a command-line-only Debian distribution. Seeing that the power consumption never rose above 11 Watts during boot and remained at 5-6 Watts while idling confirmed that this should make a fine web server or NAS.
+
+=> https://cheapskatesguide.org/articles/x86-webserver.html | Moving Up from a Raspberry Pi Web Server to a Low-Cost, Low-Power x86 Web Server
+Seems like a continuation of the previous article.
