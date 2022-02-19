@@ -4,6 +4,18 @@ img { https://raw.githubusercontent.com/evbogdanov/acme/master/acme.png }
 
 = Links
 
+=> gemini://tilde.club/~ralfwause1983/content/acme.gmi | 2022-02-17 RalfWausE: Plan9: The Acme editor
+> In contrast to Emacs, Vim and so on, Acme makes heavy use of the mouse, even more: Without a mouse Acme is simply not usable (but this is also true for the complete Plan9 System). It takes some time for an oldschool keyboard jockey like me to embrace this new paradigm, but after i got it, i never want to go back. The basic controls are pretty much self explanatory, but there are a few "unconventional" naming conventions and functions normaly not available:
+>
+> * Put -> safe
+> * Putall -> safe all buffers
+> * Snarf -> copy
+> * Zerox -> open a new buffer with the content of the current buffer
+> * Newcol -> creates a new window
+> * Del -> closes current window
+>
+> The weird / funny / cool part is, that you can just type a new button anywhere... want to read your mail? Simply type "Mail" anywhere, click on it with the middle mouse button... and voila! A new window with your mailbox opens up. You want to take a screenshot? Easy: Just type cat /dev/window | tojpg > /tmp/acme.jpg, select it, middle click, and now you got a screenshot:
+
 => https://club.hugeping.ru/S4sJA2iZYo83k8ZnpjEX#S4sJA2iZYo83k8ZnpjEX | Редактор acme: пишем почтовый клиент
 > Отвыкнуть от emacs очень сложно, а мне было интересно проводить в acme больше времени, поэтому я решил попробовать перенести в него работу с почтой.
 
