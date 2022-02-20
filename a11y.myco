@@ -16,6 +16,9 @@ You do not need such services. To make your resource accessible, just follow the
 I also wanted to find some real+true reviews of these services from people who really care about a11y, such as blind people, but couldn't find one. Well.
 
 = Links
+=> https://drewdevault.com/2022/02/13/Framing-accessibility-in-broader-terms.html | Framing accessibility in broader terms
+> The typical developer’s relationship with accessibility, if they have one at all, is mainly concerned with making web pages work with screen readers. Even considering this very narrow goal, most developers have an even narrower understanding of the problem, and end up doing a piss-poor job of it. In essence, the process of doing accessibility badly involves making a web page for a sighted user, then using ARIA tags to hide cosmetic elements, adding alt tags, and making other surface-level improvements for users of screen readers. If they’re serious, they may reach for the WCAG guidelines and do things like considering contrast, font choices, and animations as well, but all framed within the context of adding accessibility band-aids onto a UI designed for sighted use.
+
 => https://sourcehut.org/blog/2020-05-27-accessibility-through-simplicity/
 
 => https://dataswamp.org/~solene/2021-10-16-ibus-typing-booster.html Typing faster with assistive technology
