@@ -1,2 +1,15 @@
+**Markup language**
+
 => mycomarkup
+
 => https://git.sr.ht/~tim-ats-d/Postem-markup
+
+Soupalt:
+> I've found a nice little tool that is perfect for post-processing HTML "dumps" (like for example exported from wikis / note taking tools or static site generators):
+> => https://soupault.app/
+> => https://github.com/PataphysicalSociety/soupault 
+> (I've included the GitHub link because it's quite hard to find it on the main site)
+>
+> It can be used to insert snippets, mangle paths, create indices, etc.
+>
+> BTW, I remember having a discussion with Lion and Timur about how HTML can be used for augmentation (in a post-processing step) instead of augmenting each and every markup language with various constructs.
