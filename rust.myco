@@ -1,0 +1,10 @@
+**Rust** is a [[programming language]] to reimplement basic stuff in and make [[cryptocurrency]] startups.
+
+= Rust coreutils
+=> https://github.com/TaKO8Ki/awesome-alternatives-in-rust
+
+=> https://github.com/sharkdp/bat | sharkdp/bat: A cat(1) clone with wings.
+=> https://github.com/ogham/exa | ogham/exa: A modern replacement for ‘ls’.
+=> https://github.com/BurntSushi/ripgrep | BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+=> https://github.com/cjbassi/ytop | cjbassi/ytop: A TUI system monitor written in Rust (not maintainted anymore)
+=> https://github.com/ClementTsang/bottom | ClementTsang/bottom: Yet another cross-platform graphical process/system monitor.
