@@ -1,6 +1,13 @@
 **Wiki engine** is a program that powers a [[wiki]]. My wiki engine of choice is [[Mycorrhiza]] of course.
 
 = Links
+=> https://github.com/interstar/cardigan-bay interstar/cardigan-bay: A new wiki engine in Clojure
+
+=> https://github.com/zadam/trilium Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases
+
+=> https://peppermint.mooncarrot.space/ Pepperminty Wiki
+> [[https://github.com/sbrl/Pepperminty-Wiki | Pepperminty Wiki]] is a complete wiki engine contained in a single file, inspired by @am2064's [[https://github.com/am2064/Minty-Wiki | Minty Wiki]]. Developed by Starbeamrainbowlabs (though contributions from others are welcome!), Pepperminty Wiki has a variety of useful (and cool!) features - such as file upload, a dynamic help page, page revision history, page tags, and more! Other amazing features are in the works too (like a theme gallery, auto update, and user watchlists), so check the release notes to see what's been added recently.
+
 => https://amusewiki.org/special/index | News | A·Muse·Wiki
 > This is the homepage for amusewiki, a library-oriented wiki engine. Amusewiki is more than just a wiki engine, it’s also a powerful authoring, archiving and publishing platform.
 
