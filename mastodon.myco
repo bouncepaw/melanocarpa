@@ -1,0 +1,18 @@
+**Mastodon** is a [[social network]] and a part of [[fediverse]] running [[activity pub]].
+
+[[2022-03-05]] I made an account: [[https://lor.sh/@bouncepaw]]. Feel free to follow.
+
+= Mastodon Archive
+See also [[web archiving]].
+
+[[https://lor.sh/@bouncepaw/107906082960425775 | 2022-03-05]]:
+> **Me:** How easy is it to make a program that fetches my toots and threads I participate in? Maybe a program like that exists already? #programming
+> **Me:** Workflow like: run the program and update the database (?) of fetched toots
+> **[[https://octodon.social/@kensanata | Schröder]]:** @bouncepaw https://alexschroeder.ch/cgit/mastodon-archive/about/ could be it?
+
+Taking a look.
+
+=> https://alexschroeder.ch/cgit/mastodon-archive/about/
+> This tool allows you to make an archive of your statuses, your favourites and the media in both your statuses and your favourites. From this archive, you can generate a simple text file, or a HTML file with or without media.
+
+Seems to be a perfect fit!
