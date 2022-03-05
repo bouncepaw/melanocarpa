@@ -1,6 +1,17 @@
 **Gemini** is a net tech I quite like.
 
-I have quite a collection of Gemini-related links in other places, links here are only some of them.
+Gemini is not [[Gopher]].
+
+I have quite a collection of Gemini-related links in one more place, this notice stays here until I move notes from there here.
+
+= Tools
+=> https://tildegit.org/solderpunk/gemcert
+=> https://tildegit.org/solderpunk/gemfeed
+=> https://transjovian.org:1965/do/source
+=> https://git.sr.ht/~abrahms/ox-gemini
+... and many more, not gonna collect them all.
+
+I use Lagrange on computer, Ariane on phone.
 
 = Links
 => gemini://rawtext.club/~ploum/2021-12-17-offline-gemini.gmi | Browsing Gemini Offline
@@ -8,3 +19,23 @@ I have quite a collection of Gemini-related links in other places, links here ar
 
 => gemini://phreedom.club/~tolstoevsky/glog/2022-01-22-gemrss.gmi | читаем RSS через Gemini
 > я привык получать новости посредством rss/atom, используя для этого прекраснейший консольный инструмент под названием newsboat - он гибко настраивается, позволяя назначать обработчики для типов файлов и различный ссылок, например, и давно и прочно занял своё место в моём сердце и моей повседневной активности.
+
+=> gemini://random-projects.net/blog/2021-06-13-gemini-rant.gemini | Rant: Gemini is not Gemini
+Автор оправдывается перед двумя постами ([[https://gerikson.com/blog/comm/Why-u-no-gemini.html | два]] и [[https://lobste.rs/s/ivryqt/what_is_this_gemini_thing_anyway_why_am_i#c_4tjnxq | раз]]) за Гемини. Получается неубедительно.
+
+=> https://warmedal.se/~bjorn/posts/my-local-branch-of-av-98.html | My Local Branch of AV-98
+Бьёрн на полном серьёзе пользуется AV-98 и даже написал для него пачч. Очень мило.
+
+=> https://wiki.sdf.org/doku.php?id=gemini_site_setup_and_hosting_features 
+Ещё один гайд про то, как вкатиться в гемини на данном конкретном ресурсе.
+
+=> gemini://gemlog.blue/users/sloum/1594956690.gmi
+отелло в гемини!
+
+=> gemini://kwiecien.us/logarion/gemini-client-review.gmi  
+обзоры клиентов!
+
+=> gemini://gemini.circumlunar.space/~solderpunk/gemlog/gemini-aggregation-curation-etc.gmi  
+
+=> gemini://shit.cx
+Хороший бложек и сервисы интересные
