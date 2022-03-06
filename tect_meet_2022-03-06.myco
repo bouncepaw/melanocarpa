@@ -1,0 +1,33 @@
+The first [[tech meet]]. We took these notes together in [[riseup pad]], the meeting took place in [[Lion's internet office]].
+
+= Participants
+* Me
+* Lion Kimbro
+* Ciprian Craciun
+
+= What has been happening (Lion)
+* Sacred vs Divine
+** Sacred is passive
+** Divine is something happening (driven by God, sometimes)
+** Holy books are both
+* Biosphere 2 project
+* [[The Glass Bead Game]] by [[Hermann Hesse]]
+** Timur has read it, others have not
+
+= Software engineering in eastern Europe universities
+* the topic of //weird spaces//: {
+```
+someobject.method (arg1, arg2, arg3) .method2 ()
+someobject.method ( arg1, arg2, arg3 ).method2 ()
+someobject
+.method(arg1, arg2, arg3)
+.method2()
+```
+}
+* the language of choice in RU is C\++;
+* Timur would have preferred C, Python or Scheme;
+* Ciprian's bash style (no functions, the script calls itself, and the function //bodies//, are actually contained as arms inside a big `case`;)
+* both Lion and Ciprian think that perhaps Basic (or Logo) is a better introductory language;
+* [[https://www.hmc.edu/]] the college Lion went to;
+* man pages distribution?
+* embed source code go:embed — [[https://github.com/volution/z-run/blob/development/sources/embedded/build.go]]
