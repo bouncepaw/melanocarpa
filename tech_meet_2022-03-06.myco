@@ -6,6 +6,7 @@ The first [[tech meet]]. We took these notes together in [[riseup pad]], the mee
 * Ciprian Craciun
 
 = What has been happening (Lion)
+* Left [[star community]] due to the divergence of interests
 * Sacred vs Divine
 ** Sacred is passive
 ** Divine is something happening (driven by God, sometimes)
@@ -28,6 +29,6 @@ someobject
 * Timur would have preferred C, Python or Scheme;
 * Ciprian's bash style (no functions, the script calls itself, and the function //bodies//, are actually contained as arms inside a big `case`;)
 * both Lion and Ciprian think that perhaps Basic (or Logo) is a better introductory language;
-* [[https://www.hmc.edu/]] the college Lion went to;
+* [[https://www.hmc.edu]] is the college Lion went to;
 * man pages distribution?
-* embed source code go:embed — [[https://github.com/volution/z-run/blob/development/sources/embedded/build.go]]
+* embed source code with `go:embed` — [[https://github.com/volution/z-run/blob/development/sources/embedded/build.go]]
