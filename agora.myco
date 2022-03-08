@@ -4,7 +4,7 @@
 
 As far as I understand, it is some form of federation/aggregation of [[digital garden]]s with a big emphasis on graph-ity. Their analogue of [[https://mycorrhiza.wiki/help/en/hypha | hyphae]] is called a [[https://anagora.org/node | node]], nodes are generated from contents from multiple sites.
 
-The project is interesting. [[2022-01-18]] I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. [[2022-03-06]] Melanocarpa was added to Anagora.
+The project is interesting. [[2022-01-18]] I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. [[2022-03-06]] Melanocarpa was added to Anagora, along with [[https://github.com/flancian/agora-server/commit/7783430aa33986186e9fd66ee858250b115e0d7e | Mycorrhiza support]].
 
 The Agora network has an interesting idea of [[https://anagora.org/go | go]]ing.
 
