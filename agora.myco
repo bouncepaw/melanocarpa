@@ -1,11 +1,11 @@
-**Agora** is a ‘wiki like experimental social network and distributed knowledge graph’, so they said.
+**Agora** is a ‘[[wiki]] like experimental [[social network]] and distributed knowledge graph’, so they said. **Anagora** is the only known public instance of it.
 
 => https://anagora.org/index
 
 As far as I understand, it is some form of federation/aggregation of [[digital garden]]s with a big emphasis on graph-ity. Their analogue of [[https://mycorrhiza.wiki/help/en/hypha | hyphae]] is called a [[https://anagora.org/node | node]], nodes are generated from contents from multiple sites.
 
-The project is interesting. 2022-01-18 I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible.
+The project is interesting. [[2022-01-18]] I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. [[2022-03-06]] Melanocarpa was added to Anagora.
 
 The Agora network has an interesting idea of [[https://anagora.org/go | go]]ing.
 
-The Agorians also seem to all be using git-based [[markdown]]-driven digital gardens. That's a poor choice of technology, in my opinion, but whatever works for them. Most digital gardens use markdown anyway.
+The Agorans also seem to all be using [[git]]-based [[markdown]]-driven digital gardens. That's a poor choice of technology, in my opinion, but whatever works for them. Most digital gardens use markdown anyway.
