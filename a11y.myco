@@ -1,4 +1,4 @@
-**Accessibility** is a thing you should care about.
+**Accessibility** is a [[practice]] of making resources accessible to people. It often involves handling disabilities in a special way. In general, you should always care about it.
 
 = A11yaaS
 
@@ -14,6 +14,8 @@ Here's a list of such services I've found on real websites.
 You do not need such services. To make your resource accessible, just follow the web standards and use common sense. Browsers, screen readers and operating systems will do the rest for you //for free//.
 
 I also wanted to find some real+true reviews of these services from people who really care about a11y, such as blind people, but couldn't find one. Well.
+
+[[TODO]]: someone has sent me a link to a review. Gotta take a look.
 
 = Links
 => https://drewdevault.com/2022/02/13/Framing-accessibility-in-broader-terms.html | Framing accessibility in broader terms
