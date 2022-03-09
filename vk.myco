@@ -5,3 +5,7 @@ See also: [[smithereen]].
 = Links
 => https://t.me/roguelike_theory/431
 > Сделал скрипт для бекапа паблика. Он качает тексты, комментарии и картинки, сохраняет их в JSON и рендерит в Markdown. Очень советую это сделать, если вы тоже паблик ведете! Пока это оч сырая штука – написал буквально за пару часов по вдохновению – но я планирую доработать и помочь всем, кто тоже хочет свой архив паблика в VK сохранить как-то: [[https://github.com/valyagolev/leave-vk]]
+
+=> https://github.com/alcortazzo/vktgbot
+> Telegram Bot on Python for reposting from VKontakte community pages (group, public page or event page) to Telegram Channels.
+Согласно [[https://t.me/dcntr/1027 | этому посту]], на этом боте работает канал [[https://t.me/dcntr | Decentralize!]]
