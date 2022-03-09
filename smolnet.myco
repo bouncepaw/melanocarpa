@@ -1,5 +1,25 @@
-**Smolnet** is great.
+**Smolnet** is great. [[Gemini]] and [[Gopher]] are some of Smolnet protocols.
 
 = Links
+=> https://communitywiki.org/wiki/SmolNet
+> Do you ever think about web crawlers? The Googlebots and Bingbots of this world? They don’t know whether a site is active or not. And since they have tons of money and work at scale, they just crawl the web permanently. They don’t mind the CO₂ they produce. Maybe they think their energy is green. They don’t mind the CO₂ your site produces as it serves their useless crawling, since that CO₂ is on you, not on them. They operate at scale, so they can’t ask you for your permission. It would take forever to ask everybody for permission, they say. It doesn’t scale, they say! Ah, but that’s only important to them because when it scales, they can make money. You don’t care if it scales!
+
 => https://cheapskatesguide.org/articles/old-internet-coming-back.html | The Old Internet Shows Signs of Quietly Coming Back
 [[bookmark]]
+
+=> https://warmedal.se/~bjorn/posts/sparty-a-cli-client-for-the-spartan-protocol.html | Sparty - A CLI Client for the Spartan Protocol
+> There's no shortage of protocols out there. I've been using gemini for some time now, and I think its steady growth and vibrant community shows that it definitely has a future.
+>
+> And wow... A few has sprouted, but pretty much only exist as theoretical products or with a single reference implementation. The two I've found most interesting are mercury, which as far as I know doesn't exist at all outside of a musing post Solderpunk wrote some months ago, and spartan, which I believe only has one reference server and one client.
+Ещё один протокол!
+
+=> https://sporks.space/2021/04/05/ghosts-of-osi-the-spectre-haunting-ip/
+Автор рассказывает про OSI, Open Systems Interconnect, былого конкурента IP, и про наследие OSI. 
+
+=> gemini://rawtext.club/~tolstoevsky/glog/2021-03-12-net.gmi.gmi | О смерти Сети и альтернативах
+Толстоевский рассказывает, что //они// убили сеть и куда бежать.
+
+=> https://www.uninformativ.de/blog/postings/2021-02-24/0/POSTING-en.html | Current state of twtxt and Yarn.social
+
+=> https://maya.land/responses/2021/01/02/basic-html-as-punk-folk.html
+> Anyway, this whole piece is worth reading. The [[Fediverse]], the tildeverse, [[Neocities]], the [[Indieweb]] movement, hell, peer to peer browsers--they're all coming from different angles at the vast potential of what can be done when we break away from for-profit corporate-controlled platforms. Different philosophies and different emphases are good.
