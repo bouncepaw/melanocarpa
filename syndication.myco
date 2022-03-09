@@ -1,0 +1,26 @@
+**Syndication** on the web
+
+= Links
+=> https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html | Archive it or you will miss it
+> At this point, link rot is an axiom of the internet. In the face of this, I store a personal offline archive of anything I want to see twice. When I see a cool YouTube video I like, I archive the entire channel right away. Rather than subscribe to it, I update my archive on a cronjob. I scrape content out of RSS feeds and into offline storage and I have dozens of websites archived with wget. I mirror most git repositories I’m interested in. I have DRM free offline copies of all of my music, TV shows, and movies, ill-begotten or not.
+
+=> https://warmedal.se/~bjorn/posts/looking-into-beautifulsoup4.html | Looking Into BeautifulSoup4
+Бьёрн узнал про библиотеку КрасивыйСуп4 и захотел её использовать (и, соответственно, Питон) для написания своего поискового движка. Также упомянул некоторые встречи ИндиВебовские, надо бы сходить на такую.
+
+=> https://indieforums.net/
+> IndieForums is a proof-of-concept site built around the [[IndieWeb]]. All content on this site (with the exception of /self/ posts) is generated through webmentions.
+
+=> https://newsboat.org/
+> Newsboat is an [[RSS]]/[[Atom]] [[feed reader]] for the text console. It’s an actively maintained fork of Newsbeuter.
+
+=> https://notifier.in/
+
+=> https://github.com/DIYgod/RSSHub
+
+=> https://metacpan.org/release/App-jupiter
+> Jupiter is a web-based feed aggregator using a river of news paradigm. What does that mean? Feed subscriptions are stored in a file (an OPML file to be precise), so adding a subscription currently involves me editing a file via SSH on the server. That’s not ideal, but then again, I’m fine with growing the feed collection slowly. A cron job goes through all the feeds on a regular bases and assembles a static HTML file with the 100 latest items, with at most 4 items per feed. Anything that’s older is dropped. No unread item count! If it’s gone, it’s gone.
+
+=> https://m.habr.com/ru/post/544414/ | Читаем telegram-каналы в виде новостной ленты (+ бонусом rss)
+Телегратор. Интересно. В скором времени обещает селф-хост, проект достоин изучения. [[TODO]]: изучить
+
+=> https://antonkim.ru/blog/all/telegram-channels-on-rss/
