@@ -1,1 +1,12 @@
 **macOS** is an [[operating system]]. I use it on [[caemlyn]].
+
+[[Safari]] is the best [[web browser]].
+
+= Links
+=> https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/ | Inspecting Web Views in macOS
+According to the article, if you execute the commands below, you will be able to use the web inspector where applicable in macOS system applications.
+```sh
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+defaults write -g WebKitDeveloperExtras -bool YES
+```
+This is ridiculous! Why would they use webview for that? Well, it's better than [[Electron]], of course.
