@@ -1,2 +1,7 @@
 => https://www.omgubuntu.co.uk/2021/12/libadwaita-1-0-arrives-to-kickstart-a-new-era-of-gtk-app-development | Libadwaita 1.0 Arrives to Kickstart a New Era of GTK App Development
 => https://blogs.gnome.org/antoniof/2021/12/29/the-icon-view-is-dead-long-live-the-icon-view/ | The icon view is dead, long live the icon view!
+
+=> https://linuxreviews.org/Mpv_drops_GNOME_support | mpv drops GNOME support
+> Most of the developers of the GNOME desktop environment have the strange idea that GNOME is somehow a "platform" that is separate from, and not a part of, the overall GNU/Linux ecosystem. One direct result of this self-isolation has been the regular breakage of non-GNOME software when it is running in GNOME. This has affected free software project like mpv, SuperTuxKart, SDL and many more. One mpv developer who has had enough of GNOME nonsense made mpv print a "no support" message and exit if it was running under GNOME earlier today.
+
+> wm4 later, in a moment of weakness, reverted the commit and replaced the code with a far less based version that only warns GNOME users that they are using a platform developed by egomaniac developers who have no regard for their users or developers of non-GNOME free software:
