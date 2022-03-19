@@ -1,0 +1,16 @@
+img { https://flux.garden/static/FluxGardenHero.png }
+**FluxGarden** is a [[proprietary]] tool for doing [[digital garden]] stuff by [[Bill Seitz]].
+
+=> https://flux.garden
+
+> You get 2 gardens: 1 private ("inner") and 1 public ("outer"). (Under the same subdomain which you pick, like "alice.flux.garden".) Both spaces give you:
+>
+> * the same Markdown format, and double-bracket linking for Backlinks;
+> * a nice front-page of most-recently-updated pages, with excerpt;
+> * an RSS (Atom) feed.
+
+The software looks great, but requires a [[subscription]]:
+* $99/year
+* $15/month
+
+I'm not sure if it has an export function. If it does, I can say you can safely use it. Bill Seitz looks like a chill guy, but you know how it is with commercial centralized services. They all break eventually.
