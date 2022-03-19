@@ -1,0 +1,50 @@
+[[Bill Seitz]] has this notion of **TwinPages** in his [[digital garden]]. Compare with [[interwiki]].
+
+=> http://webseitz.fluxent.com/wiki/TwinPages
+> for the current page, show which Sister Sites have a page with the same Wiki Name
+
+= Bill's widget
+
+You can embed a twin pages widget on your own site by adding this snippet:
+```
+<div id="twin_pages" style="border:1px; vertical-align:top; horizontal-align:center">
+<script src="http://www.wikigraph.net/twinpages.js" referrerpolicy="unsafe-url"></script>
+<noscript>Please enable JavaScript to view the TwinPages</noscript></div>
+```
+
+The problem with is that it is not secure: it fetches a script from a different domain. Well, it might be secure in this particular case, but in general, it is not. That's why [[Safari]] blocks it by default. This security policy can be turned off, but I do not want to. The widget works well if I turn off the policy.
+
+I want to embed the same widget on Melanocarpa, yet I do not want to use this very snippet. Therefore, I am writing my own server-side wrapper.
+
+Related pages:
+=> http://webseitz.fluxent.com/wiki/2022-03-17-TwinPagesWidgetForOtherSites
+=> http://webseitz.fluxent.com/wiki/2022-02-06-AddingSisterSites
+
+= Example
+Visit Bill's article about [[digital garden]]:
+=> http://webseitz.fluxent.com/wiki/DigitalGarden
+
+If your browser allows it, look at the TwinPages section at the bottom. You will see a link to my site.
+
+Here's how to generate this widget.
+
+```sh
+curl -H "Referer:http://webseitz.fluxent.com/wiki/DigitalGarden" "http://www.wikigraph.net/twinpages.js"
+```
+
+So, the file `twinpages.js` is generated dynamically depending on the referer. Try visiting it from the browser, it will fail:
+
+=> http://www.wikigraph.net/twinpages.js
+
+= Implementation
+So, how do I write a wrapper?
+
+The Les Arbres URLs below are not true.
+
+*. GET https://lesarbr.es/dynamic/twin-pages-seitz?title= lets you fetch a JSON of twin pages for the given title.
+** The title is expanded into a http://webseitz.fluxent.com/wiki/title URL, and the original Bill's endpoint is fetched on the server.
+** The response is parsed.
+** A JSON document is returned.
+*. GET https://lesarbr.es/dynamic/twin-pages-seitz-widget.js contains the code, that will safely call the first URL, generate HTML and insert it where needed.
+
+Looks ok to me. Note that the first URL can be used by everyone, and other people in the twin pages network could utilise it. They could also copy the second and self-host it for privacy.
