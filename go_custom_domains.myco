@@ -1,0 +1,11 @@
+[[Go]] supports **custom domains** for package names.
+
+=> https://inretio.dev/2020/06/16/using-custom-domain-for-your-go-lang-package/ | This guide shows you how to have a custom domain
+=> https://pkg.go.dev/robpike.io/ivy | Rob Pike's ivy uses the technique
+
+----
+[[TODO]]: migrate [[mycorrhiza]] packages to custom domains:
+=> https://pkg.mycorrhiza.wiki/mycorrhiza
+=> https://pkg.mycorrhiza.wiki/mycomarkup
+
+This way, it will not really matter where the code is hosted.
