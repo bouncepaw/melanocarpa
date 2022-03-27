@@ -7,3 +7,7 @@ img {
 }
 
 Overall, a cute experience. This computer might be the platform I was missing. What other projects are similar to //uxn//? [[pico-8]]?
+
+//Uxn// is programmed in its own assembly language. I never programmed in assembly before or in a stack language. Might also consider the assembly as a target for my own programming language!
+
+I wonder if //uxn// can communicate with a hosting computer, i/e return an exit code or read/write a file.
