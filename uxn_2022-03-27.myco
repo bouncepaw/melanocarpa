@@ -3,5 +3,5 @@
 img {
 ./left { Text editor. }
 ./launcher { Launcher. Shows file in the folder where the emulator is. }
-./bad apple { [[https://github.com/karolbelina/bad-apple-uxn | Bad Apple!!]]
+./bad apple { [[https://github.com/karolbelina/bad-apple-uxn | Bad Apple!!]] }
 }
