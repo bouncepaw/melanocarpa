@@ -1,13 +1,15 @@
 [[2022-03-27]] Today I tried out the [[uxn]] virtual computer. I used the offered emulator for [[mac OS]]. Made some screenshots along the way.
 
 img {
-./left { Text editor. }
-./launcher { Launcher. Shows file in the folder where the emulator is. }
-./bad apple { [[https://github.com/karolbelina/bad-apple-uxn | Bad Apple!!]] }
+   ./left { Text editor. }
+   ./launcher { Launcher. Shows file in the folder where the emulator is. }
+   ./bad apple { [[https://github.com/karolbelina/bad-apple-uxn | Bad Apple!!]] }
 }
 
-Overall, a cute experience. This computer might be the platform I was missing. What other projects are similar to //uxn//? [[pico-8]]?
+//Uxn// seems to be a graphic-only environment. This computer might be the platform I was missing. What other projects are similar to //uxn//? [[pico-8]]?
 
 //Uxn// is programmed in its own assembly language. I never programmed in assembly before or in a stack language. Might also consider the assembly as a target for my own programming language!
 
 I wonder if //uxn// can communicate with a hosting computer, i/e return an exit code or read/write a file.
+
+I have a [[Nintendo 3DS]] back home. It supports [[Nintendo DS]] cartridges, and //uxn// is ported to it. Too bad my R4 flash cart is broken. Will try to run //uxn// on 3DS one day.
