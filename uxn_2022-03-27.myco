@@ -1,7 +1,9 @@
-[[2022-03-27]] Today I tried out the [[uxn]] virtuacl computer. I used the offered emulator for [[mac OS]]. Made some screenshots along the way.
+[[2022-03-27]] Today I tried out the [[uxn]] virtual computer. I used the offered emulator for [[mac OS]]. Made some screenshots along the way.
 
 img {
 ./left { Text editor. }
 ./launcher { Launcher. Shows file in the folder where the emulator is. }
 ./bad apple { [[https://github.com/karolbelina/bad-apple-uxn | Bad Apple!!]] }
 }
+
+Overall, a cute experience. This computer might be the platform I was missing. What other projects are similar to //uxn//? [[pico-8]]?
