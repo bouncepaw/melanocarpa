@@ -1,6 +1,9 @@
 **Favicon** is a [[web]] [[standard]] for pictures shown in tabs and bookmarks.
 
-[[Melanocarpa]] lacks one. I want it to have one. Possible pictures:
+= [[Melanocarpa]] favicon [[2022-04]]
+[[2022-04-02]] I finally made a favicon. It is based on [[https://commons.wikimedia.org/wiki/File:Shin.svg | this]] image by Cronholm144. I added `#72DEC2` outline in [[GIMP]].
+
+I considered these pictures for favicons:
 * Tree
 * Bush
 * Book
@@ -12,7 +15,3 @@
 * Camel
 * Pyramids
 * Reverse mushroom sigil
-
-Currently I'm more inclined to an Arabic letter Shin. This is my favorite Arabic letter, actually. If it looks bad in a small square, I'll go with the Hebrew Shin.
-
-Maybe something else completely.
