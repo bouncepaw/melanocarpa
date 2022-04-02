@@ -1,4 +1,4 @@
 img {
-./before
-./after
+./before { before }
+./after { after }
 }
