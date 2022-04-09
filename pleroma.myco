@@ -1,0 +1,9 @@
+**Pleroma** is a [[social network]], part of [[fediverse]].
+
+= Links
+=> https://blog.soykaf.com/post/privacy-and-tracking-on-the-fediverse/ | Автор плеромы про небезопасность федиверса
+> Mastodon and Pleroma support four settings for post visibility. These are public, friends only, unlisted and direct messages. What actually happens when you use those settings? The only thing they will change are the to and cc fields of the created activity and object. Your server will federate the post to other servers depending on those fields, and hopes the other server respects this. There is no technological guarantee for this, though. A malicious server could leak all the data it receives. This includes posts to friends and direct messages.
+
+=> https://lain.com/objects/287a46be-cf78-4b58-9435-c38d5eeeed88 | @lain@lain.com 2022-03-30
+> fun fact: pleroma was called 'wired' when i started writing it, i changed it because it would been impossible to find in a search engine
+В этом треде у всех людей на аватарке [[Lain Iwakura]].
