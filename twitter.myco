@@ -20,3 +20,10 @@
 => http://thoughtstorms.info/view/LeavingTwitter
 => https://balajis.com/how-to-gradually-exit-twitter/ How to Gradually Exit Twitter
 [[bookmark]]
+
+=> https://alexschroeder.ch/wiki/2018-03-28_No_Twitter
+> I used the [[https://martani.github.io/Twitter-Archive-Eraser/ | Twitter Archive Eraser]] to delete all my favourites and all my tweets on Twitter.
+>
+> This tool is much faster than all the other solutions I've seen because it requires you to download your Twitter archive, first. That's always a good idea. Then it gets the tweet ids from the archive instead of requesting them from Twitter itself, and that's what makes it so fast.
+>
+> Same idea but do it yourself? [[https://github.com/webinista/tweetkiller | tweetkiller]] is a Python script that does the same thing: it goes through your archive to extract the IDs.
