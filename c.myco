@@ -38,3 +38,7 @@ A read.
 >
 > Да, работая на индустрию не удастся вернуться в прошлое. Однако, Plan9 научил меня тому, что во многих случаях у меня, как у программиста, всё-таки есть свобода избежать сложного кода, в том числе ценой выбора более подходящей архитектуры. Например, написав небольшое ядро приложения на Си и функциональную часть на Lua. Если я вижу, что код на Си становится сложным, это повод остановиться. Стоп! Что-то не так!
 
+----
+=> https://multun.net/obscure-c-features.html | Some obscure C features - Pancakes and computers
+> The current most used version of the language, c99, brought a bunch of new features, many of which are completely unknown to most C programmers (Older specifications obviously also have some dark corners).
+----
