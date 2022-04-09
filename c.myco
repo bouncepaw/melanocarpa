@@ -42,3 +42,5 @@ A read.
 => https://multun.net/obscure-c-features.html | Some obscure C features - Pancakes and computers
 > The current most used version of the language, c99, brought a bunch of new features, many of which are completely unknown to most C programmers (Older specifications obviously also have some dark corners).
 ----
+=> https://gankra.github.io/blah/c-isnt-a-language | C Isn't A Programming Language Anymore
+> C is the lingua franca of programming. We must all speak C, and therefore C is not just a programming language anymore – it’s a protocol that every general-purpose programming language needs to speak.
