@@ -1,5 +1,1 @@
 **Fediverse** is a network of [[federated]] [[social network]]s. I have a [[Mastodon]] account.
-
-= Links
-=> https://blog.soykaf.com/post/privacy-and-tracking-on-the-fediverse/ | Автор плеромы про небезопасность федиверса
-> Mastodon and Pleroma support four settings for post visibility. These are public, friends only, unlisted and direct messages. What actually happens when you use those settings? The only thing they will change are the to and cc fields of the created activity and object. Your server will federate the post to other servers depending on those fields, and hopes the other server respects this. There is no technological guarantee for this, though. A malicious server could leak all the data it receives. This includes posts to friends and direct messages.
