@@ -1,4 +1,4 @@
-**C** is one of the most known [[programming language]]s. Its key features include ‘simplicity’, unfriendliness and lack of many helpful abstractions. Overall, it is a nice experience.
+**C** is one of the most known programming languages. Its key features include ‘simplicity’, unfriendliness and lack of many helpful abstractions. Overall, it is a nice experience.
 
 = Links
 
@@ -44,3 +44,8 @@ A read.
 ----
 => https://gankra.github.io/blah/c-isnt-a-language | C Isn't A Programming Language Anymore
 > C is the lingua franca of programming. We must all speak C, and therefore C is not just a programming language anymore – it’s a protocol that every general-purpose programming language needs to speak.
+
+----
+=> https://wordsandbuttons.online/so_you_think_you_know_c.html | So you think you know C?
+> If you think it is — take this test. It only has 5 questions. Every question is basically the same: what the return value would be? And each question has a choice of four answers, of which one and only one is right.
+The results will not shock you.
