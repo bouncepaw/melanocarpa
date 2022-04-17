@@ -1,4 +1,4 @@
-**Forth** is a [[programming language]].
+**Forth** is a programming language. They say, it is extremely simple (but not easy), simpler than [[Lisp]], and is very easy to implement+interpret. This simplicity inspired [[uxntal]].
 
 => https://www.forth.com/starting-forth/1-forth-stacks-dictionary/
 A textbook
