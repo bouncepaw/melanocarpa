@@ -24,4 +24,4 @@ Devine responded with something I want to store here:
 >
 > To communicate with the host system, you can use the file devices to save/load, or the console to stream bytes. That's how the launcher loads roms, and that's how orca sends midi.
 
-Seems like [[oscean]] is written in [[uxn assembly]] now! It used to be written in C. Also, the capability to communicate with the host system is great.
+Seems like [[oscean]] is written in [[uxntal]] now! It used to be written in [[C]]. Also, the capability to communicate with the host system is great.
