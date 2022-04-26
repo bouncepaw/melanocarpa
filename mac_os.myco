@@ -19,3 +19,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write -g WebKitDeveloperExtras -bool YES
 ```
 This is ridiculous! Why would they use webview for that? Well, it's better than [[Electron]], of course.
+
+=> https://macos8.app | Infinite Mac
+A web emulator of classic Mac (what version) with bundled software. The easiest way to see how it all looked like.
