@@ -4,13 +4,13 @@
 
 = Links
 => https://appleinsider.ru/eto-interesno/evolyuciya-mac-os-ot-system-1-0-do-mac-os-9.html/amp | Эволюция Mac OS: от System 1.0 до Mac OS 9
-Просто обзор истории. Довольно интересно.
+An interesting tour of Mac OS that traces its evolution.
 
 => https://arstechnica.com/gadgets/2016/09/an-os-9-odyssey-why-do-some-mac-users-still-rely-on-16-year-old-software | An OS 9 odyssey: Why these Mac users won’t abandon 16-year-old software
 
 => https://morrick.me/archives/9220 | A retrospective look at Mac OS X Snow Leopard — Riccardo Mori
 => http://morrick.me/archives/9246 | A retrospective look at Mac OS X Snow Leopard, addendum — Riccardo Mori
-Эх, вот были времена... Бтв, есть браузер для старых версий Mac OS X [[https://github.com/OlgaTPark/tenfourfox|TenFourFox]]
+On a related note, there's a browser for old versions of Mac OS X: [[https://github.com/OlgaTPark/tenfourfox|TenFourFox]]
 
 => https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/ | Inspecting Web Views in macOS
 According to the article, if you execute the commands below, you will be able to use the web inspector where applicable in macOS system applications.
