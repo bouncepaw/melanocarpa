@@ -2,6 +2,10 @@
 
 [[2022-03-05]] I made an account: [[https://lor.sh/@bouncepaw]]. Feel free to follow.
 
+= Links
+=> https://github.com/blackle/mastodon-data-viewer.py
+> A viewer for mastodon data written in python. It creates a local server that you can use to browse the data. Designed for large (>40,000) toot archives.
+
 = Mastodon Archive
 See also [[web archiving]].
 
