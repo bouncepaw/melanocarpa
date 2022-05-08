@@ -1,1 +1,55 @@
-I will publish the code in an hour. 19:59:26 UTC
+This is the source code for [[toot expirator]]. The code is in [[public domain]], except for the little part which I found on [[Stack Overflow]]. The first and the only version so far was published on [[2022-05-08]].
+
+= Code
+
+This program in [[Python]] prints the preserved toot text with all the stuff to stdout. Do what you must with the output.
+
+Replace all-caps word with your data.
+```
+#!/usr/bin/python3
+import sys
+
+if len(sys.argv) < 2:
+	print("Error: No URL")
+	sys.exit(0)
+
+URL = sys.argv[1]
+
+if "ADDRESS" not in URL:
+	print("Error: Wrong URL")
+	sys.exit(0)
+
+from mastodon import Mastodon
+import html
+
+mastodon = Mastodon(
+    access_token = 'GET YOUR OWN',
+    api_base_url = 'https://ADDRESS'
+)
+id = int(URL.split("/")[-1])
+toot = mastodon.status(id)
+
+text = "* " + html.unescape(toot['content'].replace('<p>', '').replace('</p>', ''))
+text += " — " + toot['created_at'].strftime('%Y-%m-%d %H:%M %Z')
+if toot['favourites_count'] > 0:
+	text += " ⭐️" + str(toot['favourites_count'])
+# @ru and @local always boost me, and I care not, so I ignore them
+# change appropriately
+if toot['reblogs_count'] > 2:
+	text += " 🔁" + str(toot['reblogs_count'])
+print(text)
+with open('LOG FILE', 'a') as f:
+	f.write(text+"\n")
+
+# Snippet from https://stackoverflow.com/a/25802742 {
+import subprocess
+
+def write_to_clipboard(output):
+    process = subprocess.Popen(
+        'pbcopy', env={'LANG': 'en_US.UTF-8'}, stdin=subprocess.PIPE)
+    process.communicate(output.encode('utf-8'))
+# }
+write_to_clipboard(text)
+
+mastodon.status_delete(id)
+```
