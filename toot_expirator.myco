@@ -1,0 +1,17 @@
+**Toot expirator** is a little program that generates a text excerpt to insert into [[удалённое из мастодонта]], my storage of toots I no longer want to have in my [[Mastodon]] account, and deletes the toot. It is up to me whether I want to save the text to the list.
+
+As I often say, [[my toots expire]]. Mine do so in a manual manner.
+
+= Format
+<text> — <time> <fav> <boost>, where:
+* <text> is the text of the toot.
+* Time is the time. Format like this would be the best: 2022-05-08 18:13:08 UTC.
+* <fav>
+** If the toot is not favorited by anyone, empty
+** Else, ⭐️ <number>
+* <boost>
+** If the toot is not boosted by anyone, empty
+** Else, 🔁 <number>
+
+= Implementation
+WIP
