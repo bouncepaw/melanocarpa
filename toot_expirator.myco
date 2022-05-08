@@ -24,3 +24,5 @@ Example: `* Rageful, tired — 2022-04-19 18:08 UTC`. It was once a real toot.
 
 = Implementation
 This is a program for [[caemlyn]]. I use [[Automator]]. If you want to adapt the program to something else, you will have to think of a different thing. In the Automator workflow, I have a wrapper that runs `~/src/toot-expirator/toot-expirator.py`, this is the path with the program. I used [[Python]], because there is a [[https://github.com/halcy/Mastodon.py | library]]. Do not forget to install it beforehand: `sudo pip3 install Mastodon.py`.
+
+=> Toot expirator source
