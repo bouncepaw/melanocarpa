@@ -2,6 +2,13 @@
 
 As I often say, [[my toots expire]]. Mine do so in a manual manner.
 
+= How to use
+* When I want to expire a toot, I open its standalone page.
+* I select its URL in the omnibar.
+* I select the service called //🐘 Toot expirator//.
+* The program deletes the toot, and prepares the text excerpt.
+* The text excerpt is saved to a file, so I can access it later, and copied to the clipboard, so I can paste right away.
+
 = Format
 <text> — <time> <fav> <boost>, where:
 * <text> is the text of the toot.
@@ -13,5 +20,7 @@ As I often say, [[my toots expire]]. Mine do so in a manual manner.
 ** If the toot is not boosted by anyone, empty
 ** Else, 🔁 <number>
 
+Example: `* Rageful, tired — 2022-04-19 18:08 UTC`. It was once a real toot.
+
 = Implementation
-WIP
+This is a program for [[caemlyn]]. I use [[Automator]]. If you want to adapt the program to something else, you will have to think of a different thing. In the Automator workflow, I have a wrapper that runs `~/src/toot-expirator/toot-expirator.py`, this is the path with the program. I used [[Python]], because there is a [[https://github.com/halcy/Mastodon.py | library]]. Do not forget to install it beforehand: `sudo pip3 install Mastodon.py`.
