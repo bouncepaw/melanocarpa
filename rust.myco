@@ -9,3 +9,5 @@ A movement to reimplement existing programs in Rust, often improving on ideas.
 => https://github.com/BurntSushi/ripgrep | BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 => https://github.com/cjbassi/ytop | cjbassi/ytop: A TUI system monitor written in Rust (not maintainted anymore)
 => https://github.com/ClementTsang/bottom | ClementTsang/bottom: Yet another cross-platform graphical process/system monitor.
+
+See also [[https://wiki.recursive.one/Rust%20powered%20tools | the list]] on Recursive wiki
