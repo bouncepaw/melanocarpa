@@ -5,6 +5,9 @@
 >
 > It was created by Robbie Antenesse to be just like TiddlyWiki, but with the smallest file size possible and a style more reminiscent of certain other popular wikis. Since it aims to be as small as possible, there are plenty of features that TiddlyWiki has that Feather Wiki doesn't, but if you want something tiny, blazing fast, and still fully functional, then Feather Wiki will be your instant-loading dream app!
 
+=> https://codeberg.org/Alamantus/FeatherWiki
+It is licensed under [[AGPL]] v3.
+
 I published [[https://lor.sh/web/@bouncepaw/108293876830917818 | a review]] on my microblog:
 > Looking at #FeatherWiki by @Alamantus. Looks cool.
 >
