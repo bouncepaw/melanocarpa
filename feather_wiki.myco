@@ -1,0 +1,21 @@
+**Feather Wiki** is a wiki engine, advertised as a lighter [[Tiddly Wiki]]. Single-file wiki.
+
+=> https://alamantus.codeberg.page/FeatherWiki
+> Feather Wiki is an app for creating personal non-linear notebooks, databases, and wikis that is entirely self-contained and runs in your browser. If you want your finished product to be publicly visible, it can be published anywhere that serves HTML files by simply uploading your saved wiki file.
+>
+> It was created by Robbie Antenesse to be just like TiddlyWiki, but with the smallest file size possible and a style more reminiscent of certain other popular wikis. Since it aims to be as small as possible, there are plenty of features that TiddlyWiki has that Feather Wiki doesn't, but if you want something tiny, blazing fast, and still fully functional, then Feather Wiki will be your instant-loading dream app!
+
+I published [[https://lor.sh/web/@bouncepaw/108293876830917818 | a review]] on my microblog:
+> Looking at #FeatherWiki by @Alamantus. Looks cool.
+>
+> It has subpages, and the superpage name is not part of the name of the subpage name itself, unlike #Mycorrhiza and #MediaWiki. It might be a better approach to that.
+>
+> It supports red links, like all wiki system should. It also introduces a little exclamation mark. This is a good idea, because just color is not enough.
+>
+> It also has the correct bracketed link syntax: [\[target | displayed text]].
+>
+> It has some advanced editor. It lacks the preview feature, but has a show HTML button.
+>
+> I didn't find a full description of its markup.
+>
+> Overall, this is a good project. I can recommend it for small text-based wikis. I doubt it works well for bigger (100+ items) wikis, though.
