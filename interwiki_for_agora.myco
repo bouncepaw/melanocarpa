@@ -5,9 +5,9 @@
 
 table {
 ! id ! url
-| mycorrhiza | https://mycorrhiza.wiki/hypha/
-| melanocarpa | https://melanocarpa.lesarbr.es/hypha/
-| anagora | https://anagora.org/node/
+| mycorrhiza | [[https://mycorrhiza.wiki/hypha/
+| melanocarpa | [[https://melanocarpa.lesarbr.es/hypha/
+| anagora | [[https://anagora.org/node/
 }
 
 After the map is loaded, all links that are prefixed with ids from the table above, along with a special separator, will link to the target site. The classic syntax had `:`. For example, `[\[anagora:wednesday]]` would link [[https://anagora.org/node/wednesday]]. [[Doku Wiki]] chose a different character: `>`. [[Mycorrhiza]] will follow the suite, and wants Agora to choose it as well. `[\[anagora>wednesday]]`.
