@@ -1,0 +1,23 @@
+2022-05-14 [[Agora]] is going to enter a new phase: multi-Agora epoch. There are going to be new instances. How should they interoperate with each other? In this little essay I show some possible approaches. This essay is written for [[Flancian]].
+
+= Interwiki
+[[Wiki]]s had this for ages. They have this special table called interwiki map, that lets you set mapping to wikis you care about. For example:
+
+table {
+! id ! url
+| mycorrhiza | https://mycorrhiza.wiki/hypha/
+| melanocarpa | https://melanocarpa.lesarbr.es/hypha/
+| anagora | https://anagora.org/node/
+}
+
+After the map is loaded, all links that are prefixed with ids from the table above, along with a special separator, will link to the target site. The classic syntax had `:`. For example, `[\[anagora:wednesday]]` would link [[https://anagora.org/node/wednesday]]. [[Doku Wiki]] chose a different character: `>`. [[Mycorrhiza]] will follow the suite, and wants Agora to choose it as well. `[\[anagora>wednesday]]`.
+
+Mycorrhiza is going to encode the table as a JSON. Read the ideas:
+=> https://mycorrhiza.wiki/hypha/idea/interwiki
+
+I think Agora could copy this approach completely. Every Agora would have its own interwiki map. Closer Agorae would interwiki each other. Also, for node `a` it would make sense to link nodes with the same name on interwiki wikis in the related nodes section.
+
+= Prefix-less interwiki
+What if you drop the prefix? `[\[wednesday]]` would link a local node, if there is one, or one in a different Agora, if there is one. This approach is liberating, because it doesn't make you think about places, you only care about the names.
+
+A very similar idea is [[twin pages]] AKA sister pages. See [[Bill Seitz twin pages]]. See how [[Odd Muse]] did it. But can you have multiple twin sites? I think of a queue of twin sites. One site is the closest, the other one is a little farther, and one is very far away. Each of them is checked for the node one-by-one, until it is found. Of course, this is network-heavy.
