@@ -84,3 +84,17 @@ A wonderful read
 
 => https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics | How the Go runtime implements maps efficiently (without generics)
 I get the impression that a map can only hold 64 values from this text, but this is not true. How does it work?
+
+=> https://t.me/golang_the_best
+В данном канале перечислены все преимущества языка программирования Go.
+
+=> https://www.arp242.net/go-easy.html | Go is not an easy language
+> Go is not an easy programming language. It is simple in many ways: the syntax is simple, most of the semantics are simple. But a language is more than just syntax; it’s about doing useful stuff. And doing useful stuff is not always easy in Go.
+
+XahLee сказал:
+> the best languages to learn today for the next 20 year are: golang, PowerShell, Mathematica.
+Про голянг понятно. Про остальное:
+> PowerShell or the pwsh, is far better shell than bash and unix bag friends. 
+> Mathematica, is the programing language far beyond any other in the computing industry. A magnitude beyond all existing. It is more than a programing language, because it is really a computational knowledge base. Asides from math functions, such as solving equations or integration symbolically and hundreds other special math functions only a handful mathematician understands, it also embodies just about every practical algorithm in computer science. So, given a algorithm, you might write it in lang X for a hour or days, but Mathematica has it as part of the language, just call a function. Mathematica has few thousand functions builtin, not even needing to load a library.
+
+🍄: Мне нравится, когда люди хорошо говорят о Мафематике. Мне она тоже нравится. Хочу как-нибудь лицензию получить... Говорят, с малиной π в комплекте идёт 🤔
