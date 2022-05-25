@@ -1,6 +1,9 @@
-**Markup language**
+**Markup language** is a formal language for marking up a document using text.
 
-=> mycomarkup
+A popular to differentiate markups is //lightweight// vs //not lightweights//. A classic example of the former is [[Markdown]], which people talk too much about nowadays.
+
+=> Mycomarkup
+Mycomarkup is my take on how lightweight markups should be designed. I consider it to be better than all other solutions so far.
 
 => https://git.sr.ht/~tim-ats-d/Postem-markup
 
