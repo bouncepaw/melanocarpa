@@ -1,0 +1,4 @@
+**Julia**
+
+=> https://danluu.com/julialang/ | A review of the Julia language
+> Here's a language that gives near-C performance that feels like Python or Ruby with optional type annotations (that you can feed to one of two static analysis tools) that has good support for macros plus decent-ish support for FP, plus a lot more. What's not to like? I'm mostly not going to talk about how great Julia is, though, because you can find plenty of blog posts that do that all over the internet.
