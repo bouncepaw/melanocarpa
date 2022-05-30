@@ -1,10 +1,16 @@
 **Markdown** is a markup language. Seems to be popular. Meant to be simple. My nemesis.
 
+The good thing about Markdown is that is has shown many people the joy of lightweight markups.
+
+= Nemesisry, nemesiship
 I don't like many things about Markdown, starting with its choice of tokens and its paragraph logic, finishing with the vast amount of dialects and the reasons why they exist in the first place.
 
-Gotta write it here.
-
-The good thing about Markdown is that is has shown many people the joy of lightweight markups.
+John Gruber got these things wrong:
+* The whole premise of being print-ready in the source form.
+* Characters for headings.
+* Support for different markers for unordered lists.
+* Markers for numbered lists. They are numbers.
+* HTML is allowed, making it a subset of Markdown. At least, of some dialects.
 
 = Links
 => https://www.smashingmagazine.com/2022/02/thoughts-on-markdown/ | Thoughts On Markdown
