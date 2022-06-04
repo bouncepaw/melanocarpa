@@ -25,3 +25,6 @@ A web emulator of classic Mac (what version) with bundled software. The easiest 
 
 => https://www.fastcompany.com/90170255/using-the-old-mac-os-is-pure-zen | Using The Old Mac OS Is Pure Zen
 > I’ve tried it myself. Android and iOS both feel horrible in two colors, like your app icons are trapped in an episode of I Love Lucy. But black and white can feel great, if the OS is explicitly designed for it. Using an old Mac is pure zen.
+
+=> https://robbiebyrd.github.io/platinum/ | Platimum
+> A UI framework using native CSS/JS replications of the Mac OS 8.1 interface components. The project is named after the interface theme that came with MacOS 8 and 9, Platinum.
