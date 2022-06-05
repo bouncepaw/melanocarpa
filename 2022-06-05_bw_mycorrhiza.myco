@@ -1,0 +1,5 @@
+Inspired by the user interface of the classic [[Mac OS]], I imagined what [[Mycorrhiza]] would look like if it was black-and-white too. Not grayscale, but truly black-and-white. Some patterns here and there, and the result turned out to be quite cute.
+
+* Red and green links are black, but to keep the distinction, some icons are drawn nearby. They actually make more sense than colors, maybe I should add them to the upstream version.
+* This striped pattern is really beautiful, but it makes my eyes hurt.
+* Removed the rounding of some elements.
