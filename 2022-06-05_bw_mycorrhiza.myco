@@ -3,3 +3,4 @@ Inspired by the user interface of the classic [[Mac OS]], I imagined what [[Myco
 * Red and green links are black, but to keep the distinction, some icons are drawn nearby. They actually make more sense than colors, maybe I should add them to the upstream version.
 * This striped pattern is really beautiful, but it makes my eyes hurt.
 * Removed the rounding of some elements.
+* Some elements are still gray, try to find them all.
