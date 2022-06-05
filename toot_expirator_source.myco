@@ -33,22 +33,22 @@ text = "* " + html.unescape(toot['content'].replace('<p>', '').replace('</p>', '
 text += " — " + toot['created_at'].strftime('%Y-%m-%d %H:%M %Z')
 if toot['favourites_count'] > 0:
 	text += " ⭐️" + str(toot['favourites_count'])
-# @ru and @local always boost me, and I care not, so I ignore them
-# change appropriately
+= @ru and @local always boost me, and I care not, so I ignore them
+= change appropriately
 if toot['reblogs_count'] > 2:
 	text += " 🔁" + str(toot['reblogs_count'])
 print(text)
 with open('LOG FILE', 'a') as f:
 	f.write(text+"\n")
 
-# Snippet from https://stackoverflow.com/a/25802742 {
+= Snippet from https://stackoverflow.com/a/25802742 {
 import subprocess
 
 def write_to_clipboard(output):
     process = subprocess.Popen(
         'pbcopy', env={'LANG': 'en_US.UTF-8'}, stdin=subprocess.PIPE)
     process.communicate(output.encode('utf-8'))
-# }
+= }
 write_to_clipboard(text)
 
 mastodon.status_delete(id)
