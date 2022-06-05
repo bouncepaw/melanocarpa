@@ -1,3 +1,7 @@
+**Graphical User Interface** is a type of interface that has many graphics. Usually, it involves various metaphors, such as //desktop// or //window//. All modern consumer computers have GUIs, because it is thought people have little problems understanding them.
+
+= Links
+
 => https://warmedal.se/~bjorn/posts/2021-11-19-lightweight-simple-and-cross-platform-gui-programming.html | Björn: Lightweight, Simple, and Cross-Platform GUI Programming?
 > Can you recommend me a better GUI programming tool that fulfills my requirements? I know Qt has some sort of XML-like markup these days, but is it easier to develop in and lighter or faster than tkinter?
 
