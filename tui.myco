@@ -1,0 +1,3 @@
+=> https://invisible-island.net/dialog/dialog.html
+=> https://felix.plesoianu.ro/blog/tui-fun.html | Fun with text user interfaces
+> The venerable Dialog utility (based on ncurses, and maintained by the same person for the past couple of decades) is one option: a small program that can handle a variety of common interactions like choosing a file to open, or entering dates, while looking good and being easy enough to use.
