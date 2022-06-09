@@ -8,3 +8,10 @@
 => http://toastytech.com/guis/index.html | GUI Gallery
 > On these pages you will find many screen shots of various desktop computer Graphical User Interfaces and operating systems. Many different people have had different ideas of how a GUI should work and these screen shots show many of the more popular ones.
 Still maintained. A sweet collection.
+
+=> https://felix.plesoianu.ro/blog/gui-dialog.html | In dialog with a GUI
+> As the name suggests, Xdialog is a graphical clone of its text-based counterpart, that tries hard to be compatible (and the other way around). Sadly, its latest version is so old it uses Gtk 1.2! Good luck finding either packaged for a modern Linux distribution.
+>
+> A more reliable option is Zenity, that's part of Gtk3 and usually preinstalled along with it. It has simplified command line options compared to (X)dialog, but in return features modern controls like a tabular list and desktop notifications. It also makes it much easier to use forms, for example. Plus, certain controls can receive their data on standard input and thus handle a lot more than if it came from the command line. ...
+>
+> Last but not least, there's yad, a fork of Zenity with more controls, more field types and so on. Its last release was more than four years ago, but that's not a problem just yet.
