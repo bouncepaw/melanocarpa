@@ -39,3 +39,8 @@ This is hot.
 
 => https://www.cnet.com/pictures/susan-kares-early-mac-icons-gave-computers-a-personality-photos/ | Susan Kare's early Mac icons gave computers a personality (photos)
 > Millions of people around the world are familiar with the artwork of Susan Kare, but few would be able to connect that name with Apple's early computer icons. Her new book takes a look back.
+
+=> https://developer.apple.com/news/?id=3sgp4ps7 | Challenge: Pixel perfect design
+img { https://devimages-cdn.apple.com/wwdc-services/articles/images/336EC2FD-5391-4F14-8E44-EE7B855324CF/2048.jpeg }
+> Ready to show off your pixel perfect design skills? We're challenging you to embrace the constraints of a grid and design an app icon at pixel level using only black and white colors. When we design icons today, we create work for high-resolution HDR screens, with millions of pixels and color at our disposal. But there’s joy in embracing a bit of retro restraint: pixel grids can help you distill the essence of your design and make sure your icon is clear and understandable at all sizes.
+Extra fun with today's off-grid icons
