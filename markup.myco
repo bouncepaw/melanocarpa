@@ -17,6 +17,46 @@ Soupalt:
 >
 > BTW, I remember having a discussion with Lion and Timur about how HTML can be used for augmentation (in a post-processing step) instead of augmenting each and every markup language with various constructs.
 
+=> https://jspwiki-wiki.apache.org/Wiki.jsp?page=TextFormattingRules | JSPWiki: TextFormattingRules
+Интересно вот это:
+```
+[this is also a link] = create a hyperlink to an internal WikiPage called
+             'ThisIsAlsoALink' but show the link as typed with spaces.
+```
+
+Я о таком думал, интересно увидеть это implemented.
+
+=> https://amusewiki.org/library/manual | The Text::Amuse markup manual | A·Muse·Wiki
+> A Muse document uses special, contextual markup rules to determine how to format the output result. For example, if a paragraph is indented, Muse assumes it should be quoted. Indentation is heavily used to determine if the paragraph is something different from “normal” text.
+
+=> http://ibnteo.klava.org/textoole/readme | Блог Вольки - Textoole
+> Textoole это мощный язык разметки, немного похож на Markdown и Textile, некоторые идеи заимствованы из MarkedText.
+
+=> https://github.com/yandex-cloud/yfm-transform/blob/master/DOCS.md | yfm-transform/DOCS.md at master · yandex-cloud/yfm-transform
+> Yandex Flavored Markdown (YFM) syntax
+Another one.
+
+=> https://warmedal.se/~bjorn/posts/wishing-for-stricter-gemtext.html | Wishing for Stricter Gemtext - Björn Wärmedal
+> Anyway, that was then and now is now, and when I look at that code now and my current needs I feel a little unsatisfied with the needless parsing complexity of gemtext. Because even though it's very easy, it's still harder than it could be.
+
+=> https://www.freecodecamp.org/news/we-need-a-new-document-markup-language-c22e0ec44e15/amp/ | We need a new document markup language — here is why
+> There are two fundamental problems with the existing document markup languages: Either they are not easy to use, or they are not well suited to write complex documents, such as technical articles, user manuals, or books. An example of “not easy to use, but suited for complex documents” would be Docbook. An example of “easy to use, but not suited for complex documents” would be Markdown.
+>
+> Of course, the above categorization is simplistic. But it should serve as a good starting point to get the gist of this article which aims to delineate the kind of problems that occur in practice. You’ll see many representative examples of markup code that illustrates what’s wrong, complemented by links to more information.
+>
+> You’ll also discover a new markup language. Lots of examples will demonstrate how a new syntax can lead to a language that is “easy to use and suited for complex documents”. A proof-of-concept implementation is already available.
+
+=> https://github.com/grigoryvp/vscode-language-xi
+> "Xi" is a markdown-like language designed for a personal knowledge base. Color and indentation are used to highlight headings, paragraphs, links, source code examples and definitions. You can read and write Xi from within a VSCode without a need to "render" it into a "visual" web page or PDF. This makes Xi a very fast tool to keep records: you grep someting, skim through Xi pages, add or change some text from within a same editor, without a need to switch between 'edit' and 'previes' modes. An example of Xi page from my personal knowledge base with Memory color theme:
+> img { https://raw.githubusercontent.com/grigoryvp/vscode-language-xi/master/doc/xi_illustration.png }
+
+=> gemini://warmedal.se/~bjorn/posts/wishing-for-stricter-gemtext.gmi | Wishing for Stricter Gemtext
+
+=> https://texy.info/ru/syntax | Texy
+=> https://txt2tags.org/markup.html | Txt2tags
+=> https://blockml.awwapps.com/ | BlockML (умеет в отточие!)
+=> https://communitywiki.org/wiki/pmarkup | pmarkup
+
 => https://thomasorus.com/kaku.html
 Another [[Markdown]] derivative 
 
