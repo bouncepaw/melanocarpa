@@ -7,4 +7,15 @@
 => https://100r.co/site/uxn.html
 => https://wiki.xxiivv.com/site/uxn.html
 
+= Links
+=> https://applied-langua.ge/posts/i-dont-want-to-go-to-chel-c.html | I don't want to go to Chel-C
+An very good article that destroys uxn's value. Uxn says it's about permacomputing and vintage computing, the author of the article says it's not and proves it.
+> The author insists on a relation to permacomputing. Their page on permacomputing describes frugal computing and salvage computing as principles of permacomputing, defining them as "utilizing computational resources as finite and precious, to be utilised only when necessary, and as effectively as possible", and "utilizing only already available computational resources, to be limited by that which is already produced." The author is part of a collective that wanted to replace all the "bloated" software they used, due to having little energy storage on their sailboat. Using software design techniques to reduce power usage, and to allow continued use of old computers is a good idea, ++but the uxn machine has quite the opposite effect, due to inefficient implementations and a poorly designed virtual machine, which does not lend itself to writing an efficient implementation easily.
+
+=> https://lists.sr.ht/~rabbits/uxn/%3C16547614410.357889%40mail.networkname.de%3E | platform stability
+A thread in the uxn's mailing list. Felix asks about uxn's stability, Devine says it will be stable soon enough, and this:
+> Don't think of a Varvara as a platform just yet, at best, it's something that can inspire others to explore their own ideas of how a VM can be used to preserve their own projects. There is very little experimentation done in this space and it's sort of in the research phase right now.
+Links like this can discourage you from learning uxn. They do not discourage me, though. I will learn it live during [[summer stream 2022]].
+
+= Uxn and me
 <= uxn 2022-03-27 | full
