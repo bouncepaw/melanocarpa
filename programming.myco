@@ -1,7 +1,15 @@
 **Programming** is an act of commanding a computer to do something, usually, something you want.
 
+= Opinions on how to program
+Turns out, many programmers have no idea how to, so those who think they know how to, teach the former.
+
 => https://danluu.com/monorepo/ | Advantages of monorepos
 There are some.
 
 => https://danluu.com/boring-languages/ | A defense of boring languages
 > Boring languages are underrated. Many appear to be rated quite highly, at least if you look at market share. But even so, they're underrated.
+
+=> https://gabekangas.com/blog/2022/06/ship-software-not-code/ | Ship software, not code
+The author states that installation of software has become increasingly complex. They mostly talk about open-source stuff. They emphasize that requiring users to have a whole //database// such as Postgres to run a an application is wrong. I do agree! Whenever there is a Python application that wants some Postgres and Redis, I just don't install it. There are enough sources of headaches for me already.
+
+Actually, I try to make [[Mycorrhiza]] installable! No DB, next to zero CLI options, etc. Leave the crust to the working application! However, I have problems with delivering binaries. Let's work on that.
