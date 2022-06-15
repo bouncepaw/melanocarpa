@@ -35,3 +35,7 @@ Also see: [[https://git-man-page-generator.lokaltog.net/]]
 
 => https://ladycat.wordpress.com/2020/03/04/flashbake-автосохранение-в-git/ | Flashbake — автосохранение в git
 > Собственно, по-хорошему, тут надо начинать с того, что есть целая тема — «системы управления версиями», предназначенные вообще-то для программистов, но я уверена, что пишущим — не менее нужные. Из них я уже который год использую git.
+
+=> https://ta180m.exozy.me/posts/gitea-actually-joins-the-fediverse/ | Gitea Actually Joins the Fediverse
+> Gitea federation development has reached a crucial milestone: federating with Mastodon!
+This is a //big deal//.
