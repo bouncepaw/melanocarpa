@@ -11,6 +11,10 @@ This is a great technology for many cases, but I find it unusable for the most p
 
 Sometimes, there are less or more steps. Anyway, it's not just clicking some buttons on a website. It's a whole process! I used to maintain a static website: [[https://bouncepaw.github.io]]. It was a pain to edit it! There are still some pending changes. Also, take [[git]] into consideration, which is used together with SSG 95 % of cases.
 
+When I added a deprecation notice to the site, GitHub took 2 minutes and 8 seconds to publish it. Here, take a look at the [[https://github.com/bouncepaw/bouncepaw.github.io/actions/runs/2538517380 | deployment job]]. The long time is probably related to the fact the artifact weighs 141 MB.
+
+For comparison, Melanocarpa's repository weighs ~48 MB as of 2022-06-21. It includes the whole history of every hypha. In rendered, HTML form, it would take at least twice that. Okay, whatever, my private wiki [[Cyberrachel]]'s repo weighs 588 MB. Both on Melanocarpa and Cyberrachel, edits are instantaneous. [[Mycorrhiza]] binary itself weighs a ten of MB too, which is required for running these wikis.
+
 With a dynamic site, I just make the changes without thinking about it. Afterwards, I edit from any device just as easily.
 
 Git, Markdown, and a ridiculous SSG. This is the stack of a modern blog.
