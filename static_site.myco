@@ -1,4 +1,29 @@
+**Static site** is a website that has all of the content pre-generated and hosted on the server, i/e not a [[dynamic site]]. This is a dichotomy.
+
+Static sites are especially popular for making your own [[personal website]]s. People usually use a **static site generator** (SSG for short) that turns a collection of pre-processed files (usually, a folder of [[Markdown]] files) and turns them into a published form (a folder of [[HTML]] files), which is then served by a hosting or a server.
+
+This is a great technology for many cases, but I find it unusable for the most popular cause: personal website. Take a personal wiki, such as mine. You'd need to do the following to publish a change:
+
+*. Edit the source document.
+** If you are on a phone, you are unlikely to be able to do so.
+*. Run the generator.
+*. Publish.
+
+Sometimes, there are less or more steps. Anyway, it's not just clicking some buttons on a website. It's a whole process! I used to maintain a static website: [[https://bouncepaw.github.io]]. It was a pain to edit it! There are still some pending changes. Also, take [[git]] into consideration, which is used together with SSG 95 % of cases.
+
+With a dynamic site, I just make the changes without thinking about it. Afterwards, I edit from any device just as easily.
+
+Git, Markdown, and a ridiculous SSG. This is the stack of a modern blog.
+
+Oh, the love for static sites has also corrupted the meaning of the word [[wiki]]. There are //many// static sites that call themselves wikis. There is nothing wiki about them. They are usually [[digital garden]]s, which is a great thing, but they are not wikis.
+
+= Kawipiko
+[[Ciprian Craciun]] has pointed out that servers are not fine-tuned for hosting static-only content, so he implemented a server which is.
+=> https://github.com/volution/kawipiko
+> kawipiko is a lightweight static HTTP server written in Go; focused on serving static content as fast and efficient as possible, with the lowest latency, and with the lowest resource consumption (either CPU, RAM, IO); supporting both HTTP/1 (with or without TLS), HTTP/2 and HTTP/3 (over QUIC); available as a single statically linked executable without any other dependencies.
+
+If you ever find yourself hosting a static site, consider using it.
+
+= Lists
 => https://staticsitegenerators.net
 => https://jamstack.org/generators
-
-Lists
