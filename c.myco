@@ -53,3 +53,9 @@ The results will not shock you.
 ----
 => http://cmustdie.com/ | Си должен умереть
 Обзор странного поведения Си.
+
+----
+
+=> https://blog.nelhage.com/post/a-go-c-polyglot/ | A Go/C Polyglot
+> Someone on a Slack I’m on recently raised the question of how you might write a source file that’s both valid C and [[Go]], commenting that it wasn’t immediately obvious if this was even possible. I got nerdsniped, and succeeded in producing one, [[https://gist.github.com/nelhage/813a13bd7f5adfdcfca4fb17abb1c7d6 | which you can find here]].
+It's the backslash that does the trick.
