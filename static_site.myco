@@ -1,5 +1,7 @@
 **Static site** is a website that has all of the content pre-generated and hosted on the server, i/e not a [[dynamic site]]. This is a dichotomy.
 
+//Обсудить на русском можно [[https://zttl.space/t/staticheskie-sajty-slaby/877/2 | на форуме русского цеттелькастен-сообщества]].//
+
 Static sites are especially popular for making your own [[personal website]]s. People usually use a **static site generator** (SSG for short) that turns a collection of pre-processed files (usually, a folder of [[Markdown]] files) and turns them into a published form (a folder of [[HTML]] files), which is then served by a hosting or a server.
 
 This is a great technology for many cases, but I find it unusable for the most popular cause: personal website. Take a personal wiki, such as mine. You'd need to do the following to publish a change:
