@@ -1,0 +1,19 @@
+**HTML Journal** is a simple format for journals.
+
+=> https://journal.miso.town
+=> https://git.sr.ht/~m15o/htmlj
+=> https://godocs.io/git.sr.ht/~m15o/htmlj
+
+```html
+<h1>m15o's journal</h1>
+
+<article>
+  <h1>2022-06-14</h1>
+  <p>My second entry.</p>
+</article>
+
+<article>
+  <h1>2022-06-11</h1>
+  <p>My first entry!</p>
+</article>
+```
