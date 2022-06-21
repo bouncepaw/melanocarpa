@@ -64,3 +64,7 @@ Another [[Markdown]] derivative
 > As a result of the non-standardization of blocks, our end-users suffer. If someone is using my blog engine, they can only use those blocks that I had time to implement. Those blocks may be pretty basic or incomplete. Users might want to use a fancier block that they saw in WordPress or Medium or Notion, but my editor doesn’t have it. Blocks can’t be shared or moved around very easily, and our users are limited to the features and capabilities that we had time to re-implement.
 >
 > To fix this, we’re going to create a protocol called the Block Protocol.
+
+=> https://karl-voit.at/2017/09/23/orgmode-as-markup-only/
+
+=> https://gitlab.com/publicvoit/orgdown
