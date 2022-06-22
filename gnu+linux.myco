@@ -15,3 +15,7 @@ And some others.
 = Links
 => https://wion.com/notes/embracing-linux | Embracing Linux
 > This article is for those, like me, who want to get started in Linux and need some perspective on how to approach it. The article is not a how-to explainer; it is a general lay of the land for one particular situation—mine—and requires more investigation on the part of the individual. But still, maybe it helps.
+
+=> https://hackaday.com/2021/07/27/classroom-surplus-becomes-linux-powerhouse/ | CLASSROOM SURPLUS BECOMES LINUX POWERHOUSE
+img { https://hackaday.com/wp-content/uploads/2021/07/smart-linux-featured.jpg?w=800 }
+> The SMART Response XE is a handheld computer that was originally sold for use in the classroom as a terminal for pupils taking tests. It’s now cheap enough on the surplus market to have become a target for experimenters, and we’ve seen them with a variety of cool hacks. We particularly like what [chmod775] has done with it, putting a VT100 terminal emulator on the device and hiding a NanoPi Neo Air single board computer in the battery bay. Powered from a USB battery bank, it gives a fully-featured Linux terminal in the palm of the hand. We see it running an Ubuntu LTS  version, and it’s clear that it’s a functional and usable device.
