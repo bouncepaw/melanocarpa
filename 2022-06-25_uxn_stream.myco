@@ -1,0 +1,29 @@
+This is the first [[uxn]] stream in the [[summer stream 2022]] series. Today I made a hello world program multiple times. It was fun.
+
+=> https://v.lor.sh/w/oPeqtb4TuSJzxV7UcPJuTK | The stream
+=> https://compudanzas.net/uxn_tutorial_day_1.html | The tutorial
+
+= Errors
+Along the way, I have found some minor errors i the text.
+* {
+> for example, in order to assemble and run darena that is in projects/examples/demos/
+Wrong path. The source code lies in `projects`, and the ROM is in `roms`.
+}
+* {
+> wc --bytes hello.rom
+Not portable! Did not work on my machine!
+}
+* {
+> it ends up being assembled in the same 30 bytes as the examples above, but hopefully more readable and maintainable.
+It's 29 bytes to me
+}
+
+= Questions to Devine
+* Why spaces around comments? What inspired this device?
+* {
+Why no space here before the parenthesis?
+```
+Assembled hello.rom in 5 bytes(0.01% used), 0 labels, 0 macros.
+```
+Maybe I should make a patch.
+}
