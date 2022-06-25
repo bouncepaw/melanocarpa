@@ -1,10 +1,10 @@
-This is the first [[uxn]] stream in the [[summer stream 2022]] series. Today I made a hello world program multiple times. It was fun.
+**Learning Uxn day 1.** This is the first [[uxn]] stream in the [[summer stream 2022]] series. Today I made a hello world program multiple times. It was fun.
 
 => https://v.lor.sh/w/oPeqtb4TuSJzxV7UcPJuTK | The stream record
 => https://compudanzas.net/uxn_tutorial_day_1.html | The tutorial I followed
 
 = Errors
-Along the way, I have found some minor errors i the text.
+Along the way, I have found some minor errors in the text.
 * {
 > for example, in order to assemble and run darena that is in projects/examples/demos/
 Wrong path. The source code lies in `projects`, and the ROM is in `roms`.
