@@ -1,7 +1,7 @@
 This is the first [[uxn]] stream in the [[summer stream 2022]] series. Today I made a hello world program multiple times. It was fun.
 
-=> https://v.lor.sh/w/oPeqtb4TuSJzxV7UcPJuTK | The stream
-=> https://compudanzas.net/uxn_tutorial_day_1.html | The tutorial
+=> https://v.lor.sh/w/oPeqtb4TuSJzxV7UcPJuTK | The stream record
+=> https://compudanzas.net/uxn_tutorial_day_1.html | The tutorial I followed
 
 = Errors
 Along the way, I have found some minor errors i the text.
@@ -19,7 +19,7 @@ It's 29 bytes to me
 }
 
 = Questions to Devine
-* Why spaces around comments? What inspired this device?
+* Why spaces around comments? What inspired this design?
 * {
 Why no space here before the parenthesis?
 ```
