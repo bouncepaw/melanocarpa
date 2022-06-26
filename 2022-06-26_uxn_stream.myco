@@ -1,0 +1,8 @@
+**Learning Uxn day 2.** Continuing the series. Previous: [[2022-06-25 uxn stream]]. Today we did some graphics:
+img {
+2022-06-26 uxn exercise { There were exercises at the end of the tutorial, I did them. }
+}
+
+= Errors
+> now, we'll see ++now++ how to leverage the built-in support for "sprites" in the varvara screen device in order to draw many pixels at once!
+typo
