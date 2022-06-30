@@ -1,0 +1,7 @@
+**Forge** is a software suite for [software] project development. Well-known forges are Gitea, Sourcehut, GitHub, GitLab, GNU Savannah.
+
+= Quick comparison
+* GitHub has the most users, has the best user interface and great [[a11y]]. It is also respected by normies. There is a common joke that programmers share their GitHub profiles upon acquaintance. Imagine if a person (such as an HR) expects you to have a ‘good’ profile, but you respond that you post your code to federated Gitea only. From the ethic point of view, GitHub is really bad. Especially with that Copilot thing.
+* GitLab is like GitHub, except it's worse in every possible way. The UI is worse, there are less users, and it's just as unethical. I am talking about the main instance. If you self-host it, it's a different thing!
+* Gitea is a fork of Gogs. I kinda dismiss Gogs. Gitea is where stuff happens. It's like GitHub in UI, but a11y is reported to be much worse. They are working on federation, I really respect that. I expect Gitea to become the best choice, once the federation is on. There is also a big instance of Gitea based in Germany: [[https://codeberg.org]].
+* Sourcehut is opinionated, I respect that. It has cute UI, but is overall hard to use. It has the best ethics and good a11y. Do you know what I dislike? That's email and hardwrapped plain text. Sourcehut focuses on that. Argh. They offer a good IRC service that I use though.
