@@ -2,22 +2,26 @@
 
 Первый сайт, на котором я зарегестрировался, был не социальной сетью, как у моих ровесников, а самый настоящий форум на PHPBB! Тот форум всё ещё онлайн, но там ничего не происходит уже много лет.
 
+= Forum engines
+=> http://intbpro.ru
+> Intellect Board Pro — это скрипт форума с открытым исходным кодом, написанный на PHP. Он создавался как инструмент организации самоуправляемых сообществ для накопления и сохранения полезных знаний. Ключевой особенностью является его расширяемость: кроме обычных форумов, существуют разделы других типов — блоги, статические страницы, анонимные вопросы и другие. Это делает Intellect Board не просто движком для форума, а конструктором, на основе которого можно создавать множество самых различных социально-ориентированных проектов.
+
+=> https://m15o.ichi.city/site/vpub.html | vpub
+> vpub is a (boring) forum software that's inspired from PHPBB but written in go. So why didn't I call it GOBB, you ask? You wouldn't be wrong. GOBB sounds good. But vpub stands for Virtual Pub, and that's really how I see forums.
+Hugmouse learned from me about this engine and forked it: https://github.com/hugmouse/vpub-plus
+
+= Fora
 => https://zttl.space
 Форум цеттелькастен-сообщества. Я там зарегестрировался, чтобы поругать [[static site]], но там оказалось довольно интересно.
 
 Работает на движке //Discourse//. Дискурс по началу пугает. Подвижный какой-то слишком.
 
-=> http://intbpro.ru
-> Intellect Board Pro — это скрипт форума с открытым исходным кодом, написанный на PHP. Он создавался как инструмент организации самоуправляемых сообществ для накопления и сохранения полезных знаний. Ключевой особенностью является его расширяемость: кроме обычных форумов, существуют разделы других типов — блоги, статические страницы, анонимные вопросы и другие. Это делает Intellect Board не просто движком для форума, а конструктором, на основе которого можно создавать множество самых различных социально-ориентированных проектов.
-
 => http://4xpro.ru
 Форум на intbpro
-
-=> https://m15o.ichi.city/site/vpub.html | vpub
-> vpub is a (boring) forum software that's inspired from PHPBB but written in go. So why didn't I call it GOBB, you ask? You wouldn't be wrong. GOBB sounds good. But vpub stands for Virtual Pub, and that's really how I see forums.
 
 => https://forum.status.cafe | Status Cafe Forum
 A forum running //vpub//.
 
+= Links
 => https://habr.com/ru/post/320082/ | Форумы: движки, серверы и все-все-все
 Статистика форумов Рунета и рядом на 2017. Странные данные
