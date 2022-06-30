@@ -24,6 +24,10 @@ img {
 https://nchrs.xyz/media/headers/uxn_notes-900.png
 }
 
+=> https://github.com/tbsp/uxngb
+img { https://user-images.githubusercontent.com/10489588/176514430-42b9c1a9-9300-426d-8f34-63fab83205fa.jpg }
+A port of uxn to GB and GBC. Wonderful!
+
 = Uxn and me
 => uxn 2022-03-27
 => 2022-06-25 uxn stream
