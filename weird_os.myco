@@ -16,3 +16,7 @@ Here I collect links related to what some might call **weird operating systems**
 > By design, Unicode is not supported.
 >
 > Low DPI displays are preferred, since the graphics are bitmapped and fixed in size. The preferred aspect ratio for HOT DOG Linux is 5:4 in landscape, and 3:4 in portrait.
+
+=> https://sr.ht/~vdupras/duskos/
+> Dusk OS is a 32-bit Forth and big brother to Collapse OS. It does everything Collapse OS does, has the same laser sharp focus on simplicity, but has a widened scope
+It uses [[C]]!
