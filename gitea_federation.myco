@@ -1,0 +1,17 @@
+[[Gitea]] is a [[forge]] that is going to join the [[Fediverse]] very soon.
+
+[[2022-07-03]] I entered the Forge Federation [[Matrix]] channel and asked this question:
+
+> What are the thoughts on wiki federation? I know that it's on the [[https://gitea.com/Ta180m/gitea/issues/3 |roadmap]]
+>
+> What is the overall approach? I am a [[mycorrhiza | wiki engine]] developer and I want to join a federation one day, and this one might be a good choice. Currently, in the wiki world there are two approaches to federation: the classic primitive interwiki and [[FedWiki]]. I am implementing the first one and highly sceptical of the second one.
+
+Here are the answers:
+
+> **ta180m:** In Gitea, wikis are just normal Git repositories. Therefore we will be federating wikis using ForgeFed exactly the same way that we federate repo source code.
+
+> **circlebuilder:** There was this interesting discussion on FedWiki and how federation with ActivityPub would fit in. Lotsa fascinating points but ultimately talk went to technology and how they would fit together. But without asking why you would do all that i.e. without exploring needs, functionality, opportunities. So, I decided to write down some notes. All in all I think there's a very interesting case for the Fediverse. In all the microblogging chatter good potential wiki knowledge is continuously lost. I recently moved my topic from SocialHub to #SocialCoding:matrix.org and it is at: https://discuss.coding.social/t/semmy-social-knowledge-fabrics/76
+
+> **dachary.org:** wellcome! Forges, as you surely know, store wiki in a DVCS and there seems to be a consensus that a hierarchy of MD files is good enough. The rendering of these files varies though. My feeling is that it is rather primitive, even compared to the less evolved wiki engine. In a nutshell wiki federation as I see it is essentially based on DVCS mirroring and not much else.
+
+Overall, Gitea won't have [[wiki federation]] as a first-class citizen. I'll have to proceed with [[Mycoverse]].
