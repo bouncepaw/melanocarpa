@@ -1,0 +1,42 @@
+The second [[tech meet]], after a long pause. The text in this hypha was typed by the attendess.
+
+Attending:
+* Timur
+* [[Lion Kimbro]]
+
+This time, not on [[Discord]], but on [[Jitsi]]. Jitsi worked fine, unlike Discord, with which there were some sound problems.
+
+[[Matrix]] is an open-source federated messaging platform.
+
+[[Uxn]] is a fantasy computer, virtual machine.
+
+[[Digital Garden]]s:
+* [[Melanocarpa]] is Timur's digital garden.
+* the [[tour bus]] system
+* [[Agora]] — an aggregator for digital gardens
+* "Flancia!"— flancia.org — a vision of a future lifestyle
+
+[[FedWiki]] vs [[Mycorrhiza]] federation approach:
+* Boucepaw's vision:
+** link, transclude, log in across wikis
+** Mycorrhiza wants to be a "rock" - stable, solid
+* Fedwiki's vision:
+** SmallTalk & wiki link somehow (?)
+** plugins, Javascript
+** "Your wiki is your website, and nobody else edits it.  Instead, it's forked, and the fork is edited."
+** Fedwiki is like "water" - fluid, liquid
+
+Lion's Pamphlet system written in Tcl/Tk. Text data stored in one LSF format, images are in a separate folder and can be `Ctrl+V`ed.
+
+Tiled map. Tile, grid vs no grid.
+
+Tried out [[tree sheets]]. Kinda fun. It seems they have their own home-grown application format :-(
+
+What Lion likes about [[Lua]]:
+*.  It's [[C]].  It's primitive C.
+*.  It's Dictionary-based.  ("Tables")
+*.  It's Globals-based.
+    
+Lion loves [[Python]] just like he loves his wife.
+
+Making a programmer community in Seattle. A long monologue about community-building and philosophy.
