@@ -15,3 +15,5 @@ Still maintained. A sweet collection.
 > A more reliable option is Zenity, that's part of Gtk3 and usually preinstalled along with it. It has simplified command line options compared to (X)dialog, but in return features modern controls like a tabular list and desktop notifications. It also makes it much easier to use forms, for example. Plus, certain controls can receive their data on standard input and thus handle a lot more than if it came from the command line. ...
 >
 > Last but not least, there's yad, a fork of Zenity with more controls, more field types and so on. Its last release was more than four years ago, but that's not a problem just yet.
+
+=> https://www.youtube.com/watch?v=YThelfB2fvg | Mouse Cursor History (and why I made my own) [YT]
