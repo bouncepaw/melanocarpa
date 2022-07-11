@@ -15,3 +15,6 @@ Here are the answers:
 > **dachary.org:** wellcome! Forges, as you surely know, store wiki in a DVCS and there seems to be a consensus that a hierarchy of MD files is good enough. The rendering of these files varies though. My feeling is that it is rather primitive, even compared to the less evolved wiki engine. In a nutshell wiki federation as I see it is essentially based on DVCS mirroring and not much else.
 
 Overall, Gitea won't have [[wiki federation]] as a first-class citizen. I'll have to proceed with [[Mycoverse]].
+
+=> https://ta180m.exozy.me/posts/forge-federation-developers-where/ | Where are All the Forge Federation Developers?
+What has to be done for the federation.
