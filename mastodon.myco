@@ -20,3 +20,12 @@ Taking a look.
 > This tool allows you to make an archive of your statuses, your favourites and the media in both your statuses and your favourites. From this archive, you can generate a simple text file, or a HTML file with or without media.
 
 Seems to be a perfect fit!
+
+= Brutaldon
+**Brutaldon** is a brutalist front-end for Mastodon. I once used it and here's what I said back then:. The original toots are long gone.
+
+//2022-04-11 21:21 UTC//
+Пишу это с BRUTALDON. А он мягкий такой, приятный.
+Этот туут уже пишу из w3m. Почему-то он плохо кириллицу отображает.
+По всей видимости, это косяк BRUTALDON. На другом сайте нормально кириллица выглядит.
+BRUTALDON кодирует кириллицу через HTML entities, а w3m это не понимает! Интересно. Непонятно, зачем так делать, если BRUTALDON отдаёт ответы в уникоде всё равно.
