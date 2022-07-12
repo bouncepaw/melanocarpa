@@ -4,8 +4,8 @@ img { lapin 70 { I used this picture as a cover on PeerTube }}
 
 Stats:
 * 895 toots before
-* ??? toots after?
+* 809 toots after?
 
-19 minutes in, I've been rate-limited!! 51 minutes in, I've been rate-limited again!!
+19 minutes in, I was rate-limited!! 51 minutes in, I was rate-limited again!! 69 minutes in, I was rate-limited again! After that, I got tired of it. I didn't expire enough toots to my taste.
 
 A couple of people suggested that I use the built-in toot expiration capability. Turns out, it's not just a brutal reap of older posts, it has some kind of granularity, you can ask it to not delete favorited own posts! I think it's not enough.
