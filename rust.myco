@@ -15,3 +15,8 @@ See also [[https://wiki.recursive.one/Rust%20powered%20tools | the list]] on Rec
 = Links
 => http://rustmustdie.com/ | Rust: не дайте себе заржаветь
 Срыв покровов с ржавого обмана.
+
+=> https://crates.io/crates/rlr-gtk
+=> https://chaos.social/@epilys/108027841427389137
+img { https://github.com/epilys/rlr/raw/HEAD/demo.gif }
+> Rust + GTK interactive pixel screen ruler with protractor mode.
