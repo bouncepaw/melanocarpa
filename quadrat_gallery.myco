@@ -1,0 +1,15 @@
+**Quadrat gallery** is a showcase of all published drawings from [[Quadrat]]. This hypha might load for some time on slower connections.
+
+= Square-shaped drawings
+Thanks to the shape of the sketchbook, one-page drawings look the best! Mycorrhiza and square-shaped images are best friends.
+img grid {
+quadrat 01
+quadrat 02
+}
+
+= Horizontal double-square drawings
+Because the sketchbook has no spring in the middle, two adjacent pages can join in one picture. I utilise this sometimes.
+img wide {
+quadrat 03
+quadrat 04
+}
