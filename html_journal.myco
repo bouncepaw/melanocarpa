@@ -1,4 +1,4 @@
-**HTML Journal** is a simple format for journals.
+**HTML Journal** is a simple format for journals for [[personal website]]s.
 
 => https://journal.miso.town
 => https://git.sr.ht/~m15o/htmlj
@@ -17,3 +17,7 @@
   <p>My first entry!</p>
 </article>
 ```
+
+After the initial announcement, it gained some popularity. I saw announcement on [[Fediverse]] of sites gaining pages in this format.
+
+I, personally, kinda like it, but don't currently see how it can be added to [[Mycorrhiza]]. I, of course, do not see myself having a personal website not on Mycorrhiza, this is simply not an option.
