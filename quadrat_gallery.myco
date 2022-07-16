@@ -5,6 +5,7 @@ Thanks to the shape of the sketchbook, one-page drawings look the best! Mycorrhi
 img grid {
 quadrat 01
 quadrat 02
+quadrat 06
 }
 
 = Horizontal double-square drawings
@@ -12,4 +13,5 @@ Because the sketchbook has no spring in the middle, two adjacent pages can join 
 img wide {
 quadrat 03
 quadrat 04
+quadrat 05
 }
