@@ -1,6 +1,8 @@
-**Spartan** is a [[smolweb]] protocol, advertised as a [[Gemini]] derivate. In some areas, it is an advancement of its ideas. In others, it is a minimization.
+**Spartan** is a [[smolnet]] protocol, advertised as a [[Gemini]] derivate. In some areas, it is an advancement of its ideas. In others, it is a minimization.
 
 What I absolutely dislike about it is its [[ASCII]] exclusivity. If I ever use it on my server, I will ignore the rule and serve [[UTF-8]].
+
+It has a more elegant take on user input.
 
 => https://tildegit.org/stack/spa
 An interesting browser.
