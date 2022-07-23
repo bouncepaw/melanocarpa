@@ -1,5 +1,5 @@
 img { https://flux.garden/static/FluxGardenHero.png }
-**FluxGarden** is a proprietary tool for doing [[digital garden]] stuff by [[Bill Seitz]].
+**FluxGarden** is a proprietary tool for maintaining a [[digital garden]] developed and sold by [[Bill Seitz]].
 
 => https://flux.garden
 
@@ -9,7 +9,7 @@ img { https://flux.garden/static/FluxGardenHero.png }
 > * a nice front-page of most-recently-updated pages, with excerpt;
 > * an RSS (Atom) feed.
 
-The software looks great, but requires a [[subscription]]:
+The software looks great, but requires a subscription:
 * $99/year
 * $15/month
 
