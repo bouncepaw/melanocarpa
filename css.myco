@@ -10,3 +10,5 @@
 
 => https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/ | The Surprising Truth About Pixels and Accessibility
 > The truth is, if you want to build the most-accessible product possible, you need to use both pixels and ems/rems. It's not an either/or situation. There are circumstances where rems are more accessible, and other circumstances where pixels are more accessible.
+
+=> https://defensivecss.dev/articles/intro-defensive-css/ | Introduction to Defensive CSS
