@@ -3,5 +3,6 @@
 => /random | Random
 => /list | List / Список
 => Fresh
+=> /category/arbre | Arbres
 
 Не забудь про [[/update-header-links
