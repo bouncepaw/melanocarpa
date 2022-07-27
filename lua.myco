@@ -1,3 +1,10 @@
 🌙**Lua** is a scripting programming language designed to be embedded in other systems by exposing a simple [[C]] API. The whole language is centered around one important data structure: tables.
 
 => permacomputing>Lua
+
+=> https://redbean.dev
+> redbean is an open source webserver in a zip executable that runs on six operating systems. The basic idea is if you want to build a web app that runs anywhere, then you download the redbean.com file, put your .html and .lua files inside it using the zip command, and then you've got a hermetic app you can deploy and share.
+>
+> redbean embeds Lua, SQLite, and MbedTLS into a fork() driven application server that benchmarks at 1.1 million qps on a personal computer. It's got a live bestline REPL with code completion and a UNIX module too, that lets you directly use the Cosmopolitan Libc system call interface. redbean furthermore provides sandboxing and system call tracing for security. This makes redbean a great fit for when you want to build an app that's vertically integrated into a single tiny file that runs on nearly all PCs and servers.
+
+this is boiling hot
