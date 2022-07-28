@@ -1,0 +1,10 @@
+
+=> https://compudanzas.net/uxn_tutorial_day_4.html | The tutorial
+=> https://v.lor.sh/w/oDpPLfqenxr7J26QNdcjQx | The record
+
+= Hmmms
+* {
+> in order to refer to them, we would use the dot (.) rune for literal zero page addresses, instead of the colon (;) rune for literal absolute addresses.
+It's actually a semicolon.
+}
+* I don't get why the vectors and the zero page use the same addresses. How does it work?
