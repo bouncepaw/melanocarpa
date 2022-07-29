@@ -10,3 +10,7 @@ A list of retro browsers.
 Агнесса приводит список лёгких браузеров: и графических, и текстовых.
 
 Наверное, оттуда стоит выбросить Midori, потому что он был в 2019 переделан некой конторкой Astian, переписавшей Мидори на [[Electron]]. Очень жаль, был классный браузер.
+
+=> https://github.com/w00fpack/dilloNG
+img { https://raw.githubusercontent.com/w00fpack/dilloNG/main/screenshots/speeddial.jpg }
+DilloNG is a fork of the legendary Dillo browser.
