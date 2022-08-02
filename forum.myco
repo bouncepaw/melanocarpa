@@ -12,6 +12,8 @@ PhpBB is classic. Discourse is nice to use, but kinda overloaded with moving par
 > vpub is a (boring) forum software that's inspired from PHPBB but written in go. So why didn't I call it GOBB, you ask? You wouldn't be wrong. GOBB sounds good. But vpub stands for Virtual Pub, and that's really how I see forums.
 Hugmouse learned from me about this engine and forked it: https://github.com/hugmouse/vpub-plus
 
+=> https://github.com/xvw/muhokama
+
 = Fora
 => https://zttl.space
 Форум цеттелькастен-сообщества. Я там зарегестрировался, чтобы поругать [[static site]], но там оказалось довольно интересно.
