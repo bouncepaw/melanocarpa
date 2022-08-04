@@ -19,6 +19,12 @@ quadrat 16
 quadrat 17
 quadrat 18
 quadrat 19
+quadrat 21
+quadrat 22
+quadrat 24
+quadrat 26
+quadrat 27
+quadrat 28
 }
 
 = Horizontal double-square drawings
@@ -27,4 +33,9 @@ img wide {
 quadrat 03
 quadrat 04
 quadrat 05
+}
+
+= Vertical double-square drawings
+img grid {
+quadrat 23
 }
