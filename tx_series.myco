@@ -1,0 +1,20 @@
+**TX series** robots are stationary robots mostly used for security and surveillance. They are not equipped with weapons.
+
+= Known robots
+img {
+   quadrat 12 {
+      **1TX** is used for item collecting. The mechanical arm holding the head is very slow, but it is reliable and rarely breaks by itself. The head has vision, but no text-to-speech module, it can only play pre-recorded audio tracks.
+
+      Items can be put into the zone labeled //OBJ RCV//, which is short for //object receiver//.
+   }
+   quadrat 04/cut {
+      **Portable spectating unit 2TX** is a hanging segmented creature with limited intelligence. They lack weapons. A 2TX frame can be installed on the standard T frame.
+
+The big box is the CPU. A body consisting of 5 lightly armored segments is connected to it. The head has a 110 º field of view. Up to 4 2TX units can be installed in a series, sharing computational resources. The horn on the head is not decorative, it is used for communication.
+   }
+   quadrat 11 {
+      **3TX** are one of the more intelligent TX robots. They are equipped with good vision (human spectre, bird spectre, IR, UV), limited empathy, the idea of humor, human-level hearing and full speech (languages installed separately). The hand is fully dexterous and precise, able to do a handshake or a high-five.
+
+      There is a design flaw with its balance, often requiring ad-hoc workarounds to not make it fall. Common workarounds are tying strong strings to it or limiting its movement range otherwise.
+   }
+}
