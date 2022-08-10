@@ -1,4 +1,4 @@
-[[MediaWiki]] has its own markup, they call it **wiki markup**.
+[[MediaWiki]] has its own [[markup]], they call it **wiki markup**. This is the first lightweight markup I had experience with (if you do not consider PHPBB markup to be lightweight).
 
 => https://www.mediawiki.org/wiki/Help:Formatting
 => https://en.wikipedia.org/wiki/Help:Wikitext
@@ -7,6 +7,7 @@
 * **Syntax for bold and italic.** `''italic''` and `'''bold'''`. This is classic! This syntax comes from very first wikis. But it's bad:
 ** Easy to confuse `''` and `"` when editing in proportional font. This alone is enough.
 ** Six characters in total for one of the most used emphases (bold) is kinda uh.
+** Not available on the standard Russian keyboard layout.
 * **Headings** have to be closed at the end: {
 ```mediawiki
 == heading ==
@@ -16,9 +17,9 @@ And they also haven't resolved the [[level 1 problem]].
 }
 * Indentation-based preformatted text.
 * Inclusion of HTML tags such as `<br>` and pseudo-HTML tags such as `<nowiki>`.
-* Support of inline CSS.
+* Support of inline styling. Sure, because of that there are Mediawiki wikis with //really good// visuals, but you know the problems.
 * Ridiculous linking of namespaces `File` and `Category`.
-* Two different syntaxes for local links and external links: {
+* Two different syntaces for local links and external links: {
 ```
 [https://example.org text after space]
 [[article | text after bar]]
@@ -30,7 +31,7 @@ And they also haven't resolved the [[level 1 problem]].
 * Magic words like `__NOTOC__` and `#REDIRECT`.
 * Wrong line-break logic.
 
-And for some reason, on mature MediaWiki wikis, almost every page is filled with countless `{{}}`.
+And for some reason, on mature MediaWiki wikis, almost every page is filled with countless `{{}}`s.
 
 = Why I like it
 Still much better than [[Markdown]].
@@ -40,3 +41,4 @@ Still much better than [[Markdown]].
 * `=` for headings.
 * Tables are useful.
 * The colon element is cute.
+* Good macros (called //templates//).
