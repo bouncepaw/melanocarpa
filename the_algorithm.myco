@@ -1,4 +1,9 @@
-In [[proprietary]] [[social media]], **the algorithm** often decides what you see. They can manipulate what you see, what you think, et cetera. I believe this to be a manifestation of [[Babylon]].
+In proprietary social media, **the algorithm** often decides what you see. They can manipulate what you see, what you think, et cetera. I believe this to be a manifestation of [[Babylon]].
+
+= Customizable algorithms
+There is that idea that sometimes pops up on [[Fediverse]]: why not let users write their own algorithms? Well, why not? [[Lua]] or [[Scheme]] are good choice for programming such algoe.
+
+On the other hand, this is kinda funny. [[Leviathan]] gives you The Algorithm, that learns what you like and want to see, then proceeds to do that, but you rebel and go for chronological-only Fediverse. Then you want to program your own algorithm, except it's somehow good this time.
 
 = Links
 => https://www.davidrevoy.com/article904/how-proprietary-social-medias-are-shaping-the-future-of-peppercarrot | How proprietary social-medias are shaping the future of Pepper&Carrot
