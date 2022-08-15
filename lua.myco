@@ -8,3 +8,8 @@
 > redbean embeds Lua, SQLite, and MbedTLS into a fork() driven application server that benchmarks at 1.1 million qps on a personal computer. It's got a live bestline REPL with code completion and a UNIX module too, that lets you directly use the Cosmopolitan Libc system call interface. redbean furthermore provides sandboxing and system call tracing for security. This makes redbean a great fit for when you want to build an app that's vertically integrated into a single tiny file that runs on nearly all PCs and servers.
 
 this is boiling hot
+
+Alamantus [[https://cybre.space/@Alamantus/108725016613564104 | says]] what's wrong with it:
+> Little inconsistencies in behavior across platforms, like saving files to the filesystem will work in one OS and not another (my current problem), sometimes some Lua will run and other times will just display a blank screen (this could be ignorance on my part, but theres also little communication from the server when things go wrong), and the documentation is incomplete in exactly the ways that frustrate me.
+>
+> All in all, it makes me feel like the only people who can really use it well are those who are way smarter than me
