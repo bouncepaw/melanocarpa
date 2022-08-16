@@ -1,0 +1,45 @@
+**Gemtext** is the default markup language of [[Gemini]], but it can be used anywhere. The main design principle of Gemtext is to be easily parsed one-by-line.
+
+=> https://gemini.circumlunar.space/docs/gemtext.gmi | Official introduction to Gemtext
+=> https://gemini.circumlunar.space/docs/cheatsheet.gmi | And a cheatsheet
+
+= All of Gemtext
+Headings look like this:
+```gemtext
+# Level 1
+## Level 2
+### Level 3
+```
+
+Lists looks like this:
+```gemtext
+* Item a
+* Item b
+```
+
+Quotes look like this:
+```gemtext
+> First quote
+> Second quote
+```
+
+Gemtext introduced rocket links to the markup sphere:
+```
+=> target text
+```
+
+Preformatted blocks are toggled with lines beginning with triple backticks `\`\`\``.
+
+All other lines are simple paragraphs.
+
+You can't nest anything. There is no inline formatting, including inline links. Spaces after the marker are optional.
+
+Gemtext //is// limited. Expressiveness is really limited. But it is simple!
+
+= Relation to other markups
+Gemtext is inspired by [[Markdown]]. You can feel it in the headings and code blocks for sure. Other elements are taken from there too, but they are present in other places as well.
+
+Only rocket links are invented by Gemtext. It is unclear who started calling such links rocket links. Perhaps, it was me.
+=> cw>RocketLink
+
+It is one of the few languages, that are easily parsed both by machines and humans, with the other one being [[Mycomarkup]]. Actually, Mycomarkup is a direct descendant of Gemtext. Older versions of [[Mycorrhiza]] actually used Gemtext, but then it was extended to the modern markup.
