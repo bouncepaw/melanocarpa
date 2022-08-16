@@ -1,1 +1,10 @@
-**Uxntal** is the assembly language for [[uxn]].
+**TAL** is the assembly language for [[uxn]], often called **uxntal**. This is the first assembly language I ever had experience with.
+
+=> xxiivv>uxntal
+
+I don't know what //TAL// stands for. Maybe Timur Assembly Language.
+
+= Links
+=> https://codeberg.org/wimvanderbauwhede/nito
+> nito, a proof-of-concept compiler from Uxntal to C
+Written in [[Raku]]!
