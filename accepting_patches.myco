@@ -1,0 +1,18 @@
+[[2022-08-19]] I accepted my first patches on SourceHut. I used [[tarvalon]] for that. In the future, I'll use [[caemlyn]] instead.
+
+So, they had sent me a patch set of two patches. I liked the first one, requested changes for the second one, which I received shortly.
+
+Tools involved:
+* [[SourceHut]], a famously confusing service. The mailing part is actually really great. Fits the task well. Of course, you can't read any text on a phone, because they want you to [[hard wrap]] everything, but I used a desktop for that, ok.
+* [[Git]], a famously confusing program. As confusing as ever.
+* [[Email]], a famously confusing protocol. I used a mail client which was pre-installed, id est Thunderbird. I heard it's one of the best out there. This program is slow, has heavy Firefox vibes (the bad parts of it). Most of the settings I needed (and I consider them basic) had no interface, I had to edit the config. Turns out, it's so common to edit the config, they made a special config editor. Cool.
+
+Overall, there were tons of confusion. And next to no help online. Luckily, I had a good person to help me. Without them, I don't know how I would've managed to do it all.
+
+However, I did like the overall workflow. I see how fast it can be. Also, it can be done mostly offline, which is wonderful. Sending mail is fun. Thunderbird is quite fun too.
+
+I think someone who understands it all should write a guide on how to accept a patch on SourceHut from start to end.
+
+This classic git approach has better code review, than the pull request approach. And the way you merge the code makes more sense. It all makes sense for git, of course.
+
+Will accept more patches in the future.
