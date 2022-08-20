@@ -1,4 +1,4 @@
-**Web browser** is a program you use to browse the [[web]]. Typically, modern mainstream browsers are incarnations of [[Babylon]]. There alternative browsers too.
+**Web browser** is a program you use to browse the [[web]]. Typically, modern mainstream browsers are incarnations of [[Babylon]]. There are alternative browsers too.
 
 => https://github.com/plateaukao/browser | EinkBro: Android E-ink device specific Browser
 > It's designed to fit Eink devices' needs; no unnecessary UI transitions, clear B&W icons, useful feature for eink reading experience.
@@ -14,3 +14,10 @@ A list of retro browsers.
 => https://github.com/w00fpack/dilloNG
 img { https://raw.githubusercontent.com/w00fpack/dilloNG/main/screenshots/speeddial.jpg }
 DilloNG is a fork of the legendary Dillo browser.
+
+=> https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html | The reckless, infinite scope of web browsers
+> I conclude that it is impossible to build a new web browser. The complexity of the web is obscene. The creation of a new web browser would be comparable in effort to the Apollo program or the Manhattan project.
+
+=> https://www.quirksmode.org/blog/archives/2021/08/breaking_the_we.html | Breaking the web forward
+> Safari is holding back the web. It is the new IE, after all. In contrast, Chrome is pushing the web forward so hard that it’s starting to break. Meanwhile web developers do nothing except moan and complain. The only thing left to do is to pick our poison.
+This is actually why I prefer Safari.
