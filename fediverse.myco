@@ -1,9 +1,17 @@
 **Fediverse** is a network of [[federated]] [[social network]]s. I have a [[Mastodon]] account.
 
 = Some Fediverse projects
+=> https://a.gup.pe
+> Guppe brings social groups to the fediverse — making it easy to connect and meet new people based on shared interests without the maniuplation of your attention to maximize ad revenue nor the walled garden lock-in of capitalist social media.
+
 => https://git.sr.ht/~mariusor/brutalinks
 > This project represents a new attempt at the social link aggregator service. It is modelled after (old)Reddit, HackerNews, and Lobste.rs trying to combine the good parts of these services while mapping them on the foundation of an ActivityPub generic service called FedBOX.
 >
 > It targets small to medium communities which ideally focus on a single topic. At the same it allows the community to reach other similar services and the rest of the fediverse ecosystem through the ability to federate.
 
 It is written in [[Go]]!
+
+=> https://github.com/edsu/feediverse
+> feediverse will read RSS/Atom feeds and send the messages as Mastodon posts. It's meant to add a little bit of spice to your timeline from other places. Please use it responsibly.
+
+Written in [[Python]], sadly.
