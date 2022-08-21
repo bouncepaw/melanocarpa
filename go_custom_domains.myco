@@ -2,9 +2,6 @@
 
 => https://pkg.go.dev/robpike.io/ivy | Rob Pike's ivy uses the technique
 
-----
-[[TODO]]: migrate [[mycorrhiza]] packages to custom domains:
-=> https://pkg.mycorrhiza.wiki/mycorrhiza
-=> https://pkg.mycorrhiza.wiki/mycomarkup
+[[2022-08-21]] I migrated [[Mycomarkup]] from older `github.com/bouncepaw/mycomarkup` import path to a new `lesarbr.es/mycomarkup` path (the repo is actually on [[SourceHut]]). It took a lot of time, pain, and confusion. The docs are not really understandable (which is pretty uncommon for Go).
 
-This way, it will not really matter where the code is hosted.
+Will migrate the [[Mycorrhiza]] repo too.
