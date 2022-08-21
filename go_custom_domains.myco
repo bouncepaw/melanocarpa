@@ -2,6 +2,6 @@
 
 => https://pkg.go.dev/robpike.io/ivy | Rob Pike's ivy uses the technique
 
-[[2022-08-21]] I migrated [[Mycomarkup]] from older `github.com/bouncepaw/mycomarkup` import path to a new `lesarbr.es/mycomarkup` path (the repo is actually on [[SourceHut]]). It took a lot of time, pain, and confusion. The docs are not really understandable (which is pretty uncommon for Go).
+[[2022-08-21]] I tried to [[Mycomarkup]] from older `github.com/bouncepaw/mycomarkup` import path to a new `lesarbr.es/mycomarkup` path (the repo is actually on [[SourceHut]]). It took a lot of time, pain, and confusion. The docs are not really understandable (which is pretty uncommon for Go).
 
-Will migrate the [[Mycorrhiza]] repo too.
+In the end, it didn't really work for 100 %, so I instead moved to `git.sr.ht/~bouncepaw/mycomarkup`. They made it work.
