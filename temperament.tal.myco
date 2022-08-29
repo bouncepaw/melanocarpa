@@ -1,0 +1,30 @@
+**Temperament.tal** is an idea, a concept of a program I want to develop for [[uxn]] as part of [[uxnerie]]. It is a boring timer application. This article is a design document.
+
+Temperament remembers 10 different timers at once. They are stored in a special `temperament.txt` file. Each line contains a command for a corresponding timer.
+
+Commands look like this:
+* `10m`
+* `78s`
+* `10 minutes 8 seconds`
+
+The only meaningful characters are numbers and `m` and `s` sometimes. Others are ignored. Yes, there is no character for hours, because who sets an hour-long timer? Definitely not me. The command syntax might be expanded in the future. Do you like the idea of scripting your timer?
+
+The interface is split in four areas:
+* The top-most line has 10 tabs for 10 timers. They look different depending on what timers are running, what timers are done, and what timer is currently on screen. They are accessed with keys 1 to 9, and 0. They can also be clicked.
+* Then there is the time left for the current timer. Big type.
+* Two buttons: pause/play and clear. Accessed with space and ^R. Or clicked.
+* An input field, where you type the command. Accessed with Enter, saved with Enter as well. Can also be clicked.
+
+Maybe I should think of controls for NES-like controller. Maybe I should make the interface non-modal. Will think about that later. Currently it is very PC-centric. Typing commands for a timer!
+
+When the timer is done, a tune plays. It is different for every timer. It continues playing until stopped.
+
+= My hypothetical workflow
+I will have the following timers saved:
+*. 15 min for buckwheat
+*. 12 min for pelmeni
+*. 8 min for pasta type 1
+*. 10 min for pasta type 2
+*. And a pomodoro maybe? Gotta try it.
+
+That's food mostly. Because that's what I use timers for. I often go to the kitchen with my laptop, yeah. I could make a nice application with a different stack in a day, instead I'll dedicate like a month for an application in [[uxntal]] assembly.
