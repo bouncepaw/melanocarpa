@@ -19,6 +19,8 @@ Maybe I should think of controls for NES-like controller. Maybe I should make th
 
 When the timer is done, a tune plays. It is different for every timer. It continues playing until stopped.
 
+It will also print the events occuring to the stdout for integration with the host system and whatnot. The printout would be human-readable.
+
 = My hypothetical workflow
 I will have the following timers saved:
 *. 15 min for buckwheat
