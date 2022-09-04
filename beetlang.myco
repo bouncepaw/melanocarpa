@@ -1,0 +1,92 @@
+**Beetlang** is the concept of a programming language for the [[uxn]] ecosystem I want to develop. It is going to simplify common [[uxntal]] idioms, while still providing access to raw bytes. I want it to be a superset of TAL.
+
+As we know, uxn is a beetroot, so the name of the language is Beetlang.
+
+I am far from deciding the final set of features. This is a draft.
+
+You can feel the influence of [[Mycomarkup]].
+
+= Additions
+
+== Functions
+In uxn, you do functions all the time:
+```uxntal
+@add-two ( x -- x+1 )
+   #02 ADD
+JMP2r
+```
+
+There is the pattern:
+*. The label.
+*. A comment describing expected stack and the output stack.
+*. Indented body.
+*. The jumping back opcode.
+
+The comment means nothing. You can lie there. The jumping back can be messed up.
+
+Equivalent Beet code would look like this:
+
+```beet
+func add-two x -- x+1 {
+   #02 ADD
+}
+```
+
+Not much of an abstraction, but imagine what things a Beet compiler could do. It could try to prove the correctness of the signature!
+
+== Dance
+An attempt to make code self-documenting by nature.
+
+There are three directives:. All text after a directive is a comment. Maybe I should put it before?
+
+* `=` the let directive.
+* `:` the rearrange directive generates needed ROT, DUP, etc opcodes to get the given result. There can be many. I suppose there are limits to that.
+* `+` the execute directive.
+
+```beet
+dance {
+   x y z = Three bytes are on stack
+   y z x : Get x to the top
+   y z x x :
+   #01 ADD +
+   y z x x+1 =
+   x+1 x y z :
+}
+```
+
+Some assertions can also be made.
+
+== Loops
+```
+times <operation> {
+   <code>
+}
+```
+
+It takes the number from top of the stack and executes the loop that number of times, and then POPs it.
+
+You specify the operation done with the number on stack (it decreases). You will usually just SWP it.
+
+== Strongly typed Varvara devices
+And their names will be fixed. There is a convention already anyway.
+
+= Less cryptic graphics operations
+```beet
+paint sprite {
+   addr ;stone
+   put
+   right 1
+   reverse
+   color 3
+   put
+}
+```
+
+Something with the Screen/auto port can be done too.
+
+= CLI commands
+* `cat game.beet | beet > game.tal` compiles beet to tal
+* `cat game.beet | beet --locate-addr sprites/stone` finds the location of the given label
+* `cat game.beet | beet --run` compiles twice and runs the ROM with some emulator it finds, and deletes intermediate files, if any.
+
+As you can see, input is fed through stdin.
