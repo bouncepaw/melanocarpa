@@ -45,10 +45,10 @@ There are three directives:. All text after a directive is a comment. Maybe I sh
 
 ```beet
 dance {
-   x y z = Three bytes are on stack
-   y z x : Get x to the top
-   y z x x :
-   #01 ADD +
+   x y z     = Three bytes are on stack
+   y z x     : Get x to the top
+   y z x x   :
+   #01 ADD   +
    y z x x+1 =
    x+1 x y z :
 }
