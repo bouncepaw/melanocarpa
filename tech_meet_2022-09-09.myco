@@ -1,0 +1,359 @@
+I wasn't there, for the first time ever. The text below is written by those who were there. Due to them marking the text up with indentation, the text is not ready to be published as a well-formed. I just wrapped them in plain text blocks. Maybe someday someone will clean this up...
+
+= Attendants
+
+* Ciprian
+* Kartik
+* Lion
+* Luke
+* Timur couldn't make it, due to class
+
+
+
+= What is everybody doing?
+```
+* Ciprian --
+  Curious about what people are doing?
+
+* Kartik (like arctic) --
+  "Spec" for lines.love drawings: https://merveilles.town/@akkartik/108736818665815873
+  Tailoring editor for coding;
+  Big picture is getting clearer to me
+    -- tools for helping programming
+    -- text editor
+
+* Luke --
+  sad about Her Majesty the Queen dying
+  "It's a bit like a grandmother dying."
+  Messaging Bus stuff
+  Apps being made in a collaboratively distributed way
+  CRDT-Conflict Free Replicated Data Type
+    - synchronization of simple data, JSON-like objects
+    - replication, synching
+  Croquet Reflector Network
+  Syncthing -- files synchronization between multiple computers
+  Society of Dream
+  Lifemaps
+  Machine Learning, machines understanding intent, purpose
+```
+
+* Lion
+* loomed at entity-link-model;
+* FileTalk / component work;
+* based on discussions with Luke looked at RabbitMQ;
+* phylosophical, organization problems:
+* the problem of open tabs;  bookmarking doesn't work because there is no organization;
+* "I would like to know who's working on Tcl/Tk at this moment";  something like StackOverflow;  ???
+* DnD campaigns, although set asside for programming;
+* thinking about "Society of Dreams";
+* writing is hampered by the thoughts about how editing could be better;  :)
+
+
+= Topics discussed
+
+
+== CommunityWiki "overhear"
+
+* Luke:  an agent that knows what you are interesned in, that follows a wiki to see if something is of interest to you.
+
+* Kartik - extracting or inferring topical keywords from text
+```
+* Ciprian
+  - email
+  - to Slack
+  - "I have no idea what happens around in my context"
+  - "It would be nice to have an agent that summarizes,
+     and puts into a summary, what has been happening."
+  - Maybe the main problem is:
+      Conversations are not a very good medium for conveying ideas.
+  - encourage people to quote and respond to material with care
+
+Kartik:
+  - "nudge people to write with an eye towards the future"
+  - writing towards the present
+  - fostering serendipity
+  - a source of "coherent noise"
+
+Ciprian:
+  "Chat is what we've got, so, how do we make something out of it?"
+Kartik:
+  People still have email, but attn goes increasingly towards conversations.
+  To the extent that's what we have, reduce expectations, and try to
+  extract what signal is available.
+Ciprian:
+  last resort, ...
+  some times like to pray for better
+Kartik:
+  I have friends where we still write lengthy emails to one another.
+  Structured documents in organizations.
+Ciprian:
+  Schneier --
+  "Do you have a design document where the data is?"
+  FB: "The code is our design document."
+Kartik:
+  The people around me -- a good culture of writing documents.
+
+Lion on Conversations:
+  - possibilities
+```
+
+Conversations mediated by text - Live conversations
+
+Timur always focused on the pinning, the wiki-like interface to the chat discussion, ...
+
+"Do people actually use threads?"
+
+```
+Ciprian would like there to be two or three types of communication:
+    - live voice, optional video, for brainstorming and stuff
+    - for emergency: SMS, text
+    - for knowledge and ideas, they should be settled down in some kind of document that can actually be read
+  - I'd like text that was older than 2 weeks to just be deleted:
+      "So if it's important, it should go into a document."
+
+A Discussion about Forgetting in Software
+  - finding the needle in the haystack is still ridiculously difficult
+  - how about "pinning" ..?
+    - but if I now have 100 important things that are pinned, ...
+* the problem of privacy;
+* the missed opportunity of organization;
+
+Lion brought the subject of "oral culture":  stuff that keeps getting up in our discussions.  And how thought develops in the process of conversatoin.
+
+Kartik: choosing an audience is like rubber duck programming
+Lion: yes, and -- talking with people: other people can fill in blind spots
+
+Lion's fantasy -- not using Discord, but our own system in a couple years
+  - the water level is rising
+
+motives:
+    * security, vulnerabilities
+
+Talking about self-hosting stuff, where having downtime is more important than having the data in a single entity.
+  * (something about -- random downtime..?)
+  * (somehow we got on to talking about federated computing & data systems)
+  * Secure Scuttlebutt
+  * Matrix? some kind of opensource IRC-like protocol
+
+
+"Just because you can docker-up something, doesn't make it reliable."  -- Kartik
+If the stack isn't too deep, it can be reliable.
+Larger is duable, but you have to pay a lot of attention to it.
+
+a backing for YJS as well (Matrix)
+  - https://docs.yjs.dev/
+
+Matrix:
+    https://matrix.org/
+    "An open network for secure, decentralized communication."
+```
+
+End-to-end encrypted communications, everything becomes a chat protocol, and Ciprian's nightmare world comes real: Everything is a chat protocol.
+
+"Why does everything need to be end-to-end encrypted?"  -- Ciprian
+
+
+
+
+SecureDrop
+
+
+From "Maelstrom" by Peter Watts (https://rifters.com/real/MAELSTROM.htm)
+Arpanet.  
+Internet.  
+The Net.  Not such an arrogant label, back when one was all they had.
+The term cyberspace lasted a bit longer— but space implies great empty vistas, a luminous galaxy of icons and avatars, a hallucinogenic dreamworld in 48-bit color.  No sense of the meatgrinder in cyberspace.  No hint of pestilence or predation, creatures with split-second lifespans tearing endlessly at each others' throats.  Cyberspace was a wistful fantasy-word, like hobbit or biodiversity, by the time Achilles Desjardins came onto the scene.
+Onion and metabase were more current.  New layers were forever being laid atop the old, each free—for a while—from the congestion and static that saturated its predecessors.  Orders of magnitude accrued with each generation: more speed, more storage, more power.  Information raced down conduits of fiberop, of rotazane, of quantum stuff so sheer its very existence was in doubt.  Every decade saw a new backbone grafted onto the beast; then every few years.  Every few months.  The endless ascent of power and economy proceeded apace, not as steep a climb as during the fabled days of Moore, but steep enough.
+And coming up from behind, racing after the expanding frontier, ran the progeny of laws much older than Moore's. 
+It's the pattern that matters, you see.  Not the choice of building materials.  Life is information, shaped by natural selection.  Carbon's just fashion, nucleic acids mere optional accessories.  Electrons can do all that stuff, if they're coded the right way.
+It's all just Pattern.
+And so viruses begat filters; filters begat polymorphic counteragents; polymorphic counteragents begat an arms race.  Not to mention the worms and the 'bots and the single-minded autonomous datahounds—so essential for legitimate commerce, so vital to the well-being of every institution, but so needy, so demanding of access to protected memory.  And way over there in left field, the Artificial Life geeks were busy with their Core Wars and their Tierra models and their genetic algorithms.  It was only a matter of time before everyone got tired of endlessly reprogramming their minions against each other. Why not just build in some genes, a random number generator or two for variation, and let natural selection do the work?
+The problem with natural selection, of course, is that it changes things.
+The problem with natural selection in networks is that things change fast.
+By the time Achilles Desjardins became a 'lawbreaker, Onion was a name in decline. One look inside would tell you why.  If you could watch the fornication and predation and speciation without going grand mal from the rate-of-change, you knew there was only one word that really fit:  Maelstrom.
+Of course, people still went there all the time. What else could they do?  Civilization's central nervous system had been living inside a Gordian knot for over a century.  No one was going to pull the plug over a case of pinworms.
+
+Authenticating History
+Reputation and Trust
+
+"By definition, history is that which spans multiple organizations, cultures, ..."
+
+Fall of the Roman Empire -- a chain cannot survive that.
+
+Ciprian -- (death of a company)
+
+Kartik - (science fiction story; much of 20th century is dark age because magnets wiped out records kept on disk storage)
+
+Web Archive -- independent organization, it could go bust
+archive.org -- Internet Archive -- storing everything on hard drives, tapes, whatever, ...
+Legal Trouble with (c)opyright orgs; If they go bankrupt, what happens to the hard drives where all that data is stored?
+
+So: "We have no public library of the Internet."
+```
+Kartik -- Software/Computing is in the Neolithic (did I hear right?)
+  - there's very little redundancy (???)
+
+Library of Alexandria -- nothing to take it's place.
+Too centralized
+
+Trade network from Roman era vs. Medieval era --
+  lots of more links -- any single disruption doesn't cause the whole thing to go down
+  a certain level of maturity at that point
+
+Our civilization is good at transporting atoms, but bits, we're not there.
+
+Ciprian -- Library of Alexandria -- too centralized
+  Internet -- too *de-*centralized
+    -- AND too Silo'ed
+
+ex: Google Plus - you can't access anything that's there
+  Internet Archive made an effort, but wasn't able to make it
+
+Github -- a lot of our software has moved onto Github,
+  a lot of good stuff is on Github issues, and that stuff is not backed up
+
+Signs that:
+    Our civilization is not mature when it comes to handling bits.
+
+"So how do we solve it?"
+  "You can't solve it!"
+  "I'm ok that we'll all be forgotten.  Ocassional panic attacks at night."
+
+bitrot  -- and yes, it's a bit of a misnomer
+
+Ciprian's practical question:
+    "Imagine if you want to store something online, a small piece of information,
+     and be as sure as possible that nobody will delete that information."
+
+An article on: "How you create time capsules."
+
+no trust - hard disk, optical disk, ...
+trust: acid free paper, soak in a resin (so it's oxygen free,) and then bury it
+  - store coordinates for this, in as many places as possible
+
+Ciprian: okay, but constraint:
+- digital form
+- accessible online
+
+Lion: "Put it in a movie, the greatest movie that anybody's ever seen, that people love, and put it in there."
+Ciprian: Nice, but it doesn't scale.
+
+Lion . o O ( 8bc.org)
+
+The best way to build time capsules:
+https://carlos.bueno.org/2010/09/paper-internet.html
+
+Time horizon (for Ciprian's challenge): 20 years
+Data Trust organization
+https://theodi.org/article/what-is-a-data-trust/
+
+https://en.wikipedia.org/wiki/Lindy_effect
+https://en.wikipedia.org/wiki/List_of_oldest_companies
+
+The Mormons and the Geneology Database of the World
+
+Kartik's scifi trilogy: https://www.amazon.com/Salvation-Novel-Sequence-Book-ebook/dp/B07837SGSY. Highly recommended.
+
+
+Kartik speaks about the developer helping tool:
+    * started a few years by rebuilding everything from botto-up;
+    * => https://github.com/akkartik/mu ??
+    * x86 machine code
+    * Historical auditability
+    
+    * idea: a lot of problems in software -- mirage of re-use
+    * instead: people sharing whole computer images
+      - everything tested together
+      - slowly bugs ironed out from it
+      - approaching some asymptote of reliability
+    
+    * distribute the love app to you,
+      edit it from within the app (???)
+    * remix rather than reuse
+    
+    1. make it really accessible
+    2. 
+    
+    
+    strcpy -> strncpy -> strlcpy
+    
+    "allowing interfaces to freeze organicaly" -- applying the Lindy-effect to evaluate which interface is "stable" or not;
+    
+    "We should only be exchanging apps, ..."
+    then: "We should only be exchanging working computers, ..."
+    
+    Ciprian: "Well, what if we exchange functions specifically?"
+    
+    Sharing a function, sharing a bunch of tests, ...
+    Kartik's favored test is: a test that is embedded within a functioning application.
+    The test is not for the function, it's for the entire application.
+    
+    Testing Pyramid:
+        - 10x finer granularity tests, as 1x courser grain tests
+    Kartik: my claim is that this is an artifact of current tech and limitations
+    Kartik: my os interfaces are all testable, white box tests
+    Each test includes assertions about subsystems.
+    
+    Kartik's website: http://akkartik.name
+    Ciprian:
+    Luke: github.com/lukestanley
+    
+    Kartik's preferred "white-box" testing style: http://akkartik.name/post/tracing-tests
+    
+    Development Model -- people collaborate on a core code-base that grows monotonically more complex;
+    instead: People who want to take software and add features to it -- instead, make a fork.  That way people can delete features, and the total complexity becomes more manageable.
+    
+    
+    (Ciprian trying to summarize Kartik's development model)  Instead of multiple people working on the same branch / repository, each developer (or small developer group) should fork one of the existing forks and adapt it for his own purpose.  This way the idea evolves and doesn't get overly complex over time.  Then applying Lindy-effect the better forks would survive and become the "main" forks.
+
+    "I want people to stop playing geopolitics with our code.
+     It's a commons." -- Kartik
+
+    Not pseudocode, but this whole text editor is fantastically readable: https://viewsourcecode.org/snaptoken/kilo/
+    
+    A map of my forks of Love2d apps: https://merveilles.town/@akkartik/108938038084070027
+    
+    Version Control + Tests -- tests mean that if something is written differently,
+                               it can still be evaluated for what subsystems promises
+                               are kept and not kept, ...
+
+Kartik hates SOLID:
+Single Responsibility Principle (SRP)
+Open/Closed Principle
+Liskov’s Substitution Principle (LSP)
+Interface Segregation Principle (ISP)
+Dependency Inversion Principle (DIP)
+
+Lion: I'm pretty sure that Chuck Moore is with you on this.
+For example, Open/Closed (principle #2) -- I know he's firmly against.
+Kartik: +100
+
+https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+
+
+Lion has multiple applications that he is working at the same time on multiple layers.
+The workflow is the main issue.  A given project can have multiple repositories, or a repository can be part of multiple projects.  In Lion's mind, Lion's way of thinking -- it's about the workflow, and the encoding of projects and repos.
+
+Kartik says that sharing between multiple forks could also include tests, and in this way one could assess the functionality difference by just `diff`-ing the tests.
+
+Keeping a flat file of manual tests.
+Which can be turned into automated tests at a later point.
+This is part of "diffing" the tests.
+
+
+Code repositories branch outwards, but the code rarely shares/communes across from branch to branch, except to merge in like a pull request, to return to the idea of a single code trunk.
+
+My previous attempt at making small, self-contained units: http://akkartik.name/post/wart-layers
+
+"It is better to have 100 functions operate on one data structure than to have 10 functions operate on 10 data structures." -- Alan Perlis, "Epigrams on Programming" (1982).
+
+Upper-ontology?
+
+https://discord.com/channels/695746339019030619/811137425291214868/1016439323014483988
+
+Ciprian pointed out Lion is interested in Component Systems for note making with lots of sub-apps, relates to Multi-Agent Systems
+  https://en.wikipedia.org/wiki/Jini
+
+"This is suprisingly difficult to do today!"
+
+```
