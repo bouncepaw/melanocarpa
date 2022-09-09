@@ -13,3 +13,6 @@ There are some.
 The author states that installation of software has become increasingly complex. They mostly talk about open-source stuff. They emphasize that requiring users to have a whole //database// such as Postgres to run a an application is wrong. I do agree! Whenever there is a Python application that wants some Postgres and Redis, I just don't install it. There are enough sources of headaches for me already.
 
 Actually, I try to make [[Mycorrhiza]] installable! No DB, next to zero CLI options, etc. Leave the crust to the working application! However, I have problems with delivering binaries. Let's work on that.
+
+=> http://tomasp.net/blog/2022/timeless-way/ | The Timeless Way of Programming
+An article that mentions programming and [[Christopher Alexander]] at the same time. [[Bookmark]].
