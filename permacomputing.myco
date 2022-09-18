@@ -11,3 +11,4 @@ Cheapskate installs an outdated OS on an outdated computer with laughable capabi
 => https://github.com/Alexey1994/simple-processor-circuit
 => https://www.opennet.ru/opennews/art.shtml?num=57780
 > Этот процессор может быть выполнен на транзисторах в домашних условиях. Схема строится только на логических элементах NOT, OR, AND, XOR, NOR. Битность можно задать любую добавляя провода и логические элементы в соответствии со схемой. Здесь представлена схема минималистичного 4-х битного варианта на 155 логических элементов.
+My translation:. This processor can be hand-made. The only logic gates the circuit uses are NOT, OR, AND, XOR, NOR. You can adjust the word size by adding more wires and logic gates in line with the circuit. The circuit provided here is a minimalistic 4-bit one with 155 logic components.
