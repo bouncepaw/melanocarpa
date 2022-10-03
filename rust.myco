@@ -22,3 +22,6 @@ img { https://github.com/epilys/rlr/raw/HEAD/demo.gif }
 > Rust + GTK interactive pixel screen ruler with protractor mode.
 
 => https://el-psy-cong.ru/2022-07-11-rust-bad.html | Он вам не краб: тайная империя языка Rust
+
+=> https://drewdevault.com/2022/10/03/Does-Rust-belong-in-Linux.html | Does Rust belong in the Linux kernel?
+TL;DR: It does not.
