@@ -17,3 +17,6 @@ It is written in [[Go]]!
 > feediverse will read RSS/Atom feeds and send the messages as Mastodon posts. It's meant to add a little bit of spice to your timeline from other places. Please use it responsibly.
 
 Written in [[Python]], sadly.
+
+=> https://sr.ht/~vpzom/lotide/
+> A federated forum / link aggregator using ActivityPub.
