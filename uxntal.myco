@@ -8,3 +8,6 @@ I don't know what //TAL// stands for. Maybe Timur Assembly Language.
 => https://codeberg.org/wimvanderbauwhede/nito
 > nito, a proof-of-concept compiler from Uxntal to C
 Written in [[Raku]]!
+
+=> https://wimvanderbauwhede.github.io/articles/uxntal-to-C/ | Compiling stack-based assembly to C
+An article about the aforementioned TAL->C compiler.
