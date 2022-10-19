@@ -1,0 +1,65 @@
+[[2022-08-06]] we had this discussion on the [[Fediverse]]:
+
+bouncepaw 🍄 @bouncepaw
+> What note-taking software out there tries to mimic the concept of book?
+>
+> CC @akkartik
+
+Kartik Agaram @akkartik@merveilles.town
+> @bouncepaw Define "book" 😀
+
+bouncepaw 🍄 @bouncepaw
+> @akkartik A sequenced collection of pages, I guess. Not pages having next/prev links, but a collection of pages. With a cover!
+
+Kartik Agaram @akkartik@merveilles.town
+> @bouncepaw Do the pages have to have a fixed size?
+
+bouncepaw 🍄 @bouncepaw
+> @akkartik In a physical book, yes. In a digital one, no.
+
+Kartik Agaram @akkartik@merveilles.town
+> @bouncepaw Yeah, I'm only asking about what you consider to "mimic a book". I know what a physical book is.
+>
+> The next question I have is, why do you want to mimic a physical book? A book with a cover and fixed pages is structured as it is partly because of economic considerations. It's a unit of commerce, something you can put a price tag on. When moving to software it's not clear to me that the unit of commerce requires pages and a cover.
+
+bouncepaw 🍄 @bouncepaw
+> @akkartik To bring over some mental models from real life is a reason. I have a [note]book. I can open any page and write or draw something. The way I choose a page means something. The way I choose the book to write in means something. Et cetera.
+>
+> I am not sure if those models are worth bringing over, I am investigating. That's why I am looking for existing software.
+
+Kartik Agaram @akkartik@merveilles.town
+> @bouncepaw Ah, I see. I use a paper notebook as well, but for many years I use it totally sequentially, page after page. I suppose that's how I ended up at next/previous links.
+>
+> So I think your question isn't really about "books" at all. It's really, "what would a workflow built for you look like?"
+>
+> For example, if you divide up your book into sections, are the sections long-lived across multiple books?
+>
+> This definitely seems worth investigating. I'd be happy to help you brainstorm features.
+
+bouncepaw 🍄 @bouncepaw
+> @akkartik No, the question is exactly about books. I know how a workflow built for me looks like, it's https://mycorrhiza.wiki :-) 
+>
+> I haven't told the whole truth about my usage of notebooks. I then tear them apart, rearrange them in binders, scan, upload to wiki, etc. Very destructive. I consider a notebook to be complete once it's empty (empty as in no pages left).
+>
+> As of brainstorming, I had some ideas before, see [[patchouli]]
+
+Kartik Agaram @akkartik@merveilles.town
+> @bouncepaw But https://mycorrhiza.wiki doesn't feel sufficiently notebook-like to you? Or it doesn't feel like a note-taking app? I'm not following the distinctions you're making.
+>
+> In [[patchouli]] you describe books as "there is a strict order. Chapter after chapter, page after page until the book is over." I don't follow why this isn't "pages having next/prev links." Not cool enough? 😀
+>
+> You can define new edge labels in pensieve.love. Would labels of next-chapter/prev-chapter help?
+
+bouncepaw 🍄 @bouncepaw
+> @akkartik Mycorrhiza is not a book, it's quite anti-book.
+>
+> I can't really give a proper definition for a book. All I can say is that I haven't seen such software yet.
+
+bouncepaw 🍄 @bouncepaw
+> @akkartik Maybe the distinctive feature of books is that they are finite!? Cool, gotta think about that
+
+Devine Lu Linvega @neauoire@merveilles.town
+> @bouncepaw @akkartik like, how how you can't erase anything?
+
+bouncepaw 🍄 @bouncepaw
+> @neauoire @akkartik no, not like that!
