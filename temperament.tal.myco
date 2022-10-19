@@ -1,5 +1,7 @@
 **Temperament.tal** is an idea, a concept of a program I want to develop for [[uxn]] as part of [[uxnerie]]. It is a boring timer application. This article is a design document.
 
+I originally planned to implement it during September 2022. I did not.
+
 Temperament remembers 10 different timers at once. They are stored in a special `temperament.txt` file. Each line contains a command for a corresponding timer.
 
 Commands look like this:
