@@ -1,3 +1,5 @@
+> Every year I write a parser. I'm kinda getting tired of that.
+
 **Beetlang** is the concept of a programming language for the [[uxn]] ecosystem I want to develop. It is going to simplify common [[uxntal]] idioms, while still providing access to raw bytes. I want it to be a superset of TAL.
 
 As we know, uxn is a beetroot, so the name of the language is Beetlang.
