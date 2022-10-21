@@ -92,3 +92,6 @@ Something with the Screen/auto port can be done too.
 * `cat game.beet | beet --run` compiles twice and runs the ROM with some emulator it finds, and deletes intermediate files, if any.
 
 As you can see, input is fed through stdin.
+
+= To think about:
+=> https://docs.factorcode.org/content/article-effects.html
