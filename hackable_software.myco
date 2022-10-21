@@ -1,0 +1,18 @@
+//A discussion from [[Fediverse]]//
+
+I remember @[[flancian]] telling me that users of Microsoft Word all use the same basic features, but the set of advanced features they use is different for each person.
+
+A different approach would be for the text processor to only have the common features. Want more? “Bring your own feature”. Probably in some specialized scripting language.
+
+I already see a ton of problems with that, but it does sound fun.
+
+I want to emphasize I'm not talking about Emacs or something like Emacs.
+
+[[Kartik Agaram]]:
+> This is basically my approach. Only without a specialized scripting language. "Just use the code, Luke!"
+>
+> A lot of the reason we think we need specialized languages is complex software that tries to be everything to everyone.
+
+Do you have a hackable-by-design architecture?
+
+> No, and that's a problem. The initial plan was just to be simple enough that architecture would be irrelevant. But it's definitely gone past that level of complexity. So I suspect the next fork will be something simpler in search of a clearer architecture that makes it easier to comprehend.
