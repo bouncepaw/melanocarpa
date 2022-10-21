@@ -1,4 +1,6 @@
 **Hare** is a programming language, which seems to be well-designed.
 
+Hare does not support proprietary platforms. This is somewhat sad, because I use a Mac. On the other hand, who cares about things that will rot tomorrow. Also excited to see Plan 9 and Haiku in the list of planned supported platforms.
+
 => https://acha.ninja/blog/memory-safeish-hare/ | Memory Safeish Hare
 > Since the Hare programming language became public, it has been subject to some passionate criticism regarding a perceived lack of memory safety. I agree that memory safety concerns are very valid as shown by clear evidence, so the question becomes, should we write Hare off because someone online said it’s not strictly memory safe? I think that Hare can mitigate many of these problems today, while still being a small, simple and coherent language. let me explain how…
