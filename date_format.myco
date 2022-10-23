@@ -1,0 +1,13 @@
+**Date format** is a way to represent a given date, usually textually.
+
+= Some formats
+* ISO one, the best one
+* The European one with dots
+* The American one with slashes
+* The Japanese one with dots
+* The Japanese one with hieros
+
+= A date idea [[2022-10-08]]
+join(sort-ascending(DD, MM, YY), "•")
+
+So today is 05•10•22, which is not really exciting, but think about days like 23rd of May: 05•22•23.
