@@ -1,0 +1,11 @@
+**Punch card** is a cardboard card with punched out holes in it that encode information. I've never seen one. I am somewhat fascinated by the concept.
+
+= Punch cards and [[uxn]], thread [[2022-07-25]]
+Now think about #uxn machines running programs on punch cards
+
+@neauoire@merveilles.town
+> you could do away with punchard entirely and just run the asm code by hand on paper.
+
+well, we need no programming language for entirely-human systems. Write algorithms in natural language! Thought they tend to be even less understandable than code...
+
+Humans may be bad at handling large data, but they have the best branch prediction out there — intuition.
