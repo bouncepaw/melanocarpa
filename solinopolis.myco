@@ -1,0 +1,40 @@
+**Solinopolis** is a big city to the North, famous for its vast intertangled systems of pipes (σωλήνας stands for //pipe//).
+
+= Structure
+* {
+**The New Solinopolis** is a one-level district of Solinopolis, where around 40000 people live normal lives in normal houses.
+
+img { Lapin 47 {A house from the New Solinopolis}}
+}
+* {
+**The Big Solinopolis** is three-layer megastructure. There are 3000 people living here, scavenging the remnants of the old society who used to live here. It is very hard to find a person here, because the district is so big.
+
+img { Quadrat 02 { One of the shafts connecting the three layers. }}
+}
+** {**The Star Layer** is known for the fact that you can see stars here. Sometimes.
+}
+** {**The Ground Layer** is the most densely built layer. Most people are found here. There is a lot of artificial lighting.
+
+img grid {
+Lapin 58 {You can find such primitive huts in the layer's pipes. }
+Lapin 28 {Some people build really comfortable houses.}
+}
+}
+** {**The Crypt** is the underground layer. There isn't much light here, so travel with caution.
+
+img {
+Lapin 29
+Quadrat 45
+}
+}
+
+= Travelling
+You are advised to not quit the New Solinopolis district, as it is extremely dangerous to travel in the abandoned Big Solinopolis. Possible causes of death include:
+
+* Pipes and other objects falling on you.
+* Asphixia (some rooms remove all air sometimes).
+* Murder by other travellers.
+* Hunger.
+* Dehydration.
+
+You might also lose sanity in this maze of pipes.
