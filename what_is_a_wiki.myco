@@ -1,0 +1,199 @@
+**What is a [[wiki]]?** No one really knows.
+
+Took some discussions from the [[Fediverse]].
+
+= A discussion with Felix [[2022-05-13]]
+
+@felix@wandering.shop
+> It occurs to me that nowadays the word #wiki denotes a practice, not so much a kind of (web) app. An org file can be a wiki if it's used like one. The similarly-named feature on software forges doesn't work in the classic way either. And that's all right.
+
+This semantical shift seems to indeed have happened. I do not like that, though. How do we call what we used to call wiki, then? Wiki? Now, the word has many meanings
+
+> Good question. Roguelikes also went through that, and also never found a good solution.
+
+P. S. There is word //roguelite// now. I think I did respond with that, but that post is nowhere to be found now. Probably deleted by me.
+
+= A discussion with many people [[2022-06-30]]
+@akkartik@merveilles.town
+> => gopher://gopher.waynewerner.com/0/ideas/waynes-wiki.md
+>
+> "I've seen a ton of tools for note taking and software. Any number of tools from blogs to wikis, from mindmaps to Zettelkasten. And these are all great except they're all more complicated than they need to be. You can accomplish almost every single thing found in these other methods with what I call Wayne's Wiki."
+
+@bouncepaw
+> I envy people who can get content with this little
+
+@neauoire@merveilles.town
+> I don't really understand why this person calls this a wiki, or how it replaces a wiki in any way. 🤔
+
+@bouncepaw
+> It's a trend nowadays: calling everything wiki
+
+@neauoire@merveilles.town
+> 🦋 ✋ IS THIS
+>
+> A WIKI
+
+@bouncepaw
+> Algorithm: Does it have natural language text? If it does, it is probably a wiki.
+>
+> There are even wiki-books somewhere.
+
+@akkartik@merveilles.town
+> My definition of wiki is a set of named pages with crosslinks, some way to easily jump between pages.
+>
+> In contrast with chronological notes, which are not named.
+>
+> By this definition I think Wayne's wiki qualifies.
+>
+> The foundational yin and yang of the knowledge-management universe are (b)logs and wikis. (And tags help convert between them, but that's a separate story.)
+>
+> What's your definition? 🙂
+
+
+@klardotsh@merveilles.town
+> If we use Wikipedia's def ([[https://en.wikipedia.org/wiki/Wiki]]):
+>
+> > A wiki (/ˈwɪki/ (listen) WIK-ee) is a hypertext publication collaboratively edited and managed by its own audience directly
+>
+> This would imply the term hinges on its collaborative aspect, which I personally agree with
+
+
+@bouncepaw
+> I consider the Wikipedia's definition the purist definition. Look what they have! Hypertext (Wayne's one is text only). Collaboration (Wayne's's single-user).
+
+
+@klardotsh@merveilles.town
+> Fair on the hypertext point especially. I guess I should be clear though: I have no problem with Wayne calling it absolutely whatever they'd like to call it :) I personally would probably call a write-only non-collab site of my own a knowledgebase or "docs", but whatever Wayne wants to call their own knowledgebase/wiki/etc isn't worth bikeshedding over
+
+@bouncepaw
+> I LOVE bikeshedding
+>
+> Can't have a universal ontology of everything without a good amount of bikeshedding
+
+
+@akkartik@merveilles.town
+> It's all marketing. Every time a new term pops up, whether it's KMS or PDA or wiki or digital garden or zettelkasten, we get a few more people to try to grow an exo-brain. And that's a good thing.
+
+@akkartik@merveilles.town
+> True, though it's a little outdated. Like, you'd have to take it up with tiddlywiki, right? 🙂 
+
+@bouncepaw
+> Actually, TiddlyWiki calls itself ‘a unique non-linear notebook for capturing, organising and sharing complex information’, not a wiki.
+>
+> https://tiddlywiki.com
+
+@akkartik@merveilles.town
+> And yet, it's right there in the name.. 🙂
+
+@bouncepaw
+> Well, it is. I don't know what to do with that
+
+@neauoire@merveilles.town
+> haha
+
+@bouncepaw
+> I used to agree with the purist definition. Now, I like this definition: ‘A wiki is a dynamic editable site’. It allows gemini wikis. It disallows statically-generated websites such as XXIIVV (which I consider to be a digital garden only, not a wiki).
+
+@neauoire@merveilles.town
+> history and editability I think, I never really thought about this until now I suppose.
+>
+> I guess a text file could be a wiki, but if the suggestion is "Using Emacs/vim-style file system navigation is just moving the complexity of a wiki engine into an IDE", I'd feel a bit duped.
+
+@akkartik@merveilles.town
+> "search for word at cursor" is a pretty simple thing. I wouldn't call editors that provide it IDEs.
+>
+> But yes, that's what I meant by "foundational" above. Wikis are so simple that every computer is a wiki engine.
+>
+> Your point about version control is a good one. OP is outsourcing that to git. Which is reasonable, but I still consider version control quite complex. So I'm overstating how foundational wikis are..
+
+@bouncepaw
+> Maybe #wiki has become a synonym for knowledge management systems.
+
+@neauoire@merveilles.town
+> I think it has. It's a good name for that stuff. I think memex is a bit out-dated.
+
+@bouncepaw
+> Well, it's a nice short word. But what do we call what we used to call wikis? I call them classic wikis.
+>
+> I think the word memex is unexplored! I have only seen like five sites called memeces on the net. That's very little.
+
+
+@faun@merveilles.town
+> Public wikis? External wikis?
+
+@jjg@theneuromantics.net
+> I think it’s just a writable web page (or more generically, a writable hypertext):
+>
+> https://en.m.wikipedia.org/wiki/WikiWikiWeb
+>
+> …which is what TBL had in mind in the first place, but it (the WWW) wound-up read-only for a handful of boring reasons.
+
+
+eli_oat @eli_oat@dog.estate
+> just today I was thinking about how wiki's are the closest thing to what focused forums were for me in the early 2000s.
+
+@neauoire@merveilles.town
+> People can call this a wiki if they want, it seems maybe "knowledge archive"/memex is enough for anything to qualify. In that case, I think whichever works for any one person, is good-enough.
+>
+> While we're talking about wiki, my very most favourite feature in a wiki is the power to quickly find which pages are missing, which link is broken. 
+>
+> I could not maintain something like my personal without this.
+
+@akkartik@merveilles.town
+> That's a good point. How do you typically track broken links? Does that include external links?
+
+@neauoire@merveilles.town
+> just internal links, but xxiivv has nearly a thousand internal links, none is broken, I throw an error if I try building an one is missing.
+>
+> => https://github.com/XXIIVV/oscean/blob/main/src/oscean.tal#L522
+
+@akkartik@merveilles.town
+> It seems like there's a continuum here. I have technically the ability to create cross-links in my note-taking system, but the cross-links are pretty sparse. I never create a link before it exists, so (I think) I don't have any broken links. In any case, linear ordering + folders are the dominant organizational primitive. So while you might say my notes aren't really a wiki, I'd say they have "low wiki nature". They don't encourage cross-links. I'm trying to improve that.
+
+@akkartik@merveilles.town
+> Does https://permacomputing.net have any tool to enumerate dangling links? (As @bouncepaw said, I don't exactly consider them broken. And we do have enough of them on that wiki that we can't really afford to be as draconian as you are on your wiki.)
+
+@neauoire@merveilles.town
+> I'm not sure, we should ask @320x200
+
+@320x200@post.lurk.org
+> here you go https://permacomputing.net/broken_links/
+>
+> If you're going to make new pages for these links based on third-party online/offline resources/knowledge, please make sure you properly ref, source and quote, no random copypasta plz (even if from wikipedia, etc). See https://permacomputing.net/editing/ :3
+>
+> CC @viznut
+
+@320x200@post.lurk.org
+> The listing relies on a plugin called brokenlinks, but we can rename the page to something more fit if broken is not adequate. If you have suggestions, let me know.
+
+@neauoire@merveilles.town
+> cheers! wikipedia calls them redlinks, but we don't colorize ours, they more like missing links, than broken links.
+
+@viznut@venera.social
+> A "broken link" sounds to me more like something that points to an external page. "Missing pages", maybe?
+
+@bouncepaw
+> I juggle with broken links. They are colored in red in my private garden, even. A diary entry might have a dozen of red links, and that's ok. One day they become blue. Until they do, they are still usable, because I can see backlinks.
+
+@neauoire@merveilles.town
+> argh, I don't know how to phrase my point correctly. 🤔 
+>
+> I feel that a plain-text can be a wiki, if there's a powerful IDE behind, pulling the ropes. But in most cases, VIM will be more complex than a simple wiki engine.
+>
+> I could be wrong-
+
+@bouncepaw
+> Ah, I see. Then the plain-text file is the back-end storage! The IDE itself becomes the wiki!
+
+@clematis@framapiaf.org
+> What if a single html file is the wiki and your browser the IDE? how do you like that? https://feather.wiki
+
+@bouncepaw
+> I think there should be some strict definition that filters out most sites. If everything is a wiki, we don't need wikis. But there are wikis! I know of them for sure
+
+
+@bouncepaw
+> I've just noticed that probably no one gets surprised by a gopher link in these parts of the net
+
+@akkartik@merveilles.town
+> That's certainly part of my agenda 🙂  "The gopher links will continue until you install a client."
