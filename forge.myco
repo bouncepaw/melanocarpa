@@ -6,6 +6,20 @@
 * Gitea is a fork of Gogs. I kinda dismiss Gogs. Gitea is where stuff happens. It's like GitHub in UI, but a11y is reported to be much worse. They are working on federation, I really respect that. I expect Gitea to become the best choice, once the federation is on. There is also a big instance of Gitea based in Germany: [[https://codeberg.org]].
 * Sourcehut is opinionated, I respect that. It has cute UI, but is overall hard to use. It has the best ethics and good a11y. Do you know what I dislike? That's email and hardwrapped plain text. Sourcehut focuses on that. Argh. They offer a good IRC service that I use though.
 
+= Ditching GitHub
+//[[2022-08-21]], 4 stars//
+
+Moved 7 older (2017) unused repos from GitHub to SourceHut. Small projects that went nowhere. They are unlisted for now.
+
+In the end, I think I'll probably end up having 6 repos on GitHub, which are:
+
+* mycorrhiza (for stars)
+* bouncepaw (to provide README for my profile)
+* bouncepaw.github.io (legacy website)
+* 3 wiki backups, one of them private
+
+Still a dozen repos to go. Will get back to it. #GiveUpGitHub
+
 = Links
 => https://sfconservancy.org/GiveUpGitHub/ | Give Up GitHub!
 They call me to abandon GitHub. Would be great.
