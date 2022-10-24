@@ -1,0 +1,25 @@
+**RPN calculator** is a calculator that uses Reverse Polish Notation.
+
+= A thread from the [[Fediverse]]
+//6 stars, 4 boosts//
+
+TFW #uxn's calc is easier to use than the other calculators because it is stack-based
+
+I always had problems grasping the concept of calculator applications. Infix notation is not for buttons. Resorted to programming environments on computers, to a combination of calculator application and paper (+ pen) on mobile
+
+Now, there is calc. It also makes cute sounds
+
+@neauoire@merveilles.town
+> Have you tried CCCC, or are you using the calc.rom from the repo?
+
+I use calc.rom from the distribution on the website. It might be outdated already, dunno.
+
+@neauoire@merveilles.town
+> it's fine, it's not outdated or anything. I've done a more compete version for my own use, you might like it https://wiki.xxiivv.com/site/cccc.html
+
+@rnd@cutiehaven.club
+it's an RPN (reverse polish notation) type calculator, and RPN is useful because it resolves order of operations in a simple way, without needing any parentheses
+
+i have a swissmicros dm-16l, it's basically a modern-day remake of the HP 16C programmer's calculator, which is also RPN and supports a lot of things programmers need (bitwise logic, word sizes up to 64 bits, hex/dec/oct/bin modes...)
+
+i decided to see if there's a calculator app that has RPN in my distro's repos, turns out there's qalculate which has an RPN mode and is _extremely_ customizable
