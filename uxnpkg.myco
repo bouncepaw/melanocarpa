@@ -1,1 +1,5 @@
-**uxnpkg** is a concept of a tool that gets a [[uxn]] ROM and packages it as a [[https://justine.lol/cosmopolitan/index.html | Cosmopolitan]] executable that would work on the three desktop OSes, with the emulator embedded in it. That would make it the easiest distribution way. A perfect way to distribute game.
+**uxnpkg** is a concept of a tool that gets a [[uxn]] ROM and packages it as a [[https://justine.lol/cosmopolitan/index.html | Cosmopolitan]] executable that would work on most OSes, with the emulator embedded in it. That would make it the easiest distribution way. A perfect way to distribute game.
+
+> Cosmopolitan Libc makes C a build-once run-anywhere language, like Java, except it doesn't need an interpreter or virtual machine. Instead, it reconfigures stock GCC and Clang to output a POSIX-approved polyglot format that runs natively on Linux + Mac + Windows + FreeBSD + OpenBSD + NetBSD + BIOS with the best possible performance and the tiniest footprint imaginable.
+
+Would probably be based on the SDL emulator, it's written in [[C]], AFAIK.
