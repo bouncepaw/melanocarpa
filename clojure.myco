@@ -1,6 +1,0 @@
-=> http://sdi.thoughtstorms.info/?p=1551
-
-=> https://github.com/tonsky/Clojure-Sublimed
-=> https://tonsky.me/blog/sublime-clojure/ | Sublime ❤︎ Clojure
-> REPL is Clojure’s superpower. For a long time, I’ve been enjoying Sublime Text but was unable to match it with Clojure. This ends today: I’m happy to present my new Sublime Text plugin, Clojure Sublimed.
-Tonsky made a good Clojure plugin for [[Sublime Text]] that got REPL right.
