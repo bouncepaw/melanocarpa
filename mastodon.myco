@@ -6,6 +6,9 @@
 => https://github.com/blackle/mastodon-data-viewer.py
 > A viewer for mastodon data written in python. It creates a local server that you can use to browse the data. Designed for large (>40,000) toot archives.
 
+=> https://gilest.org/mastodon.html | How Mastodon is different
+Everyone knows it.
+
 = Mastodon Archive
 See also [[web archiving]].
 
