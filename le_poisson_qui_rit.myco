@@ -1,0 +1,28 @@
+img side { ./photo }
+**Le poisson qui rit** is a flute of some sorts shaped like a [[рыба | fish]] that friend N. gifted me after summer 2022. The reason it is shaped like a fish is because I like it this way. It has three holes.
+
+I chose the name.
+
+= Notes
+[[2022-11-12]] I analyzed what sound capability it has.
+*. For every closed combination, determine the frequency of the sound with some application.
+*. Convert every frequency to notes.
+table {
+! Holes ! Hz ! Note
+| 000 | 1000 | C
+| 001 | 930 | A#
+| 010 | 950 | B
+| 011 | 815 | G#
+| 100 | 930 | A#
+| 101 | 800 | G
+| 110 | 830 | G#
+| 111 | 660 | E
+}
+
+So, two duplicates. Dropping them, we have the following notes: C E G G# A# B. This isn't much, actually.
+
+I have no idea what an octave is.
+
+= Melodies
+* C E G B
+* Please send me more...
