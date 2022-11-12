@@ -1,4 +1,4 @@
-**Dithering** is a visual technique.
+**Dithering** is a visual technique that looks extra cool.
 
 [[https://arcadewise.me | Arcade Wise]] taught me how to dither.
 
@@ -6,4 +6,5 @@ You use a program called [[https://github.com/makeworld-the-better-one/didder/ |
 
 Then run a command like that:
 ```sh
+didder -i <filename> -o <output_filename> --palette 'black gray white' --recolor "#002b36 #839496 #fdf6e3" edm --serpentine FloydSteinberg
 ```
