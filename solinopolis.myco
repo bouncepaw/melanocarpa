@@ -18,6 +18,7 @@ img { Quadrat 02 { One of the shafts connecting the three layers. }}
 img grid {
 Lapin 58 {You can find such primitive huts in the layer's pipes. }
 Lapin 28 {Some people build really comfortable houses.}
+Lapin 30 {There is a lot of pipes.}
 }
 }
 ** {**The Crypt** is the underground layer. There isn't much light here, so travel with caution.
