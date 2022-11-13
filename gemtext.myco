@@ -28,7 +28,7 @@ Gemtext introduced rocket links to the markup sphere:
 => target text
 ```
 
-Preformatted blocks are toggled with lines beginning with triple backticks `\`\`\``.
+Preformatted blocks are toggled with lines beginning with triple backticks ` \`\`\``.
 
 All other lines are simple paragraphs.
 
