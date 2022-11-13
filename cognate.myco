@@ -1,9 +1,0 @@
-**Cognate** is a concatenative programming language.
-
-img { https://github.com/cognate-lang/cognate/raw/master/screenshots/fizzbuzz.png
-https://github.com/cognate-lang/cognate/raw/master/screenshots/comparison.png
-}
-
-=> https://github.com/cognate-lang/cognate
-
-> Cognate's compiler ignores words beginning with lowercase letters, allowing comments and code to be interwoven. This 'informal syntax' being optional allows Cognate to be verbose where detail is needed and concise where it isn't.
