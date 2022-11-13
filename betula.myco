@@ -1,0 +1,16 @@
+🌳 **Betula** is a concept of a bookmarking and link aggregation service, which is to become a part of [[Mycoverse]], compatible with [[Mycorrhiza]] in some ways, but, first of all, a tool for storing links. It is intended to be used to maintain a collection of one person, the administrator, who is called //gardener//.
+
+= Principles, features
+* Web software installed on your server, accessed from a web browser.
+* One-person installation.
+* One binary `betula`.
+* All of your links and configuration stored in a single SQLite database file anywhere you like.
+* You post //links//. You can also have a hypertext description of them, if you want to.
+** Links can be changed later.
+** A link with its description is isomorphous to Mycorrhiza's hyphae.
+* Every link can be part of any number of categories.
+** These categories are isomorphous to Mycorrhiza's categories.
+* Federation
+** IndieWeb style
+** Mycoverse: Betula link posts could be transcluded, categories can be fetched with some API that would come one day
+** A learning project: I don't know much about IndieWeb and SQLite, this would help me to learn more, and then bring the new knowledge to Mycorrhiza.
