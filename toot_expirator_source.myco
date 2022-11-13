@@ -33,10 +33,6 @@ text = "* " + html.unescape(toot['content'].replace('<p>', '').replace('</p>', '
 text += " — " + toot['created_at'].strftime('%Y-%m-%d %H:%M %Z')
 if toot['favourites_count'] > 0:
 	text += " ⭐️" + str(toot['favourites_count'])
-# @ru and @local always boost me, and I care not, so I ignore them
-# change appropriately
-if toot['reblogs_count'] > 2:
-	text += " 🔁" + str(toot['reblogs_count'])
 print(text)
 with open('LOG FILE', 'a') as f:
 	f.write(text+"\n")
