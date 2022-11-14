@@ -18,3 +18,5 @@ I think someone who understands it all should write a guide on how to accept a p
 This classic git approach has better code review, than the pull request approach. And the way you merge the code makes more sense. It all makes sense for git, of course.
 
 Will accept more patches in the future.
+
+[[2022-11-14]] I accepted yet another patch. This time it was much better! Mail.app was a much better program to use. I didn't hardwrap anything. The Reply-All button was working. The shell command in the lists interface to apply the patch worked somehow. OK.
