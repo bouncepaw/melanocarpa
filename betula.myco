@@ -2,18 +2,19 @@
 
 => https://lists.sr.ht/~bouncepaw/betula | Mailing list about development (text only)
 => https://boosty.to/bouncepaw | I post screenshots of development on my Boosty
+=> https://fosstodon.org/@betula | Fediverse @betula@fosstodon.org
 
 = Principles, features
-* Web software installed on your server, accessed from a web browser.
-* One-person installation.
-* One binary `betula`.
-* All of your links and configuration stored in a single SQLite database file anywhere you like.
-* You post //links//. You can also have a hypertext description of them, if you want to.
-** Links can be changed later.
-** A link with its description is isomorphous to Mycorrhiza's hyphae.
-* Every link can be part of any number of categories.
-** These categories are isomorphous to Mycorrhiza's categories.
-* Federation
-** IndieWeb style
-** Mycoverse: Betula link posts could be transcluded, categories can be fetched with some API that would come one day
-** A learning project: I don't know much about IndieWeb and SQLite, this would help me to learn more, and then bring the new knowledge to Mycorrhiza.
+*v Web software installed on your server, accessed from a web browser.
+*v One-person installation.
+*v One binary `betula`.
+*v All of your links and configuration stored in a single SQLite database file anywhere you like.
+*v You post //links//. You can also have a hypertext description of them, if you want to.
+**v Links can be changed later.
+**x A link with its description is isomorphous to Mycorrhiza's hyphae.
+*x Every link can be part of any number of categories.
+**x These categories are isomorphous to Mycorrhiza's categories.
+*x Federation
+**x IndieWeb style
+**x Mycoverse: Betula link posts could be transcluded, categories can be fetched with some API that would come one day
+**x A learning project: I don't know much about IndieWeb and SQLite, this would help me to learn more, and then bring the new knowledge to Mycorrhiza.
