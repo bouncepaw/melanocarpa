@@ -1,0 +1,30 @@
+**Mycoverse** is a network of websites and tools, used by the smolfolk, running software speaking common open formats and protocols, mostly written by me and having biological naming influences.
+
+Adjacent and intersecting domains are [[wiki]], [[Indie Web]] and [[Fediverse]].
+
+= Existing parts
+* [[Mycorrhiza]], a wiki engine. Build your digital garden, share your knowledge.
+* [[Betula]], a bookmarking tool. Collect thousands of links, organize them and share.
+* [[Mycomarkup]], a markup language.
+
+= How it is now
+Both Mycorrhiza and Betula use Mycomarkup. Betula uses some microformats. No real federation is happening yet.
+
+= Federation examples from the future (circa 2025)
+* Alice hosts a Betula and collects bookmarks about web development in a category named simply `webdev`.
+* Bob hosts a Betula too, and he really likes Alice's collection! He wants to show nearside his own, though his category is named `web devel`. He tells Betula to federate her category, and so it fetches it daily and shows it nearby. A WebMention is sent back, so Alice gets a backlink.
+* Charlie is an avid Mycorrhiza user, he writes guides about everything on his wiki. Sometimes other people join him in his project. Charlie really likes Bob's collection! So he writes this at the bottom of his hypha about web development: {
+```sh
+<= https://bob-bookmarks.tld/cat/web_dev | 30 latest
+```
+
+30 latest bookmarks get shown nicely in a box.
+}
+* Diana is a really good programmer, she has implemented a new software for the Mycoverse in a weekend. Her program fetches all latest changes from the three persons mentioned above, formats them and uploads them to her eink reader. This evening she will read it while sipping tea with lemon.
+
+= Standards I want to specify and implement at some point
+* **Mycomarkup** should get a spec, have broken parts fixed, missing things added, and the main library should be refactored.
+* **Mycoref** will be a way to transclude documents.
+
+= Hesitations
+[[Web]] seems to be the most fitting place for Mycoverse to exist in. The thing is, I don't want to lock on the Web, like Indie Web does. Internet is not always there, and will not always be. But all these microformats and protocols, they just smell Internet. I have no idea how a web-less transclusion would work. Mycomarkup has always been designed to avoid weblock. Maybe I should submit to the Web fully hmmm. Web is cool after all.
