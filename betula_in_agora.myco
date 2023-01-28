@@ -1,4 +1,4 @@
-**Betula** sites want to be federated and shared, at least they pretend to. In this note I describe how Betulae can be included in [[Agora]], given no additional federation capabilities are added to Agora ^^1^^.
+**Betula** sites want to be federated and shared, at least they pretend to. In this note I describe how Betulae can be included in [[Agora]], given no additional federation capabilities are added to Agora^^1^^.
 
 = Algorithm
 *. In [[Flancia]], there is a [[Betula]].
@@ -20,7 +20,7 @@
 ```
 *. An Agora then fetches the repository somehow.
 
-Note that the link description is formatted in Mycomarkup ^^2^^. It can thus be inserted verbatim. But what if the Betula administrator writes descriptions that break the formatting of further links in the resulting document? So be it.
+Note that the link description is formatted in Mycomarkup^^2^^. It can thus be inserted verbatim. But what if the Betula administrator writes descriptions that break the formatting of further links in the resulting document? So be it.
 }
 *. {
 ```sh
@@ -31,6 +31,6 @@ git push
 }
 
 = Footnotes
-^^1^^: Id est Agora continues to aggregate [[Git]] repositories. Currently, Agora has a poor support of [[Mycomarkup]], but [[Flancian]] wanted to improve it, and I believe he will, so I'm not considering Mycomarkup support to be an obstacle.
+^^1^^ Id est Agora continues to aggregate [[Git]] repositories. Currently, Agora has a poor support of [[Mycomarkup]], but [[Flancian]] wanted to improve it, and I believe he will, so I'm not considering Mycomarkup support to be an obstacle.
 
-^^2^^: Perhaps, Betula could provide a special API for exporting categories in such Mycomarkup documents. `/cat-as-myco/` or something. Less requests is better.
+^^2^^ Perhaps, Betula could provide a special API for exporting categories in such Mycomarkup documents. `/cat-as-myco/` or something. Less requests is better.
