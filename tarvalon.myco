@@ -1,16 +1,17 @@
-`tarvalon` is my all-in-one PC running [[Linux Mint]]. I had it since 2016 and went through a lot with it. For the first year of university, I used to use when I was back at home, but then gave it to my mother.
+`tarvalon` is my all-in-one PC running Linux Mint. I had it since 2016 and went through a lot with it. For the first year of university, I used to use when I was back at home, but then gave it to my mother.
 
 It still works ok. However, if I went back in time, I would've got a normal PC desktop that I could upgrade, repair, et cetera for the same price. Maintenance of this device is painful.
 
 Performance is bearable.
 
-It came with a [[Windows]] 10 copy. I used it like twice. For some time, I dual-booted, then I removed it completely.
+It came with a Windows 10 copy. I used it like twice. For some time, I dual-booted, then I removed it completely.
 
 Operating systems that were installed on this computer are:
-* Windows 10 (pre-installed)
-* Linux Mint Cinnamon
-* Antergos (Arch, but easier to install). Countless environments
-* OpenSUSE Tumbleweed on XFCE (for a week)
-* Linux Mint MATE (when I moved to [[caemlyn]], I left a boring OS behind)
+* Windows 10. Pre-installed.
+* Linux Mint Cinnamon. This was the first GNU+Linux distribution I had ever tried.
+* Antergos (Arch, but easier to install). Countless desktop environments were tried on it, until I more or less settled on dwm.
+* OpenSUSE Tumbleweed on XFCE. Used for a week, there was some critical problem I could not bear.
+* Linux Mint MATE. When I moved to [[caemlyn]], I left a boring OS behind.
+* Windows 10. For the next user.
 
 The name comes from Tar Valon from [[the wheel of time]].
