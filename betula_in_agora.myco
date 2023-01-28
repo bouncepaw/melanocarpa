@@ -1,0 +1,36 @@
+**Betula** sites want to be federated and shared, at least they pretend to. In this note I describe how Betulae can be included in [[Agora]], given no additional federation capabilities are added to Agora ^^1^^.
+
+= Algorithm
+*. In [[Flancia]], there is a [[Betula]].
+*. Daily, an unauthenticated script fetches `/cat` to see all categories. It is unauthenticated, so no private links leak. There is also a git repository set up.
+*. For each category:
+**. Create a file called `<category name>.myco`.
+**. Write {
+```myco
+= <category name>
+<category description>
+```
+}
+**. For each link in category:
+***. Write {
+```myco
+== <link title> ([[<post url> | on Betula]])
+[[<link url>]]
+<link description>
+```
+*. An Agora then fetches the repository somehow.
+
+Note that the link description is formatted in Mycomarkup ^^2^^. It can thus be inserted verbatim. But what if the Betula administrator writes descriptions that break the formatting of further links in the resulting document? So be it.
+}
+*. {
+```sh
+git add .
+git commit -m `date "+%Y-%m-%d"`
+git push
+```
+}
+
+= Footnotes
+^^1^^: Id est Agora continues to aggregate [[Git]] repositories. Currently, Agora has a poor support of [[Mycomarkup]], but [[Flancian]] wanted to improve it, and I believe he will, so I'm not considering Mycomarkup support to be an obstacle.
+
+^^2^^: Perhaps, Betula could provide a special API for exporting categories in such Mycomarkup documents. `/cat-as-myco/` or something. Less requests is better.
