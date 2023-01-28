@@ -31,6 +31,6 @@ git push
 }
 
 = Footnotes
-^^1^^ Id est Agora continues to aggregate [[Git]] repositories. Currently, Agora has a poor support of [[Mycomarkup]], but [[Flancian]] wanted to improve it, and I believe he will, so I'm not considering Mycomarkup support to be an obstacle.
+^^1^^ Id est Agora continues to aggregate [[Git]] repositories. Currently, Agora has a poor support of [[Mycomarkup]], but [[Flancian]] wanted to improve it, and I believe he will, so I'm not considering Mycomarkup support to be an obstacle. In the future, a [[anagora>agora.yaml]] convention might arise, thus removing the need for such a script.
 
 ^^2^^ Perhaps, Betula could provide a special API for exporting categories in such Mycomarkup documents. `/cat-as-myco/` or something. Less requests is better.
