@@ -72,7 +72,7 @@ You specify the operation done with the number on stack (it decreases). You will
 == Strongly typed Varvara devices
 And their names will be fixed. There is a convention already anyway.
 
-= Less cryptic graphics operations
+== Less cryptic graphics operations
 ```beet
 paint sprite {
    addr ;stone
@@ -85,6 +85,15 @@ paint sprite {
 ```
 
 Something with the Screen/auto port can be done too.
+
+== Constant expressions
+```beet
+const {
+   #03 #02 ADD
+}
+```
+
+will compile to just `#05`. Defined macros and Beetlang are available in constant expressions.
 
 = CLI commands
 * `cat game.beet | beet > game.tal` compiles beet to tal
