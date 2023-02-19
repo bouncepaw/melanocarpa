@@ -1,8 +1,0 @@
-**Offpunk** is a [[gemini]] browser.
-
-=> gemini://rawtext.club/~ploum/2022-01-31-offpunk02.gmi
-> The real problem with Internet addiction is that you know when you connect to it, often to check something particular, finding yourself two or three hours later without having accomplished anything but jumping from seemingly interesting links to catchy videos. Your brain is fed with low-quality content which has (mostly negative) impacts on your thoughts, your well-being, your mood, your productivity and your self-esteem.
->
-> Software like #Offpunk may help here by allowing you to never be directly connected to the Internet. You don’t use your computer while it is connected to the Internet. This means that you only consume content on your own computer, without being tempted to check if there’s anything new. Replying to a specific email doesn’t force you to see that new emails just arrived.
->
-> Besides the "offline" command, the "tour" feature of Offpunk forces you to read new contents in a linear fashion. And when you get to the end of it, Offpunk will tell you explicitly that this is the "end of tour". Yep, there’s nothing more to procrastinate on your computer. Move your ass and do something. The command line aspect allows you not to be distracted by the design and to be mindful about what you want to do. You need to type a command, you can’t click mindlessly.
