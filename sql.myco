@@ -1,4 +1,0 @@
-Sequel
-
-=> https://blog.nelhage.com/post/some-opinionated-sql-takes | Some opinionated thoughts on SQL databases
-> Unfortunately, in my opinion, those incredible storage engines — some of the finest pieces of systems engineering available to us — are hidden behind what I find to be a very frustrating interface. Let’s look at what I dislike about SQL.
