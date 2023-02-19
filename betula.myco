@@ -11,6 +11,14 @@ javascript:window.open(%22https://links.bouncepaw.com/save-link?url=%22+window.l
 ```
 Change the URL with your own.
 
+= Some Betulæ I know of
+The first one is mine! As you can see, the pattern of using `links` as the subdomain has emerged.
+
+=> https://links.bouncepaw.com
+=> https://links.hanlerug.me
+=> https://links.flancia.org
+=> https://links.danilax86.space
+
 = Principles, features
 *v Web software installed on your server, accessed from a web browser.
 *v One-person installation.
