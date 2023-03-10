@@ -1,3 +1,5 @@
+++This document is superseded! See [[https://betula.mycorrhiza.wiki/installation.html]]
+
 To install [[Betula]], follow this instruction. It has been tested on a real Ubuntu machine.
 
 *. Get a [[Go]] toolchain. Version 1.19 or newer. Configure it, including `GOPATH`.
