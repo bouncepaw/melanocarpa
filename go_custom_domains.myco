@@ -1,4 +1,4 @@
-[[Go]] supports **custom domains** for package names.
+Go supports **custom domains** for package names.
 
 => https://pkg.go.dev/robpike.io/ivy | Rob Pike's ivy uses the technique
 
