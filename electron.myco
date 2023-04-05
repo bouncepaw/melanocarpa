@@ -1,5 +1,0 @@
-**Electron** is a technology for building desktop application using web stack: [[HTML]], [[CSS]], [[JavaScript]], various APIs. Basically, an embedded [[web browser]]. It is considered evil, a harbinger of Babylon, &c.
-
-= Links
-=> https://unixsheikh.com/articles/is-the-madness-ever-going-to-end.html | Is the madness ever going to end?
-> Electron and React Native Desktop are supposed to be a revolutionary new way of making desktop applications. Except they are not, and they eat up all the memory you have and still ask for more. They constantly crash and have no value over a native desktop application what so ever - well, perhaps with the only exception that now a 2 year old baby can make something shiny that you can click on with your mouse.
