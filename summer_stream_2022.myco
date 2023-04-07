@@ -38,20 +38,21 @@ This is the best stream so far, because I had viewers. A big thank you to Vertig
 => https://compudanzas.net/uxn_tutorial_day_3.html | The tutorial
 => https://v.lor.sh/w/kedbgrdkg5bh6M2oc26qr4 | The stream record
 
-img {
-2022-06-27 uxn stream day 3/walker { The exercise about diagonal walking. Cool. }
-2022-06-27 uxn stream day 3/tic-tac-toe { Unfinished Tic-Tac-Toe }
+img grid {
+./uxn 3 walker { The exercise about diagonal walking. Cool. }
+./uxn 3 ttt { Unfinished Tic-Tac-Toe }
 }
 
 Vertigo said:
 > AND, ORA, and EOR are mnemonics found on 6502 and 6800 processors.  Uxn probably got them from there.  ORA stands for "OR Accumulator."
 
 = 2022-06-28 uxn stream day 3.1
+
+img side { ./uxn 3.1 ttt { This is what I got at the end of the day }}
+
 I continued to develop tic-tac-toe. It turned out to be even harder, so I will be having another follow-up stream.
 
 => https://v.lor.sh/w/9ZettagMiLPWhTdjQGccL9 | The stream record (1:56:29)
-
-img { 2022-06-28 uxn stream day 3.1/tic-tac-toe { This is what I got at the end of the day }}
 
 I have found some bug with stack overflow that happens if you press the buttons enough times. I didn't find what caused it.
 
@@ -62,7 +63,7 @@ Today I fixed some bugs, made the cursor and xo placement work.
 
 I kinda leaped forwards and used some information from day 4. Whatever. Gotta finish this game.
 
-img { 2022-06-29 uxn stream day 3.2/result { This is how the game looked after the stream and a refactoring I made off-screen. }}
+img { ./uxn 3.2 ttt { This is how the game looked after the stream and a refactoring I made off-screen. }}
 
 I used division by zero to cause the stacks to be printed. Turns out, there is a canonical way:
 > 00:46:28 <snufkin> This should make it stop as well %DEBUG { #01 #0e DEO }
