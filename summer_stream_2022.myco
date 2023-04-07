@@ -50,12 +50,71 @@ Maybe I should make a patch.
 * OBS works well. [[Peer Tube]] works well, although the 1 minute delay is present.
 
 
-=> 2022-06-26 uxn stream day 2
-=> 2022-06-27 uxn stream day 3
-=> 2022-06-28 uxn stream day 3.1
-=> 2022-06-29 uxn stream day 3.2
-=> 2022-07-01 uxn stream day 3.3
-=> 2022-07-04 mycorrhiza stream 01
+== 2022-06-26 uxn stream day 2
+**Learning Uxn day 2.** Continuing the series on [[uxn]]. Previous: [[2022-06-25 uxn stream]]. Today we did some graphics:
+img {
+2022-06-26 uxn stream day 2/exercise { There were exercises at the end of the tutorial, I did them. }
+}
+
+=> https://v.lor.sh/w/jDF4BH23B3M3yeqJtQmEtV | Stream record
+=> https://compudanzas.net/uxn_tutorial_day_2.html | Followed tutorial
+
+I have found an error in the guide during the stream, which was subsequently fixed.
+
+== 2022-06-27 uxn stream day 3
+**Uxn day 3.** This is the best stream so far, because I had viewers. A big thank you to Vertigo and Snufkin for being active in the chat. Snufkin helped a lot with jumping across the labels. It was a good idea to announce the stream in the [[uxn]] IRC chat. After finishing the tutorial, I started implementing Tic-Tac-Toe, but spent too much time doing it. I will finish it in a follow-up stream.
+
+=> https://compudanzas.net/uxn_tutorial_day_3.html | The tutorial
+=> https://v.lor.sh/w/kedbgrdkg5bh6M2oc26qr4 | The stream record
+
+img {
+2022-06-27 uxn stream day 3/walker { The exercise about diagonal walking. Cool. }
+2022-06-27 uxn stream day 3/tic-tac-toe { Unfinished Tic-Tac-Toe }
+}
+
+=== Notes
+* I wish Compudanzas set monospace font explicitly for code blocks (Safari workaround)
+* Vertigo said: {
+> AND, ORA, and EOR are mnemonics found on 6502 and 6800 processors.  Uxn probably got them from there.  ORA stands for "OR Accumulator."
+}
+
+== 2022-06-28 uxn stream day 3.1
+A follow-up stream for [[2022-06-27 uxn stream day 3 | yesterday]]. I continued to develop tic-tac-toe. It turned out to be even harder, so I will be having another follow-up stream.
+
+=> https://v.lor.sh/w/9ZettagMiLPWhTdjQGccL9 | The stream record (1:56:29)
+
+img { 2022-06-28 uxn stream day 3.1/tic-tac-toe { This is what I got at the end of the day }}
+
+I have found some bug with stack overflow that happens if you press the buttons enough times. I didn't find what caused it.
+
+== 2022-06-29 uxn stream day 3.2
+Continuing from [[2022-06-28 uxn stream day 3.1]]. Today I fixed some bugs, made the cursor and xo placement work.
+
+=> https://v.lor.sh/w/weFecUAoG2jzyNPzsbNgMc | Stream record
+
+I kinda leaped forwards and used some information from day 4. Whatever. Gotta finish this game.
+
+img { 2022-06-29 uxn stream day 3.2/result { This is how the game looked after the stream and a refactoring I made off-screen. }}
+
+=== Notes
+I used division by zero to cause the stacks to be printed. Turns out, there is a canonical way:
+> 00:46:28 <snufkin> This should make it stop as well %DEBUG { #01 #0e DEO }
+> 00:46:37 <snufkin> #0e is System/debug
+
+== 2022-07-01 uxn stream day 3.3
+**Day 3.3.** The third follow-up stream. I finished developing [[xo.tal]] and initiated [[uxnerie]] during this stream.
+
+=> https://v.lor.sh/w/hszr2RS6YvX3h85kQ7Lk8f | The stream record
+
+Length: 2:19:42
+
+== 2022-07-04 mycorrhiza stream 01
+Part of [[summer stream 2022]]. On that stream, I was writing the [[mycorrhiza>spec]], and then started implementing the Table of Contents sidebar, but left early due to a health problem.
+
+=> https://v.lor.sh/w/8aJjyKBvcNjDMcY5mpWRPF | Stream record
+
+I used [[lapin 84]] as a cover for the video:
+img { lapin 84 }
 
 == 2022-07-12 expiring toots
 As you know, [[my toots expire]], and on this stream I wanted to show that. Live, I was deboosting and deleting. Some of my toots ended up on [[удалённое из мастодонта]], some boosts ended up being linked somewhere on that garden. Most didn't.
