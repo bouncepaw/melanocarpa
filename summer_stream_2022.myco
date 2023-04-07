@@ -2,6 +2,8 @@ During the summer of 2022, I held a series of video streams.
 
 Most of the streams were dedicated to me learning about [[uxn]] using the [[https://compudanzas.net/uxn_tutorial.html | Compudanza's famous tutorial]]. During the streams, I found some errors in the text, which I reported in my notes. Afterwards, they were fixed. Well, at least the ones I re-checked. I just expect the others to had been fixed as well.
 
+The product of the uxn series is my own little tic-tac-toe: [[xo.tal]].
+
 Чтобы на [[caemlyn]], с которого я стримил, было надёжное подключение к интернету, одолжил [[переходник на эфирнет]]. Хорошая штука.
 
 = 2022-06-24 стрим
@@ -24,10 +26,7 @@ Notes:
 * OBS works well. PeerTube works well, although the 1 minute delay is present.
 
 = 2022-06-26 uxn stream day 2
-Today we did some graphics:
-img {
-2022-06-26 uxn stream day 2/exercise { There were exercises at the end of the tutorial, I did them. }
-}
+Today I did some graphics.
 
 => https://v.lor.sh/w/jDF4BH23B3M3yeqJtQmEtV | Stream record
 => https://compudanzas.net/uxn_tutorial_day_2.html | Followed tutorial
@@ -48,8 +47,6 @@ Vertigo said:
 
 = 2022-06-28 uxn stream day 3.1
 
-img side { ./uxn 3.1 ttt { This is what I got at the end of the day }}
-
 I continued to develop tic-tac-toe. It turned out to be even harder, so I will be having another follow-up stream.
 
 => https://v.lor.sh/w/9ZettagMiLPWhTdjQGccL9 | The stream record (1:56:29)
@@ -57,13 +54,13 @@ I continued to develop tic-tac-toe. It turned out to be even harder, so I will b
 I have found some bug with stack overflow that happens if you press the buttons enough times. I didn't find what caused it.
 
 = 2022-06-29 uxn stream day 3.2
+img side { ./uxn 3.2 ttt { This is how the game looked after the stream and a refactoring I made off-screen. }}
+
 Today I fixed some bugs, made the cursor and xo placement work.
 
 => https://v.lor.sh/w/weFecUAoG2jzyNPzsbNgMc | Stream record
 
 I kinda leaped forwards and used some information from day 4. Whatever. Gotta finish this game.
-
-img { ./uxn 3.2 ttt { This is how the game looked after the stream and a refactoring I made off-screen. }}
 
 I used division by zero to cause the stacks to be printed. Turns out, there is a canonical way:
 > 00:46:28 <snufkin> This should make it stop as well %DEBUG { #01 #0e DEO }
