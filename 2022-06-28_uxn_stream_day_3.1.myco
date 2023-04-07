@@ -1,7 +1,0 @@
-A follow-up stream for [[2022-06-27 uxn stream day 3 | yesterday]]. I continued to develop tic-tac-toe. It turned out to be even harder, so I will be having another follow-up stream.
-
-=> https://v.lor.sh/w/9ZettagMiLPWhTdjQGccL9 | The stream record (1:56:29)
-
-img { ./tic-tac-toe { This is what I got at the end of the day }}
-
-I have found some bug with stack overflow that happens if you press the buttons enough times. I didn't find what caused it.
