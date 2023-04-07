@@ -6,6 +6,8 @@ The product of the uxn series is my own little tic-tac-toe: [[xo.tal]].
 
 Чтобы на [[caemlyn]], с которого я стримил, было надёжное подключение к интернету, одолжил [[переходник на эфирнет]]. Хорошая штука.
 
+Originally, this article was spread into many hyphae (one central and one for each day), but during the [[Finish it Jam 2023]] I merged them all into one (except for images, of course) and cleaned stuff up a little.
+
 = 2022-06-24 стрим
 => https://t.me/bpblog/1256
 Провёл тестовый стрим, чтобы проверить [[переходник на эфирнет]]. В планы входило пофиксить [[https://github.com/bouncepaw/mycorrhiza/issues/153 | баг]]. Где-то за 13 минут баг пофиксил. Было несложно. На этом я стрим заканчивать не хотел, далее убирался в саду.
