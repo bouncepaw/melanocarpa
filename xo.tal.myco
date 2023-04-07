@@ -14,11 +14,4 @@ img grid {
 * Once the game is over, press anything to restart.
 
 = Development history
-I conducted almost all of development during live streams:
-
-=> 2022-06-27 uxn stream day 3
-=> 2022-06-28 uxn stream day 3.1
-=> 2022-06-29 uxn stream day 3.2
-=> 2022-07-01 uxn stream day 3.3
-
-Between days 3.2 and 3.3 I also held a refactoring off-screen. Overall, it took me around 8 hours to make this very simple game. During these hours, I learned a lot about [[uxn]].
+I conducted almost all of development during live streams. See the notes about [[Summer stream 2022]]. Overall, it took me around 8 hours to make this very simple game. During these hours, I learned a lot about [[uxn]].
