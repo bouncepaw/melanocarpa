@@ -23,6 +23,4 @@
 
 == 2023-04-07
 * Release [[mycorrhiza>release/1.14]]
-
-== Plans
-* Release Mycorrhiza v1.14
+* Forcefully redirect more of my subdomains to HTTPS. [[http://bouncepaw.com]] remains the one supporting HTTP.
