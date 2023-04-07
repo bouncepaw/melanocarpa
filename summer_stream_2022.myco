@@ -1,57 +1,29 @@
-Summer 2022, I held a series of video streams.
+During the summer of 2022, I held a series of video streams.
+
+Most of the streams were dedicated to me learning about [[uxn]] using the [[https://compudanzas.net/uxn_tutorial.html | Compudanza's famous tutorial]]. During the streams, I found some errors in the text, which I reported in my notes. Afterwards, they were fixed. Well, at least the ones I re-checked. I just expect the others to had been fixed as well.
+
+Чтобы на [[caemlyn]], с которого я стримил, было надёжное подключение к интернету, одолжил [[переходник на эфирнет]]. Хорошая штука.
 
 = Проведённые, held
 == 2022-06-24 стрим
 => https://t.me/bpblog/1256
-Решил провести тестовый стрим, чтобы проверить [[переходник на эфирнет]].
-
-Планы:
-* Пофиксить баг: [[https://github.com/bouncepaw/mycorrhiza/issues/153]]
-
-Где-то за 13 минут баг пофиксил. Было несложно. На этом я стрим заканчивать не хотел, поэтому решил поубираться в саду.
+Провёл тестовый стрим, чтобы проверить [[переходник на эфирнет]]. В планы входило пофиксить [[https://github.com/bouncepaw/mycorrhiza/issues/153 | баг]]. Где-то за 13 минут баг пофиксил. Было несложно. На этом я стрим заканчивать не хотел, далее убирался в саду.
 
 == 2022-06-25 uxn stream
-**Learning Uxn day 1.** This is the first [[uxn]] stream in the [[summer stream 2022]] series. Today I made a hello world program multiple times. It was fun.
+**Learning Uxn day 1.** This is the first [[uxn]] stream in the series. Today I made a hello world program multiple times. It was fun.
 
 => https://v.lor.sh/w/oPeqtb4TuSJzxV7UcPJuTK | The stream record
 => https://compudanzas.net/uxn_tutorial_day_1.html | The tutorial I followed
 
-=== Errors
-Along the way, I have found some minor errors in the text.
-* {
-> for example, in order to assemble and run darena that is in projects/examples/demos/
-Wrong path. The source code lies in `projects`, and the ROM is in `roms`.
-}
-* {
-> wc --bytes hello.rom
-Not portable! Did not work on my machine!
-}
-* {
-> it ends up being assembled in the same 30 bytes as the examples above, but hopefully more readable and maintainable.
-It's 29 bytes to me
-}
+How to pronounce //uxn//? I ended up saying [ˈjuzən], but I suppose there is an agreed pronunciation. I might try [ˈjuxən] and [ˈjuʃən] for fun though. **Addendum:** there is no agreed pronunciation.
 
-=== Questions to Devine
-* Why spaces around comments? What inspired this design?
-* {
-Why no space here before the parenthesis?
-```
-Assembled hello.rom in 5 bytes(0.01% used), 0 labels, 0 macros.
-```
-Maybe I should make a patch.
-
-**Addendum.** Not having the space before the opening parenthesis is a recurring approach on Devine's garden, so it seems. Well, I don't like that.
-}
-* How to pronounce //uxn//? I ended up saying [ˈjuzən], but I suppose there is an agreed pronunciation. I might try [ˈjuxən] and [ˈjuʃən] for fun though.
-
-=== Meta
+Notes:
 * The actual video started 8 minutes in. I should shorten this time.
 * Very little people joined during the stream. I do not know how to increase the number to, at least, ten.
-* OBS works well. [[Peer Tube]] works well, although the 1 minute delay is present.
-
+* OBS works well. PeerTube works well, although the 1 minute delay is present.
 
 == 2022-06-26 uxn stream day 2
-**Learning Uxn day 2.** Continuing the series on [[uxn]]. Previous: [[2022-06-25 uxn stream]]. Today we did some graphics:
+**Learning Uxn day 2.** Today we did some graphics:
 img {
 2022-06-26 uxn stream day 2/exercise { There were exercises at the end of the tutorial, I did them. }
 }
@@ -59,10 +31,8 @@ img {
 => https://v.lor.sh/w/jDF4BH23B3M3yeqJtQmEtV | Stream record
 => https://compudanzas.net/uxn_tutorial_day_2.html | Followed tutorial
 
-I have found an error in the guide during the stream, which was subsequently fixed.
-
 == 2022-06-27 uxn stream day 3
-**Uxn day 3.** This is the best stream so far, because I had viewers. A big thank you to Vertigo and Snufkin for being active in the chat. Snufkin helped a lot with jumping across the labels. It was a good idea to announce the stream in the [[uxn]] IRC chat. After finishing the tutorial, I started implementing Tic-Tac-Toe, but spent too much time doing it. I will finish it in a follow-up stream.
+**Uxn day 3.** This is the best stream so far, because I had viewers. A big thank you to Vertigo and Snufkin for being active in the chat. Snufkin helped a lot with jumping across the labels. It was a good idea to announce the stream in the uxn IRC chat. After finishing the tutorial, I started implementing Tic-Tac-Toe, but spent too much time doing it. I will finish it in a follow-up stream.
 
 => https://compudanzas.net/uxn_tutorial_day_3.html | The tutorial
 => https://v.lor.sh/w/kedbgrdkg5bh6M2oc26qr4 | The stream record
@@ -72,14 +42,12 @@ img {
 2022-06-27 uxn stream day 3/tic-tac-toe { Unfinished Tic-Tac-Toe }
 }
 
-=== Notes
-* I wish Compudanzas set monospace font explicitly for code blocks (Safari workaround)
-* Vertigo said: {
+Vertigo said: {
 > AND, ORA, and EOR are mnemonics found on 6502 and 6800 processors.  Uxn probably got them from there.  ORA stands for "OR Accumulator."
 }
 
 == 2022-06-28 uxn stream day 3.1
-A follow-up stream for [[2022-06-27 uxn stream day 3 | yesterday]]. I continued to develop tic-tac-toe. It turned out to be even harder, so I will be having another follow-up stream.
+I continued to develop tic-tac-toe. It turned out to be even harder, so I will be having another follow-up stream.
 
 => https://v.lor.sh/w/9ZettagMiLPWhTdjQGccL9 | The stream record (1:56:29)
 
@@ -88,7 +56,7 @@ img { 2022-06-28 uxn stream day 3.1/tic-tac-toe { This is what I got at the end 
 I have found some bug with stack overflow that happens if you press the buttons enough times. I didn't find what caused it.
 
 == 2022-06-29 uxn stream day 3.2
-Continuing from [[2022-06-28 uxn stream day 3.1]]. Today I fixed some bugs, made the cursor and xo placement work.
+Today I fixed some bugs, made the cursor and xo placement work.
 
 => https://v.lor.sh/w/weFecUAoG2jzyNPzsbNgMc | Stream record
 
@@ -96,20 +64,17 @@ I kinda leaped forwards and used some information from day 4. Whatever. Gotta fi
 
 img { 2022-06-29 uxn stream day 3.2/result { This is how the game looked after the stream and a refactoring I made off-screen. }}
 
-=== Notes
 I used division by zero to cause the stacks to be printed. Turns out, there is a canonical way:
 > 00:46:28 <snufkin> This should make it stop as well %DEBUG { #01 #0e DEO }
 > 00:46:37 <snufkin> #0e is System/debug
 
 == 2022-07-01 uxn stream day 3.3
-**Day 3.3.** The third follow-up stream. I finished developing [[xo.tal]] and initiated [[uxnerie]] during this stream.
+The third follow-up stream. I finished developing [[xo.tal]] and initiated [[uxnerie]] during this stream.
 
-=> https://v.lor.sh/w/hszr2RS6YvX3h85kQ7Lk8f | The stream record
-
-Length: 2:19:42
+=> https://v.lor.sh/w/hszr2RS6YvX3h85kQ7Lk8f | The stream record (2:19:42)
 
 == 2022-07-04 mycorrhiza stream 01
-Part of [[summer stream 2022]]. On that stream, I was writing the [[mycorrhiza>spec]], and then started implementing the Table of Contents sidebar, but left early due to a health problem.
+On that stream, I was writing the [[mycorrhiza>spec]], and then started implementing the Table of Contents sidebar, but left early due to a health problem.
 
 => https://v.lor.sh/w/8aJjyKBvcNjDMcY5mpWRPF | Stream record
 
@@ -133,12 +98,4 @@ A couple of people suggested that I use the built-in toot expiration capability.
 => https://compudanzas.net/uxn_tutorial_day_4.html | The tutorial
 => https://v.lor.sh/w/oDpPLfqenxr7J26QNdcjQx | The record
 
-=== Hmmms
-* {
-> in order to refer to them, we would use the dot (.) rune for literal zero page addresses, instead of the colon (;) rune for literal absolute addresses.
-It's actually a semicolon.
-}
-* I don't get why the vectors and the zero page use the same addresses. How does it work?
-
-= Пост-скриптум
-Чтобы на [[caemlyn]], с которого я стримил, было надёжное подключение к интернету, одолжил [[переходник на эфирнет]]. Хорошая штука.
+I don't get why the vectors and the zero page use the same addresses. How does it work?
