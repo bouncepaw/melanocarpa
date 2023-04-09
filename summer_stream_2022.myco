@@ -90,7 +90,7 @@ img { lapin 70 { I used this picture as a cover on PeerTube }}
 
 A couple of people suggested that I use the built-in toot expiration capability. Turns out, it's not just a brutal reap of older posts, it has some kind of granularity, you can ask it to not delete favorited own posts! I think it's not enough.
 
-== 2022-07-28 uxn stream day 4
+= 2022-07-28 uxn stream day 4
 => https://compudanzas.net/uxn_tutorial_day_4.html | The tutorial
 => https://v.lor.sh/w/oDpPLfqenxr7J26QNdcjQx | The record
 
