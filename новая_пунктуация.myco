@@ -35,3 +35,6 @@
 * x[?] → x?
 * x: //a// → x. //a// или x, //a//
 * x:. y. //a// → x. y. //a//
+
+= См. также
+=> https://ilyabirman.ru/meanwhile/all/dash-question-mark/ | Бирман перегружает тире
