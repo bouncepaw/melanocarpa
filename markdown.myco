@@ -11,7 +11,3 @@ John Gruber got these things wrong:
 * Support for different markers for unordered lists.
 * Markers for numbered lists. They are numbers.
 * HTML is allowed, making it a subset of Markdown. At least, of some dialects.
-
-= Links
-=> https://www.smashingmagazine.com/2022/02/thoughts-on-markdown/ | Thoughts On Markdown
-[[bookmark]]. The author tells how Markdown is used for different purposes.
