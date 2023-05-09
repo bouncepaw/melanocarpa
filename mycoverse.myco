@@ -28,3 +28,6 @@ Both Mycorrhiza and Betula use Mycomarkup. Betula uses some microformats. No rea
 
 = Hesitations
 [[Web]] seems to be the most fitting place for Mycoverse to exist in. The thing is, I don't want to lock on the Web, like Indie Web does. Internet is not always there, and will not always be. But all these microformats and protocols, they just smell Internet. I have no idea how a web-less transclusion would work. Mycomarkup has always been designed to avoid weblock. Maybe I should submit to the Web fully hmmm. Web is cool after all.
+
+= Thinks to look at
+=> https://github.com/jhass/nodeinfo
