@@ -19,3 +19,4 @@ The Mac Spider had the following interesting traits:
 * Gotta store statistics.
 * What is the game number generation algorithm?
 * It's not as easy as it seems.
+* I want the four suits to actually have four different colors. Not much left for the UI, since UXN supports no more than four colors at all.
