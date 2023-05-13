@@ -1,0 +1,21 @@
+**Araneo** is a concept of a Spider Solitaire implementation I want to make. I want to write it for [[uxn]], as part of [[uxnerie]]. Summer 2023?
+
+= Inspirations
+* The Windows XP Spider is a classic.
+* The [[https://macspider.com | Mac Spider]] is a pretty solid game.
+* Gotta try the GNOME one: https://gitlab.gnome.org/GNOME/aisleriot
+* [[links>237]]
+
+= Card sprites
+Numerik [[https://merveilles.town/@d6/110344844458764963 | drew 8x16 tiles]] for UXN-based card games, especially Solitaire. This is perfect.
+
+= The Mac Spider
+The Mac Spider had the following interesting traits:
+* No Hint.
+* Clicking on a stack moves it to the most appropriate location. This alone is enough to make the game high-level and quite different. I want it.
+* The completed stacks are not moved to base automatically.
+
+= &c.
+* Gotta store statistics.
+* What is the game number generation algorithm?
+* It's not as easy as it seems.
