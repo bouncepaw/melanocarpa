@@ -1,4 +1,4 @@
-**Uxn** is a small virtual computer by [[100 rabbits]]. It is also somehow accompanied by [[varvara]], not exactly sure how.
+**Uxn** is a small virtual computer by [[100 rabbits]]. It is often said it is core of Varvara, but I'm not exactly sure what is the difference, so I will talk about both here.
 
 > The Uxn ecosystem is a personal computing playground, created to host small tools and games, programmable in its own unique assembly language.
 >
@@ -10,18 +10,16 @@
 [[Devine Lu Linvega]] [[https://merveilles.town/@neauoire/109179459385472257 | said]]:
 > rest assured that learning Uxn will have absolutely no value whatsoever on your resume.
 
+=> links>uxn
+
 = Uxn and me
 => uxnerie
-=> xo.tal
 
-== Streams
+I first discovered Uxn in 2022, after long hesitation.
 => uxn 2022-03-27
-=> 2022-06-25 uxn stream
-=> 2022-06-26 uxn stream day 2
-=> 2022-06-27 uxn stream day 3
-=> 2022-06-28 uxn stream day 3.1
-=> 2022-06-29 uxn stream day 3.2
-=> 2022-07-01 uxn stream day 3.3
+
+The summer of the same year I held a series of streams, where I learned [[Uxntal]], the assembly language of Uxn.
+=> summer stream 2022
 
 = The keyboard toots
 Devine, is the CMD/WIN/SUPER key supported by VARVARA? It's definitely not in Controller/button.
@@ -37,30 +35,3 @@ yeah cool. Not gonna find any windows keys on the IBM PC keyboard anyway.
 img { https://s3.eu-central-1.wasabisys.com/lor-sh/lor-sh/media_attachments/files/108/908/193/582/831/241/original/9956d0776d52df9c.png { An IBM PC keyboard. It lacks the WIN key. }}
 
 > or, on the [[Nintendo DS | NDS]] XD
-
-= Links
-
-=> https://lists.sr.ht/~rabbits/uxn/%3C16547614410.357889%40mail.networkname.de%3E | platform stability
-A thread in the uxn's mailing list. Felix asks about uxn's stability, Devine says it will be stable soon enough, and this:
-> Don't think of a Varvara as a platform just yet, at best, it's something that can inspire others to explore their own ideas of how a VM can be used to preserve their own projects. There is very little experimentation done in this space and it's sort of in the research phase right now.
-Links like this can discourage you from learning uxn. They do not discourage me, though. [[Summer stream 2022]] is a proof.
-
-=> https://nchrs.xyz/uxn_notes.html | nchrs: uxn notes
-Cute images like this:
-img {
-https://nchrs.xyz/media/headers/uxn_notes-900.png
-}
-
-=> https://github.com/tbsp/uxngb
-img { https://user-images.githubusercontent.com/10489588/176514430-42b9c1a9-9300-426d-8f34-63fab83205fa.jpg }
-A port of uxn to GB and GBC. Wonderful!
-
-=> https://idiomdrottning.org/objects/eb47ec6a-4e5d-465d-ac61-2a63a0fbda70
-Sandra asking about a chess clock for the [[Nintendo DS]] portable console family. Does uxn have it?
-
-=> https://nitter.42l.fr/chordbug/status/1544742494381932544#m | Thread on Twitter [Nitter link]
-=> https://github.com/lynn/uxn-harp/
-img {https://user-images.githubusercontent.com/16232127/177855203-3114ea3b-2073-4656-88b0-bf3ef0d605f6.png}
-> uxn autokalimba
-
-=> https://yeti.tilde.institute/brain/uxn.html
