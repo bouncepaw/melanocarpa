@@ -1,16 +1,14 @@
-**VK**, short for //vkontakte//, which is based on [[русский]] for //in contact//, is a Russian [[social network]], which is also the most successful on the market. It is a good notion to not use it.
-
-See also: [[smithereen]].
+**VK**, short for //vkontakte//, which is based on Russian for //in contact//, is a Russian [[social network]], which is also the most successful on the market. It is a good notion to not use it.
 
 = Links
 => https://t.me/roguelike_theory/431
 > Сделал скрипт для бекапа паблика. Он качает тексты, комментарии и картинки, сохраняет их в JSON и рендерит в Markdown. Очень советую это сделать, если вы тоже паблик ведете! Пока это оч сырая штука – написал буквально за пару часов по вдохновению – но я планирую доработать и помочь всем, кто тоже хочет свой архив паблика в VK сохранить как-то: [[https://github.com/valyagolev/leave-vk]]
 
 => https://github.com/alcortazzo/vktgbot
-> [[Telegram]] Bot on Python for reposting from VKontakte community pages (group, public page or event page) to Telegram Channels.
+> Telegram Bot on Python for reposting from VKontakte community pages (group, public page or event page) to Telegram Channels.
 Согласно [[https://t.me/dcntr/1027 | этому посту]], на этом боте работает канал [[https://t.me/dcntr | Decentralize!]]
 
 => https://mastodon.ml/@uu/108074104532584675 | @uu@mastodon.ml 2022-04-04
 > Возможно, мало кто помнит, но я расскажу. Однажды ВК был немного лучшим местом. 
-> У них был нормальный [[xmpp]] api! Можно было подрубиться к серверу любым клиентом и пользоваться сообщениями, чем я невозбранно пользовался на нокии e90 с qwerty клавой. Было [хорошо].
+> У них был нормальный xmpp api! Можно было подрубиться к серверу любым клиентом и пользоваться сообщениями, чем я невозбранно пользовался на нокии e90 с qwerty клавой. Было [хорошо].
 > Было это еще до того, как Дуров выпилил стену, если память не изменяет.
