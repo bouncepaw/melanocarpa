@@ -4,6 +4,8 @@
 
 = Collaboration
 
+//Text by [[https://handlerug.me]]//
+
 **Collaboration** with Git is done by sharing patches and pulling from other people's trees. This is how Linux kernel, PostgreSQL, Git and many other communities collaborate. Patches are usually sent by email using `[[https://git-scm.com/docs/git-send-email | git-send-email]]` or formatted separately using `[[https://git-scm.com/docs/git-format-patch | git-format-patch]]`. Sending pull requests (using `[[https://git-scm.com/docs/git-request-pull | git-request-pull]]`) is preferred when patches get too big and it becomes impractical to send them as a series of emails. A good resource on that is [[https://git-send-email.io]], and [[u/handlerug]] recommends it to everyone interested in collaboration via email.
 
 Relatively recently, a new way of collaboration has emerged. **[[https://github.com/ | GitHub]]**, a centralized freemium hosting platform for Git repositories, launched in April 2008 and quickly eclipsed other services like SourceForge or OSDN and Git frontends like Cgit or Savannah. A huge rise in Git's popularity is also attributed to GitHub's launch. This platform uses //pull-requests// exclusively to merge trees: one clones a repository to their account (this action is called "forking"), pushes code changes to a new branch, then creates a pull request to the upstream repository using GitHub's web UI. Once everything is sorted out and the code is ready to get merged, upstream's collaborator with push access clicks the "Merge" button (which also offers options to squash or rebase commits). On top of that, this model provides extensive code review capabilities and CI/CD integration.
