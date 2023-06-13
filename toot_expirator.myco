@@ -2,6 +2,8 @@
 
 As I often say, [[my toots expire]]. Mine do so in a manual manner.
 
+++ I no longer use, as I no longer expire my toots this much.
+
 = How to use
 * When I want to expire a toot, I open its standalone page.
 * I select its URL in the omnibar.
@@ -23,7 +25,7 @@ As I often say, [[my toots expire]]. Mine do so in a manual manner.
 Example: `* Rageful, tired — 2022-04-19 18:08 UTC`. It was once a real toot. It no longer is.
 
 = Implementation
-This is a program for [[caemlyn]]. I use [[Automator]]. If you want to adapt the program to something else, you will have to think of a different thing. In the Automator workflow, I have a wrapper that runs `~/src/toot-expirator/toot-expirator.py`, this is the path with the program. I used [[Python]], because there is a [[https://github.com/halcy/Mastodon.py | library]]. Do not forget to install it beforehand: `sudo pip3 install Mastodon.py`.
+This is a program for [[caemlyn]]. I use Automator. If you want to adapt the program to something else, you will have to think of a different thing. In the Automator workflow, I have a wrapper that runs `~/src/toot-expirator/toot-expirator.py`, this is the path with the program. I used [[Python]], because there is a [[https://github.com/halcy/Mastodon.py | library]]. Do not forget to install it beforehand: `sudo pip3 install Mastodon.py`.
 
 => Toot expirator source
 
