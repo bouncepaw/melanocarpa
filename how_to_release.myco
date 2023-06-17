@@ -1,0 +1,67 @@
+**How to release** open-source software? Basically, the process can be broken down into several steps:
+
+*. Writing the code
+*. Making a git tag
+*. Publishing
+
+I will write a cheatsheet or an instruction for myself about releasing new version of [[Betula]].
+
+= Writing the code
+This is the simplest and the funniest part. You know how to do it, probably. When doing so, do your best to commit properly.
+
+Testing is also important. Betula has tests both in Go, which are run automatically on SourceHut, and a shell script for testing the front-end behaviour. Run the latter from time to time, and especially when changing the front-end. Make it work if it fails.
+
+=> https://builds.sr.ht/~bouncepaw/betula | SourceHut jobs
+
+= Making a git tag
+Git tags is what software forges list. I don't really like them, because they are hard-wrapped and are in plain text. But it is what we do!
+
+=> https://git.sr.ht/~bouncepaw/betula/refs | List of all releases on SourceHut
+
+Consider we are releasing `v9.9.9`. Let's see a summary of commits from the last release, `v9.9.8`. To save them to `~/tmp`, run:
+
+```sh
+git shortlog HEAD...v9.9.8 > ~/tmp
+```
+
+To make an annotated tag:
+
+```sh
+git tag -a v9.9.9
+```
+
+An editor pops up. Write that:
+
+```
+Betula v9.9.9
+
+<Optional text. Leave empty if nothing good to write, such as urging users to update due to security issues.>
+
+Release notes:
+
+=> https://betula.mycorrhiza.wiki/v9.9.9.html
+
+<Contents of ~/tmp go here>
+```
+
+Save and exit.
+
+= Publishing
+SourceHut will do the thing alright, don't think about it anymore. I don't bother myself with making special Release pages for mirrors: Codeberg and the other forge. They shall use the git tag.
+
+Gotta write the actual release notes page!
+
+=> https://git.sr.ht/~bouncepaw/betula-site | Betula website repo
+
+In the website repo, create `v9.9.9.myco`. Follow the overall structure from the previous release. Make a good summary of changes in this release. Link it from the index page.
+
+Don't forget to make a screenshot! Scale it down 2x. ImageCompress it. Add it both to the release page and the index page.
+
+Then write announcements to the parasocial networks:
+
+=> https://fosstodon.org/@betula | Betula's Mastodon
+=> https://t.me/bpblog | My Telegram channel in Russian
+
+----
+
+Take a rest.
