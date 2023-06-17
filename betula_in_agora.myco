@@ -1,6 +1,6 @@
 **Betula** sites want to be federated and shared, at least they pretend to. In this note I describe how Betulae can be included in [[Agora]], given no additional federation capabilities are added to Agora^^1^^.
 
-++This document is outdated. See [[https://git.agor.ai/bouncepaw/betulagora-bouncepaw]] for an actual implementation, and [[https://anagora.org/@betula-bouncepaw]]
+++This document is outdated. See [[https://git.agor.ai/bouncepaw]] repos for an actual implementation, and [[https://anagora.org/@bouncepaw-betula]] and [[https://anagora.org/@bouncepaw-flancian]] to see how it looks in Agora.
 
 = Algorithm
 *. In [[Flancia]], there is a [[Betula]].
