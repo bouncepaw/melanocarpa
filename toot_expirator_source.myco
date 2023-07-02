@@ -1,4 +1,4 @@
-This is the source code for [[toot expirator]]. The code is in [[public domain]], except for the little part which I found on [[Stack Overflow]]. The first and the only version so far was published on [[2022-05-08]].
+This is the source code for [[toot expirator]]. The code is in public domain, except for the little part which I found on Stack Overflow. The first and the only version so far was published on [[2022-05-08]].
 
 = Code
 
@@ -44,7 +44,7 @@ def write_to_clipboard(output):
     process = subprocess.Popen(
         'pbcopy', env={'LANG': 'en_US.UTF-8'}, stdin=subprocess.PIPE)
     process.communicate(output.encode('utf-8'))
-= }
+# }
 write_to_clipboard(text)
 
 mastodon.status_delete(id)
