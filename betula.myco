@@ -1,4 +1,4 @@
-🌳 **Betula** is a self-hosted bookmarking and link aggregation program, which is to become a part of [[Mycoverse]], compatible with [[Mycorrhiza]] in some ways, but, first of all, a tool for storing links. It is intended to be used to maintain a collection of one person, the administrator, who is called //gardener//.
+**Betula** is a single-user self-hosted bookmarking tool for the independent web. It is simple to run and use. I started making it at the end of 2022. It is my main project currently. When I program, I usually program Betula.
 
 => https://betula.mycorrhiza.wiki | Website
 => https://lists.sr.ht/~bouncepaw/betula | Mailing list about development (text only)
@@ -11,6 +11,8 @@ javascript:window.open(%22https://links.bouncepaw.com/save-link?url=%22+window.l
 ```
 Change the URL with your own.
 
+In a future version, a bookmarklet adding interface will be built-in.
+
 = Some Betulæ I know of
 The first one is mine! As you can see, the pattern of using `links` as the subdomain has emerged.
 
@@ -20,17 +22,7 @@ The first one is mine! As you can see, the pattern of using `links` as the subdo
 => https://links.danilax86.space
 => https://links.riskiwah.xyz
 
-= Principles, features
-*v Web software installed on your server, accessed from a web browser.
-*v One-person installation.
-*v One binary `betula`.
-*v All of your links and configuration stored in a single SQLite database file anywhere you like.
-*v You post //links//. You can also have a hypertext description of them, if you want to.
-**v Links can be changed later.
-**x A link with its description is isomorphous to Mycorrhiza's hyphae.
-*v Every link can be part of any number of categories.
-**x These categories are isomorphous to Mycorrhiza's categories.
-*x Federation
-**x IndieWeb style
-**x Mycoverse: Betula link posts could be transcluded, categories can be fetched with some API that would come one day
-**v A learning project: I don't know much about IndieWeb and SQLite, this would help me to learn more, and then bring the new knowledge to Mycorrhiza.
+= Relation to [[Mycorrhiza]]
+Both projects are part of the [[Mycoverse]]. What does it mean now? Not much, except it means that both projects are heavily connected ideologically and will be connected technically in the future.
+
+Both projects use [[Mycomarkup]] as the only markup language.
