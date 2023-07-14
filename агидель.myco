@@ -175,7 +175,7 @@ int main(int argc, char** argv) {
 Но пока я делал Агидель, я безнадёжно влюбился в макро-процессоры. В мои планы входит изучить что там на рынке есть. Я неплохо знаком с //C Preprocessor//, с ним, наверное, неплохо знакомы все. В следующей статье я расскажу, как использовать его не по назначению. Про это уже написали другие люди, кстати:
 
 => https://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across/652802 | Тред на стак-оверфло
-=> http://jkorpela.fi/html/cpre.html | Как использовать си-препроцессор для HTML
+=> http://jkorpela.fi/html/cpre.html | Как использовать си-препроцессор для HTML (2000)
 
 = Заключение
 
