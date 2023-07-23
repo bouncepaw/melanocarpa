@@ -1,4 +1,6 @@
-**Forge** is a software suite for [software] project development. Well-known forges are Gitea, Sourcehut, GitHub, GitLab, GNU Savannah.
+**Forge** is a software suite for [software] project development. Well-known forges are Forgejo, Sourcehut, GitHub, GitLab, Gitea, GNU Savannah.
+
+=> links>/tag/forge
 
 = Quick comparison
 * GitHub has the most users, has the best user interface and great [[a11y]]. It is also respected by normies. There is a common joke that programmers share their GitHub profiles upon acquaintance. Imagine if a person (such as an HR) expects you to have a ‘good’ profile, but you respond that you post your code to federated Gitea only. From the ethic point of view, GitHub is really bad. Especially with that Copilot thing.
@@ -21,10 +23,3 @@ In the end, I think I'll probably end up having 6 repos on GitHub, which are:
 Still a dozen repos to go. Will get back to it. #GiveUpGitHub
 
 Later, I moved even more repos. [[Агидель]] got republished as a result.
-
-= Links
-=> https://sfconservancy.org/GiveUpGitHub/ | Give Up GitHub!
-They call me to abandon GitHub. Would be great.
-
-=> https://social.platypush.tech/@blacklight/109148927311396174
-A good thread.
