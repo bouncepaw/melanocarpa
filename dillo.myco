@@ -1,0 +1,30 @@
+**Dillo** is a smolweb browser. Well, it wasn't initially developed as such, but became one as the time passed by. I would've linked the website, but Wikipedia the free encyclopædia states the domain was overtaken, so I won't.
+
+It begot some forks.
+* {
+**DilloNG** was ported from Mercurial sources to [[Git]] on GitHub. It has additional features.
+
+=> https://github.com/w00fpack/dilloNG
+}
+* {
+**Dillo+** is a fork of both Dillo and DilloNG. I've found it once and immediately [[links>485 | betulized]]. The next day I did my best to install on [[Caemlyn]].
+
+It has Gemini! Gopher! //It aims to become your default browser for accessing the smol web//, so they say.
+
+=> https://github.com/crossbowerbt/dillo-plus
+
+Read my review of Dillo+ on [[Fediverse]]:. There are pictures!
+=> https://merveilles.town/@bouncepaw/110762642633387104
+
+Quoting:
+> My review: it is fun, but completely unstable. So many websites just crashed the browser. It wasn't rare at all. I would have been fine with it lacking like 90 % of web standards, but I expected it to at least not crash every so often. The window focus logic also is wrong for some reason?
+
+Yeah, indeed, the modern web is not friendly to browsers like that, but the browser itself is not particularly enjoyable to be honest. But do not think I am shaming the browser, no! It's a very good project, which I want to support. It just needs more work.
+}
+
+= Mac installation of Dillo+
+It wasn't as easy as I would've wanted. The developer doesn't use a Mac, but, luckily, all I had to do was changing the Makefile options and installing some libraries. Not something I like doing, but thanks to the maintainers for limiting the number of things I had to do along the way.
+
+=> https://github.com/crossbowerbt/dillo-plus/issues/11#issuecomment-1646793024 | Details on my installation
+
+I also opened some issues, like a good netizen.
