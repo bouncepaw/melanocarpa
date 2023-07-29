@@ -33,4 +33,4 @@ Both projects use [[Mycomarkup]] as the only markup language.
 *. Open your Betula file with `sqlite3`.
 *. Run `delete from BetulaMeta where Key like 'Admin%';`
 *. Restart Betula. //Is it required?
-*. Betula will prompt you for a new password.
+*. Betula will prompt you for a new username and password when you open it.
