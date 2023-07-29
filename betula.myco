@@ -28,3 +28,9 @@ Note that every instance is one-person only! Want to have your own Betula? Set u
 Both projects are part of the [[Mycoverse]]. What does it mean now? Not much, except it means that both projects are heavily connected ideologically and will be connected technically in the future.
 
 Both projects use [[Mycomarkup]] as the only markup language.
+
+= How to reset password?
+*. Open your Betula file with `sqlite3`.
+*. Run `delete from BetulaMeta where Key like 'Admin%';`
+*. Restart Betula. //Is it required?
+*. Betula will prompt you for a new password.
