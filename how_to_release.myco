@@ -21,7 +21,7 @@ Git tags is what software forges list. I don't really like them, because they ar
 Consider we are releasing `v9.9.9`. Let's see a summary of commits from the last release, `v9.9.8`. To save them to `~/tmp`, run:
 
 ```sh
-git shortlog HEAD...v9.9.8 > ~/tmp
+git shortlog v9.9.8...HEAD > ~/tmp
 ```
 
 To make an annotated tag:
