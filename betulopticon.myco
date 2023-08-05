@@ -1,0 +1,20 @@
+**Betulopticon** is a project related to [[Betula]] I want to make. It will be a beacon for the betulist community.
+
+The name is a pun on panopticon, and is subject to change. Other name I consider is Index Betulica.
+
+*. When first setting up a Betula, the betulist is prompted to join a Betulopticon (opt-in). The one I host will be pre-filled.
+*. Betulopticon tracks stats for the new Betula and presents them.
+*. In a Betula that is part of a Betulopticon, on the Subscribe change, beside the text input for the URL, members of the Betulopticon are listed, ranged by similarity, quality and popularity. All this information is derived from public data.
+
+The project is open-source, of course, and everyone will be able to host their own Betulopticon. It might make sense for small close communities. I, though, would prefer many betulists to prefer the flagship instance.
+
+= Caveats
+== Internet
+Most Betulæ are not in the internet, they are LAN-only. Such instances cannot be tracked by the Index, but they can access the Index's data.
+
+== Centralization
+Some would say I want to centralize the Betula community this way. In a way, I do. I want to see people use Betula and share cool stuff. I want to know an approximate number of betulists. Is it 20 now? No idea.
+
+However, there is no ethic dillema here. By not joining, one does not miss anything. I don't even host the Betulæ's data, they are all hosted elsewhere.
+
+I'll consider the Index successful if there are 10 sites in it.
