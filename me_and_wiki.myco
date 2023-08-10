@@ -1,0 +1,35 @@
+Se. C. has written me an email, asking “Could you tell me more about your work with wikis?”. Yes of course I could! I've been meaning to for some time already. Here's a brief timeline of my relationships with the wiki technology. Some events listed here are previously unknown details of what some people call //Bouncepaw lore//.
+
+**2011** I was introduced to Minecraft, a popular sandbox computer game, which I still play from time to time 13 years later, by my brother. I started with Beta 1.9 Pre-release 4, which was released in October 2011. The Release 1.0 was out in November. The game was young but already very popular. And there was this //Minecraft wiki//. I'm still unsure if it was an official wiki, or just a fan wiki that just got very big, but whatever. I spent a lot of time reading it, learning about the game.
+
+Back then I thought that //wiki// meant //a website with information dedicated to a specific topic//. While it's very true for most wikis, this is not the definition I think should be used.
+
+I'm not sure if I knew of Wikipedia back then. I probably did. Or maybe not. It doesn't really matter for the story, because Wikipedia wasn't important on my wiki way. I make anonymous typo edits from time to time though.
+
+**Around 2014 or 2015** the Pokémon fandom in Russia got bigger. The trading card game was released, and I was playing it. I played the FireRed game on a Gameboy Advance emulator on my smartphone, and that's basically how I learned English. I was reading a lot of Bulbapedia, the biggest Pokémon wiki. That's when I learned wikis are community-written.
+
+I think I was also reading some Wikia wikis then. Not sure why. Maybe I liked some topic. I don't remember. Anyway, I knew that I can host a wiki on Wikia for free. And I did! Russian Pokémon wikis were (and still are) barely a thing, and I wanted to change that. Not willing to grasp the whole Pokéworld, I decided to devote my wiki to just one thing, the Russian edition of Pokémon TCG. Then I changed platforms because Wikia was too limited. I chose a different MediaWiki hoster.
+
+I was writing my wiki fervently. I learned the [[MediaWiki markup]]. Then I learned CSS. Then I learned HTML (sic! the order was as written). I learned SublimeText and its macros thingy or whatever it's called. But the project didn't really catch attention from the people, and I abandoned it.
+
+**Around 2016** the second generation of [[Bionicle]] was happening. Some folks on the biggest Russian Bionicle forum wanted to make a good new wiki, comparable to Biosector01. I observed them. And then I just jumped in and shocked them with my awesome knowledge of MediaWiki templates and CSS. My cool infobox is still there, but the wiki is long inactive.
+
+Then I forgot about wikis. I learned Ruby, then JavaScript, thus finally learning some programming. I was blogging.
+
+**2020** I felt a need. I was surrounded with a lot of artefacts (drawings, notes, publishings, etc) I made during the previous years. I wanted to sort them out. What was the perfect tech for that? A wiki. And I started learning more about wikis. The history, how they happened in the first place, different wiki engines. I tried several wiki engines. I thought settled down with MoinMoin. I was resisting the urge to write my own.
+
+But it was obvious. I had to.
+
+And thus the [[Mycorrhiza]] project was born. Yes, the ultimate goal of Mycorrhiza was to power my private personal wiki [[Cyberrachel]]. Everything else came as a bonus. I learned Go, I learned back-end web development, I learned many things. And I made a wiki engine which I consider to be the best.
+
+**End of 2020** I joined Community Wiki, an old wiki still holding the old spirit. You can read more about my Community Wiki journey on [[cw>Epoch 2020]]. It's back to being dead now, though. I got good acquaintances from there though.
+
+I joined [[Agora]]. I'm taking part in its development, mostly indirectly, because I'm not signing that CLA.
+
+Mycorrhiza was a successful project. For some people, it was the perfect choice. For individuals mostly, though. [[https://klava.wiki | KlavaWiki]], a Russian keyboard wiki, was the first community Mycorrhiza wiki. I won an award in an all-Russia contest with it. Some people think of me as the ‘Mycorrhiza guy’. I didn't get rich from it though. 
+
+**2023**, the Mycorrhiza development is mostly stagnant. I commit occasional fixes, I get occasional issues, but not much is happening. However, I use it daily. For example, this website is running Mycorrhiza. Cyberrachel, for which it was made in the first place, has three and a half thousand hyphae, which is much more than I anticipated three years ago.
+
+I like to say that Mycorrhiza is //complete// or //done//. I wonder if it's true.
+
+Let's see what the wiki future brings!
