@@ -31,3 +31,6 @@ visible(w) <- TRUE                            ## a method call
 ```
 
 Должно выскочить что-то некрасивое.
+
+А примеры всякие можно посмотреть в красивой ПДФке:
+=> https://cran.r-hub.io/web/packages/gWidgets/vignettes/gWidgets.pdf
