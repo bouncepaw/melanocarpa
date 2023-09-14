@@ -1,0 +1,33 @@
+Как сделать графический интерфейс в R? Вот тут наметочки, чтобы потом не забыть и чтобы поделиться.
+
+= Установка библиотек
+Есть какая-то крутая библиотека gWidgets. А ещё есть малоизвестное переписывание gWidgets2. Будем пользоваться последним.
+
+=> https://github.com/jverzani/gWidgets2
+
+Установить библиотеки (один раз):
+```r
+install.packages("gWidgets2")
+install.packages("gWidgets2tcltk")
+```
+
+Подключить библиотеки:
+```r
+library("gWidgets2")
+library("gWidgets2tcltk")
+```
+
+И из README.md проекта тестовое окошко:
+```r
+w <- gwindow("Hello...", visible=FALSE)       ## a parent container
+g <- ggroup (cont = w)                        ## A box container
+b <- gbutton("Click me for a message", cont=g, expand=TRUE)  ## some control
+
+addHandlerClicked(b, function(...) {          ## adding a callback to an event
+  gmessage("Hello world!", parent=w)          ## a dialog		    
+})
+
+visible(w) <- TRUE                            ## a method call
+```
+
+Должно выскочить что-то некрасивое.
