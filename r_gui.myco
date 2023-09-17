@@ -34,3 +34,6 @@ visible(w) <- TRUE                            ## a method call
 
 А примеры всякие можно посмотреть в красивой ПДФке:
 => https://cran.r-hub.io/web/packages/gWidgets/vignettes/gWidgets.pdf
+
+И документация по пакету:
+=> https://stat.ethz.ch/CRAN/web/packages/gWidgets2/gWidgets2.pdf
