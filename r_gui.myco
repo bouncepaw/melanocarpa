@@ -37,3 +37,6 @@ visible(w) <- TRUE                            ## a method call
 
 И документация по пакету:
 => https://stat.ethz.ch/CRAN/web/packages/gWidgets2/gWidgets2.pdf
+
+И вот эта книга может представлять интерес:
+=> http://nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Lawrence%20M.,%20Verzani%20J.%20Programming%20Graphical%20User%20Interfaces%20in%20R%20(CRC,%202012)(ISBN%201439856826)(O)(467s)_CsPl_.pdf?ysclid=lmnmjrs1uq536077374
