@@ -8,7 +8,10 @@ Adjacent and intersecting domains are [[wiki]], [[Indie Web]] and [[Fediverse]].
 * [[Mycomarkup]], a markup language.
 
 = How it is now
-Both Mycorrhiza and Betula use Mycomarkup. Betula uses some microformats. No real federation is happening yet.
+Both Mycorrhiza and Betula use Mycomarkup. Betula uses some microformats.
+
+2023-09-23 the first ever federative action happened: a repost was made in Betula. It is the birthday of Mycoverse.
+=> https://fosstodon.org/@betula/111114850992671579 | Repost announcement
 
 = Federation examples from the future (circa 2025)
 * Alice hosts a Betula and collects bookmarks about web development in a category named simply `webdev`.
