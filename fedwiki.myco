@@ -1,10 +1,10 @@
-**FedWiki** is the project of a federated [[wiki]], or a federation of wikis, lead by Ward Cunningham, the creator of the first wiki.
+**FedWiki** is the project of a federated [[wiki]], or a federation of wikis, led by Ward Cunningham, the creator of the first wiki.
 
-I generally dislike FedWiki for its JS-heavy unintuitive and non-robust UI, poor support of mobiles and bad UX. It was kinda easier to find content to read on a [[classic wiki]]. Not sure about editing, you can't edit someone's fedwiki, you gotta set up your own.
+I generally dislike FedWiki for its JS-heavy unintuitive and non-robust UI, poor support of mobiles and bad UX. It was kinda easier to find content to read on a //classic wiki//. Not sure about editing, you can't edit someone's fedwiki, you gotta set up your own to publish your forks of pages.
 
-The community is mostly puzzled with adding more and more plugins to the ecosystem. I sometimes visit their meetings. Great people, I like their company!
+The community is mostly puzzled with adding more and more plugins to the ecosystem. I sometimes visit their meetings. Great people, I like their company! **Added in 2023:** I no longer visit the meetings.
 
-Another thing to dislike about FedWiki is their dialect of [[Markdown]] which is barely compatible with Markdown at all, it is actually closer to [[Gemtext]]. I hate that they have the audacity to call it Markdown. Just give it a name! You sure made markups before, Ward.
+Another thing to dislike about FedWiki is their dialect of [[Markdown]] which is barely compatible with Markdown at all, it is actually closer to [[Gemtext]]. I hate that they have the audacity to call it Markdown. Just give it a name! You sure made markups before, Ward, don't be shy.
 
 Despite my dislike, the project is still respectable. First of all, it is ten years old. This is impressive. Also, that paned interface is cute. See [[Cartographist]] for a similar approach.
 
