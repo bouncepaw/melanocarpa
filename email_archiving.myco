@@ -1,5 +1,7 @@
 I have this tendency to move worthwhile [[email]] conversations to [[Cyberrachel]]. The whole chain gets saved as one document, easily hyperlinked with other parts of the wiki, including the notorious diary. But Bouncepaw, how do you move messages to the wiki? Most of them were copy-pasted. But then I got tired.
 
+=> https://t.me/bpblog/1308 | См. также этот пост в телеграме
+
 While corresponding with [[https://alexschroeder.ch | Alex Schroeder]] on October 2023, I thought it was time to write a helper script, that would convert the messages to [[Mycomarkup]]! I am using Apple's Mail application for email. I just tried to drag-and-drop messages somewhere. Surprisingly, they turned to `.eml` files, which ended up being plain-text! And, to my further surprise, there is built-in library for handling of such email files in Python standard library!
 
 Thought I'd share the script I'd written. It's in the bottom of the article. To use it, pass the filenames one after another in the terminal to it. Selecting them in the correct order, copying and pasting to the terminal would insert escaped filenames in the correct order.
