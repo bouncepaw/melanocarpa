@@ -1,0 +1,45 @@
+I have this tendency to move worthwhile [[email]] conversations to [[Cyberrachel]]. The whole chain gets saved as one document, easily hyperlinked with other parts of the wiki, including the notorious diary. But Bouncepaw, how do you move messages to the wiki? Most of them were copy-pasted. But then I got tired.
+
+While corresponding with [[https://alexschroeder.ch | Alex Schroeder]] on October 2023, I thought it was time to write a helper script, that would convert the messages to [[Mycomarkup]]! I am using Apple's Mail application for email. I just tried to drag-and-drop messages somewhere. Surprisingly, they turned to `.eml` files, which ended up being plain-text! And, to my further surprise, there is built-in library for handling of such email files in Python standard library!
+
+Thought I'd share the script I'd written. It's in the bottom of the article. To use it, pass the filenames one after another in the terminal to it. Selecting them in the correct order, copying and pasting to the terminal would insert escaped filenames in the correct order.
+
+= Caveats
+* It does not handle HTML.
+* It does not handle attachments.
+
+But it's useful to me already.
+
+= eml2myco.py
+The script is licensed under CC0.
+```python
+#!/usr/bin/env python
+import sys
+import email
+import email.policy
+import re
+import time
+
+emlfiles = sys.argv[1:]
+
+def format_account(acc):
+	res = re.match("(.+) <(.+)>", acc)
+	if res is None:
+		return "[[mailto:%s]]"%(acc)
+	return "%s [[mailto:%s]]"%(res.group(1), res.group(2))
+
+def link_time(th):
+	return time.strftime(
+		"[[%Y-%m-%d]] %H:%M, %A",
+		email.utils.parsedate(th)
+	)
+
+for f in emlfiles:
+    msg = email.message_from_file(open(f), policy=email.policy.default)
+    print("= " + msg['subject'])
+    print("From: " + format_account(msg['from']))
+    print("To: " + format_account(msg['to']))
+    print("Date: " + link_time(msg['date']))
+    print()
+    print(msg.get_content())
+```
