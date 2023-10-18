@@ -9,17 +9,23 @@ I'm part of it:
 => https://anagora.org/@melanocarpa | Melanocarpa in Agora
 => https://anagora.org/@bouncepaw-betula | My recent bookmarks in Agora
 
-Agora makes a big emphasis on graphs and links. Their analogue of [[https://mycorrhiza.wiki/help/en/hypha | hyphae]] is called a [[https://anagora.org/node | node]], nodes are generated from contents from multiple sites. There is also a cool notion of push/pull and [[https://anagora.org/go | go]] links!
+Agora makes a big emphasis on graphs and links. Their analogue of hyphae is called a node, nodes are generated from contents from multiple sites. There is also a cool notion of push/pull and go links!
 
 //I was inspired by Agora's go links and implemented something very similar in [[Betula]].//
 
-The project is interesting. [[2022-01-18]] I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. [[2022-03-06]] Melanocarpa was added to Anagora, along with [[https://github.com/flancian/agora-server/commit/7783430aa33986186e9fd66ee858250b115e0d7e | Mycorrhiza support]]. Furthermore, in 2023 proper support of [[Mycomarkup]] was added.
+The project is interesting. 2022-01-18 I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. 2022-03-06 Melanocarpa was added to Anagora, along with Mycorrhiza support. Furthermore, in 2023 proper support of [[Mycomarkup]] was added.
+
+=> https://github.com/flancian/agora-server/commit/7783430aa33986186e9fd66ee858250b115e0d7e | Commit that adds Mycorrhiza support.
 
 The Agorans also seem to be using [[git]]-based [[markdown]]-driven digital gardens mostly. It is the default choice for many, but luckily support for more formats was added. Mycorrhiza, for example, is supported! There is also [[Betula in Agora]].
-
-You can't talk about Agora without talking about [[Flancia]].
 
 = See also
 => Wiki
 => Social network
 => Digital garden
+=> https://mycorrhiza.wiki/help/en/hypha
+=> https://anagora.org/node
+=> https://anagora.org/go
+=> Flancia
+
+You can't really talk about Agora without Flancia.
