@@ -13,7 +13,7 @@ Agora makes a big emphasis on graphs and links. Their analogue of hyphae is call
 
 //I was inspired by Agora's go links and implemented something very similar in [[Betula]].//
 
-The project is interesting. 2022-01-18 I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. 2022-03-06 Melanocarpa was added to Anagora, along with Mycorrhiza support. Furthermore, in 2023 proper support of [[Mycomarkup]] was added.
+2022-01-18 I wrote the author an email about the possibilities of making Agora and [[Mycorrhiza]] compatible. 2022-03-06 Melanocarpa was added to Anagora, along with Mycorrhiza support. Furthermore, in 2023 proper support of [[Mycomarkup]] was added.
 
 => https://github.com/flancian/agora-server/commit/7783430aa33986186e9fd66ee858250b115e0d7e | Commit that adds Mycorrhiza support.
 
