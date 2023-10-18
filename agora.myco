@@ -1,6 +1,6 @@
 img side { lapin 77 {My visual take}}
 
-**Agora** is a ‘[[wiki]] like experimental [[social network]] and distributed knowledge graph’, so they said. **Anagora** is the first and biggest instance of it. [[Flancian]] was the one who created it.
+**Agora** is a ‘wiki like experimental social network and distributed knowledge graph’, so they said. I would say it's an aggregator of digital gardens and a community around it. **Anagora** is the first and biggest instance of it. [[Flancian]] was the one who created it and the software behind, but there were other good contributors. Thank you!
 
 => https://anagora.org
 
@@ -9,7 +9,7 @@ I'm part of it:
 => https://anagora.org/@melanocarpa | Melanocarpa in Agora
 => https://anagora.org/@bouncepaw-betula | My recent bookmarks in Agora
 
-It is some form of federation/aggregation of [[digital garden]]s with a big emphasis on graphs and links. Their analogue of [[https://mycorrhiza.wiki/help/en/hypha | hyphae]] is called a [[https://anagora.org/node | node]], nodes are generated from contents from multiple sites. There is also a cool notion of push/pull and [[https://anagora.org/go | go]] links!
+Agora makes a big emphasis on graphs and links. Their analogue of [[https://mycorrhiza.wiki/help/en/hypha | hyphae]] is called a [[https://anagora.org/node | node]], nodes are generated from contents from multiple sites. There is also a cool notion of push/pull and [[https://anagora.org/go | go]] links!
 
 //I was inspired by Agora's go links and implemented something very similar in [[Betula]].//
 
@@ -18,3 +18,8 @@ The project is interesting. [[2022-01-18]] I wrote the author an email about the
 The Agorans also seem to be using [[git]]-based [[markdown]]-driven digital gardens mostly. It is the default choice for many, but luckily support for more formats was added. Mycorrhiza, for example, is supported! There is also [[Betula in Agora]].
 
 You can't talk about Agora without talking about [[Flancia]].
+
+= See also
+=> Wiki
+=> Social network
+=> Digital garden
