@@ -1,5 +1,5 @@
 **SourceHut** is an open-source [[forge]], including:
-* [[Git]] and [[Mercurial]] repo hosting
+* [[Git]] and Mercurial repo hosting
 * continuous integration and delivery
 * mailing lists
 * ticket system
@@ -11,7 +11,7 @@ I am [[accepting patches]] on it.
 => https://sourcehut.org/ | Official website
 => https://sr.ht/~bouncepaw
 
-SourceHut is a competitor to [[GitHub]].
+SourceHut is a competitor to GitHub.
 
 2022-02-09 I registered there. Got a paid account later:
 => https://sr.ht/~bouncepaw
