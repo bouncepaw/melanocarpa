@@ -7,7 +7,7 @@
 * The Japanese one with dots
 * The Japanese one with hieros
 
-= A date idea [[2022-10-08]]
+= A date idea [[2022-10-05]]
 join(sort-ascending(DD, MM, YY), "•")
 
 So today is 05•10•22, which is not really exciting, but think about days like 23rd of May: 05•22•23.
