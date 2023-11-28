@@ -24,3 +24,8 @@ Saving all means saving a lot! My Betula DB currently is half a megabyte for all
 What if we make a really simple essential-text-extraction algo that is idk 60 % of time useful. And then we let the human operator //edit// the produced copy! They could annotate them in whatever way. Fix the errors.
 
 Maybe let them upload attachments? Browsers have PDF-printing now. Maybe upload these prints?
+
+= Implementation
+I want this all to fit in the single Betula binary! And the archived copies gotta be small for the Betula data file to be portable. Maybe prompt for every image? And then compress them if `imagemagick` is found on the machine?
+
+Somebody could make a good bachelor thesis out of this.
