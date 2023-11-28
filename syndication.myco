@@ -32,7 +32,7 @@
 > Jupiter is a web-based feed aggregator using a river of news paradigm. What does that mean? Feed subscriptions are stored in a file (an OPML file to be precise), so adding a subscription currently involves me editing a file via SSH on the server. That’s not ideal, but then again, I’m fine with growing the feed collection slowly. A cron job goes through all the feeds on a regular bases and assembles a static HTML file with the 100 latest items, with at most 4 items per feed. Anything that’s older is dropped. No unread item count! If it’s gone, it’s gone.
 
 => https://m.habr.com/ru/post/544414/ | Читаем telegram-каналы в виде новостной ленты (+ бонусом rss)
-Телегратор. Интересно. В скором времени обещает селф-хост, проект достоин изучения. [[TODO]]: изучить
+Телегратор. Интересно. В скором времени обещает селф-хост, проект достоин изучения. 
 
 => https://antonkim.ru/blog/all/telegram-channels-on-rss/
 
