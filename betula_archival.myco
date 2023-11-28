@@ -10,6 +10,8 @@ There is the Web Archive.
 
 There is [[links>930 | ArchiveBox]]. It's not really nice to use...
 
+See [[links>/tag/archive | the archive tag on my Betula]] for more archival projects.
+
 = What to archive?
 I see two major approaches:
 
@@ -18,7 +20,7 @@ I see two major approaches:
 
 Both are complex!
 
-Saving all means saving a lot! My Betula DB currently is half a megabyte for all links. A normal page weighs something about that! Saving the essentials is not easy. How do we determine what is essential? [[https://links.bouncepaw.com/469 | Readability.js]], a well-known JavaScript library for getting the essential text from a web page, has around 70 contributors. I will get 3 contributors for that task //at best//.
+Saving all means saving a lot! My Betula DB currently is half a megabyte for all links. A normal page weighs something about that! Saving the essentials is not easy. How do we determine what is essential? [[links>469 | Readability.js]], a well-known JavaScript library for getting the essential text from a web page, has around 70 contributors. I will get 3 contributors for that task //at best//.
 
 = Considering
 What if we make a really simple essential-text-extraction algo that is idk 60 % of time useful. And then we let the human operator //edit// the produced copy! They could annotate them in whatever way. Fix the errors.
