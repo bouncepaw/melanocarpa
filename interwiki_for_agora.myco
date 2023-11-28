@@ -1,6 +1,6 @@
 [[2022-05-14]] [[Agora]] is going to enter a new phase: multi-Agora epoch. There are going to be new instances. How should they interoperate with each other? In this little essay I show some possible approaches. This essay is written for [[Flancian]].
 
-++[[TODO]]: Mycorrhiza has interwiki links now, update the hypha
+++**TODO**: Mycorrhiza has interwiki links now, update the hypha
 
 = Interwiki
 [[Wiki]]s had this for ages. They have this special table called interwiki map, that lets you set mapping to wikis you care about. For example:
