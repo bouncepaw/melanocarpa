@@ -1,0 +1,26 @@
+This article outlines a vision for a built-in **web archival** solution in [[Betula]]. This might not be what exactly will happen. Just thinking out loud!
+
+= Problem
+Links rot. To prove the point, I took the 900+ URL:s found in my Betula file. I am currently fetching each of them to see how many of them rotted.
+
+If one archives a web page, they no longer depend on the original page to exist. That's a good thing. Less traffic going across the globe is also good.
+
+= Prior art
+There is the Web Archive.
+
+There is ArchiveBox. It's not really nice to use...
+
+= What to archive?
+I see two major approaches:
+
+*. **Save all.** A complete copy of the stuff on the page.
+*. **Save the essentials.** What matters. For a text page, that would be the text itself sans the navigation, advertisements.
+
+Both are complex!
+
+Saving all means saving a lot! My Betula DB currently is half a megabyte for all links. A normal page weighs something about that! Saving the essentials is not easy. How do we determine what is essential? [[https://links.bouncepaw.com/469 | Readability.js]], a well-known JavaScript library for getting the essential text from a web page, has around 70 contributors. I will get 3 contributors for that task //at best//.
+
+= Considering
+What if we make a really simple essential-text-extraction algo that is idk 60 % of time useful. And then we let the human operator //edit// the produced copy! They could annotate them in whatever way. Fix the errors.
+
+Maybe let them upload attachments? Browsers have PDF-printing now. Maybe upload these prints?
