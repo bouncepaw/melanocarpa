@@ -1,4 +1,8 @@
-https://eli.li/december-adventure
+**December adventure** is a yearly challenge. The goal is to code //something// every day. Anything. I'm in this year.
+
+=> https://eli.li/december-adventure
+
+**NB.** As of the start December 2023, I'm still not done with [[Inktober 2023]].
 
 **December 1st.** Doing a Java assignment for the University. Somehow installed an outdated Mongo DB. I tried to install a new one, but the modern tech hates the old 2020 OS I use on [[Caemlyn]]. The outdated one was found in Nix. Thanks Nix, the only package manager that never fails to install. I didn't learn Mongo though, not yet.
 
