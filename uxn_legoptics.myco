@@ -24,3 +24,10 @@ The beet processor has 8-bit-wide bytes and machine words. But Xunotron Mark 1 h
 ** Bits 3 to 10 are regular UXN bits that are passed along to the emulator.
 * If XUN bit is set:
 ** Bits 3 to 10 are reserved for some meta-operations that might alter the program flow somehow.
+
+The XUN bit is to the right, the first bit is to the left, so the ribbon has some nice margin on both sides.
+
+= The Execution
+The ribbon is rotated with a gear mechanism that I hope to design well. It can be rotated with any speed, and thus the program's initial execution speed can be set as well. The camera recognizes the program and executes it.
+
+= Caveat Lector
