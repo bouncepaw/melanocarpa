@@ -23,7 +23,7 @@ The beet processor has 8-bit-wide bytes and machine words. But Xunotron Mark 1 h
 * If XUN bit is clear:
 ** Bits 3 to 10 are regular UXN bits that are passed along to the emulator.
 * If XUN bit is set:
-** Bits 3 to 10 are reserved for some meta-operations that might alter the program flow somehow.
+** Bits 3 to 10 are reserved for some meta-operations that might alter the program flow somehow. See below.
 
 The XUN bit is to the right, the first bit is to the left, so the ribbon has some nice margin on both sides.
 
@@ -59,3 +59,17 @@ Such a system would make programs ~twice as small physically. If 4 more colors w
 Encoding the UXN bytes as is would probably ineffective. We have a 256-symbol alphabet. What's the frequency of every symbol? More common instructions should be encoded with less pieces.
 
 Also, a visualisation that helps the operator place the pieces in place would help greatly as well.
+
+= Some Xunotron metacommands
+Available with the XUN bit.
+
+We have the following variables:
+* A: boolean
+* B: boolean
+
+* IGA — Ignore A. Flip the value of A. If it's set now, ignore the next non-XUN instructions until A is clear.
+* IGB — Ignore B. Flip the value of B. If it's set now, and A is set too, ignore the next non-XUN instructions until B is clear.
+* LUV — Love. Flip both A and B.
+* LVA — Love A. Flip A only.
+* LVB — Love B. Flip B only.
+* XJP — Extra Jump. Consider the next two bytes as the ROM address to jump to, filling the space with zeroes.
