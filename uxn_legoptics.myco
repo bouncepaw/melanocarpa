@@ -61,7 +61,7 @@ Encoding the UXN bytes as is would probably ineffective. We have a 256-symbol al
 Also, a visualisation that helps the operator place the pieces in place would help greatly as well.
 
 = Some Xunotron metacommands
-Available with the XUN bit.
+Available with the XUN bit. I feel like something creative and compact can be done with them. They could make the programs a bit smaller. Maybe they are not needed at all.
 
 We have the following variables:
 * A: boolean
@@ -73,3 +73,5 @@ We have the following variables:
 * LVA — Love A. Flip A only.
 * LVB — Love B. Flip B only.
 * XJP — Extra Jump. Consider the next two bytes as the ROM address to jump to, filling the space with zeroes.
+* SLW — Slow. When the ROM is finally read, execute it at the speed with which the ribbon was rotated on average.
+* MSC — Music. Play music with the instructions being notes.
