@@ -42,7 +42,7 @@ An interesting challenge would be to design //circular// programs that are perfe
 = The Implementation
 Is yet to start. I lack the needed Lego pieces, though. Perhaps it would actually be much more practical to go with punch cards, because of how cheap and replaceable they are. But that would never be as good as clicking your program in, right?
 
-= The Space
+= The Color Space
 A long ribbon is problematic. Storing it, actually rotating it, doesn't sound fun! If it ends up being possible to differentiate colors with the camera, two bytes could be encoded in one line!
 
 table {
@@ -52,3 +52,10 @@ table {
    blue | 0 | 1
    yellow | 1 | 1
 }
+
+Such a system would make programs ~twice as small physically. If 4 more colors were possible to recognize, 3 bytes could be encoded at once.
+
+= Input optimization
+Encoding the UXN bytes as is would probably ineffective. We have a 256-symbol alphabet. What's the frequency of every symbol? More common instructions should be encoded with less pieces.
+
+Also, a visualisation that helps the operator place the pieces in place would help greatly as well.
