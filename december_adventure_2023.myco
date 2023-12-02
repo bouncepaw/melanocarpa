@@ -13,3 +13,5 @@ And during the night I was starting to get the 100 % code coverage. There's stil
 **December 2nd.** Continuing doing the same assignment. Writing more tests, increasing the coverage. One of the subtasks is to implement the conversion from our classes to BSON documents. Made a //Factory//. I feel like a serious enterprise Java developer. Have I told you that I want to implement [[Betulopticon]] in Java?
 
 Thought about [[Uxn Legoptics]]. Surely, if I ever do it, there will be no Java in it. Wrong tool.
+
+Wrote more tests. Ran a //SpotBugs// lexical analysis. I don't wanna fix this...
