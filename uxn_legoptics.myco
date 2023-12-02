@@ -30,4 +30,14 @@ The XUN bit is to the right, the first bit is to the left, so the ribbon has som
 = The Execution
 The ribbon is rotated with a gear mechanism that I hope to design well. It can be rotated with any speed, and thus the program's initial execution speed can be set as well. The camera recognizes the program and executes it.
 
+Once the ribbon is fully read, id est it's not looped, the program is fully working. Until it's not, the program is executed on the go.
+
 = Caveat Lector
+User input would only be possible after the ROM is only read, which is fine.
+
+Also, if the program jumps to the ROM address that is not read yet, the execution will block until it's read. Programs designed with Xunotron in mind should limit the amount of such jumps to the absolute minimum.
+
+An interesting challenge would be to design //circular// programs that are perfectly executed in a loop. Animations would work well this way. The cat clock, for example.
+
+= The Implementation
+Is yet to start. I lack the needed Lego pieces, though. Perhaps it would actually be much more practical to go with punch cards, because of how cheap and replaceable they are. But that would never be as good as clicking your program in, right?
