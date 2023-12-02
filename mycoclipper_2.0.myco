@@ -1,5 +1,5 @@
-**Mycoclipper 2.0** will be a program for clipping web content and inserting it to [[Melanocarpa]]. It is a direct descendant of [[Mycoclipper 1.0]] which did the same but with [[Cyberrachel]].
+**Mycoclipper 2.0** was an idea of a program for clipping web content and inserting it to [[Melanocarpa]]. It could have been a direct descendant of [[Mycoclipper 1.0]] which did the same but with [[Cyberrachel]]. In the end, it was not needed due to the introduction of [[Betula]] and its bookmarklet, thus Mycoclipper 2.0 was never implemented.
 
-The new version will support fuzzy search and in-place hypha creation.
+The new version would have supported fuzzy search and in-place hypha creation.
 
 Thanks to a different content model, inserting content to Melanocarpa this way would be much enjoyable. In Rachel, I had clippable hyphae for //topics//, but not for //subjects//, id est I couldn't have [[cyberpunk]] and [[solarpunk]], I had a hypha for all -punks. It works ok while it is easy to determine where goes what. When it's not, it's a hassle.
