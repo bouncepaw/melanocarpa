@@ -66,12 +66,15 @@ Available with the XUN bit. I feel like something creative and compact can be do
 We have the following variables:
 * A: boolean
 * B: boolean
+* C: boolean
 
 * IGA — Ignore A. Flip the value of A. If it's set now, ignore the next non-XUN instructions until A is clear.
 * IGB — Ignore B. Flip the value of B. If it's set now, and A is set too, ignore the next non-XUN instructions until B is clear.
 * LUV — Love. Flip both A and B.
 * LVA — Love A. Flip A only.
 * LVB — Love B. Flip B only.
+* STC — Start C. Ignore the next instructions until EDC comes.
+* EDC — End C. End the STC block. Useful for program initialization for circular programs.
 * XJP — Extra Jump. Consider the next two bytes as the ROM address to jump to, filling the space with zeroes.
 * SLW — Slow. When the ROM is finally read, execute it at the speed with which the ribbon was rotated on average.
 * MSC — Music. Play music with the instructions being notes.
