@@ -15,3 +15,7 @@ And during the night I was starting to get the 100 % code coverage. There's stil
 Thought about [[Uxn Legoptics]]. Surely, if I ever do it, there will be no Java in it. Wrong tool.
 
 Wrote more tests. Ran a //SpotBugs// lexical analysis. I don't wanna fix this...
+
+**December 3rd.** Postponing Java, doing the Information theory task I have. We've got a table with information about Titanic passengers, one of the column says if they were dead or alive. We gotta make a simple model for predicting if we would have lived. The instructions are detailed enough, but I am getting weird results for some reason...
+
+I am doing this task in R btw.
