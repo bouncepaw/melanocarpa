@@ -52,6 +52,8 @@ mygrad <- function(theta) {
 # ...
 ```
 
+I think the `mygrad` function (that is, my gradient function) could have been made more fancy with some matrix multiplication, but I didn't have enough thoughts for that back then, and now the task is turned in and I don't have time for any extra.
+
 Finally understood what am I to do for the Computer Networks assignment! Understanding was the tricky part. OK I now have the knowledge!
 
 Right before midnight started doing the Computer Graphics task. Will continue tomorrow. The task is massive. Will have to devote a lot of time to it. Today I programmed the various affine transformation matrices. For example:
