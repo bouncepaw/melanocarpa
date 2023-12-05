@@ -24,6 +24,45 @@ I am doing this task in R btw.
 
 So, my problem yesterday was that the data was not normalized. After Z-normalizing it, everything worked. For your information, //my// chances of surviving on the Titanic shipwreck would have been 44 %. That's what they numbers say!
 
-**December 5th.** Turned in the R assignment. I also improved it during the classes. The teacher marked down a plus, as he always does. One plus remaining.
+**December 5th.** Turned in the R assignment. I also improved it during the classes. The teacher marked down a plus, as he always does. One plus remaining. Look at the code sample!:
+
+```r
+# ...
+zdata <- (t(as.matrix(data)) - data.mean) / data.stddev
+zdata[1, ] = 1
+
+log.mle <- function(theta) sum(log(
+	((1/(
+		1 + exp(-crossprod(theta, zdata))
+	)) ^ outcomes) * ((1/(
+		1 + exp(crossprod(theta, zdata))
+	)) ^ (1 - outcomes))
+))
+
+dot <- function(a, b) a %*% b
+mygrad <- function(theta) {
+	res <- 0
+	for (i in 1:n) {
+		x.i <- as.numeric(zdata[, i])
+		a <- as.numeric(outcomes[i] - 1/(1 + exp(-dot(theta, x.i))))
+		res = res + a * x.i
+	}
+	res
+}
+# ...
+```
 
 Finally understood what am I to do for the Computer Networks assignment! Understanding was the tricky part. OK I now have the knowledge!
+
+Right before midnight started doing the Computer Graphics task. Will continue tomorrow. The task is massive. Will have to devote a lot of time to it. Today I programmed the various affine transformation matrices. For example:
+
+```python
+def mx_rotate_oz(angle):
+	angle *= radians_in_degree
+	return np.array([
+		[cos(angle), -sin(angle), 0, 0],
+		[sin(angle),  cos(angle), 0, 0],
+		[         0,           0, 1, 0],
+		[         0,           0, 0, 1]
+	])
+```
