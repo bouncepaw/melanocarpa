@@ -94,3 +94,5 @@ img { https://assets.merveilles.town/media_attachments/files/111/557/904/893/832
 At night did some WebFinger work at [[Betula]]. First time I coded for myself and for Uni this December.
 
 **December 13th.** Yay, I figured out what the problem with the DB was! The trigger was triggering (a pun intended) the problem, though it was impossible to guess that from the error message.
+
+**December 14th.** Yay, fixed the texture rendering!
