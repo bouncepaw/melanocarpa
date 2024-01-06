@@ -1,6 +1,6 @@
 **Dithering** is a visual technique that looks extra cool. See also [[links>/tag/dithering]].
 
-[[https://arcadewise.me | Arcade Wise]] taught me how to dither.
+[[https://arcades.agency | Arcade Wise]] taught me how to dither.
 
 You use a program called [[https://github.com/makeworld-the-better-one/didder/ | Didder]].
 
@@ -9,7 +9,6 @@ Then run a command like that:
 didder -i FISH.png -o FISH_BETTER.png --palette 'black gray white' --recolor "#000000 #72dec2 #ffffff" edm --serpentine FloydSteinberg
 ```
 
-= Some dithered images
 img grid {
-le poisson qui rit/photo
-}
+le poisson qui rit/photo { [[Le poisson qui rit]], a fish-shaped flute/ocarina/idk dithered photo.
+}}
