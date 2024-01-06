@@ -6,7 +6,7 @@ You use a program called [[https://github.com/makeworld-the-better-one/didder/ |
 
 Then run a command like that:
 ```sh
- didder -i FISH.png -o FISH_BETTER.png --palette 'black gray white' --recolor "#000000 #72dec2 #ffffff" edm --serpentine FloydSteinberg
+didder -i FISH.png -o FISH_BETTER.png --palette 'black gray white' --recolor "#000000 #72dec2 #ffffff" edm --serpentine FloydSteinberg
 ```
 
 = Some dithered images
