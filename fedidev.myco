@@ -11,3 +11,24 @@
 2024/01/21 18:27:25 Incoming activity: {"@context":"https://www.w3.org/ns/activitystreams","id":"https://troet.cafe/users/KSD#delete","type":"Delete","actor":"https://troet.cafe/users/KSD","to":["https://www.w3.org/ns/activitystreams#Public"],"object":"https://troet.cafe/users/KSD","signature":{"type":"RsaSignature2017","creator":"https://troet.cafe/users/KSD#main-key","created":"2024-01-21T18:26:29Z","signatureValue":"VlzshICfzEPqvNOAkIud7QvN0v+y0+9ctuICplrEF1FC6l/+k6QnZjqiieeKQWM+NPWzpbrhHJ+5dmweVw/qfY/p026GC9v4iIhj3KkpLhtzA9qtjQircZfavN9FBDnWXLfQbzhj83QRgddOQxLiub2cNEjk5MQIj+U21nE8W7NplUee9YCvlnfRBerssJa4X8kbpbj7/ZBmPQHw4ICIWFGuMQ4/sQMx+0avc+WLnEMFBFRztnyNuVOPA1ib/Zqr0XY8M7dxJVBeq5ikAjkOxHNtXrfTho6hvJdzjpEc4hwX4bngE1xWO2aPysdRwK7G6mSo0jdTkksd32gIJGQUrA=="}}
 2024/01/21 18:27:25 Error while parsing incoming activity: activities: unknown activity type
 ```
+
+```
+2024/01/21 18:37:46 Viewing post 1072
+2024/01/21 18:37:46 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:47 Viewing post 1072
+2024/01/21 18:37:48 Viewing post 1072
+2024/01/21 18:37:48 Viewing post 1072
+2024/01/21 18:37:48 Viewing post 1072
+2024/01/21 18:37:48 Viewing post 1072
+2024/01/21 18:37:49 Viewing post 1072
+2024/01/21 18:37:52 Viewing post 1072
+```
