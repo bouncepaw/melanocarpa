@@ -22,3 +22,5 @@ It works in every browser I tried, including mobile browsers! I save almost ever
 
 = Hotkey
 What about hotkeys? Some browsers provide special hotkeys to access the first nine bookmarks in the bookmark bar. I have my bookmarklet the first in the bar. I use Safari, I press Cmd+Shift+1 to access it. Some browsers do not provide such hotkeys, but basically all browsers beside Safari have advanced extension ecosystems, and there are extensions to enable such hotkeys. I will not link any here, because I myself haven't tried any of them.
+
+Maybe you could even override the browser's default Ctrl+D?
