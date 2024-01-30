@@ -38,3 +38,6 @@ This one is obsolete. An advanced bookmarklet is built in Betula itself (visit t
 javascript:window.open(%22https://links.bouncepaw.com/save-link?url=%22+window.location.href+%22&title=%22+document.title,'_blank')
 ```
 Change the URL with your own.
+
+Read more about the bookmarklet:
+=> Betula bookmarklet
