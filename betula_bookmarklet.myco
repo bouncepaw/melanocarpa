@@ -1,0 +1,24 @@
+[[Betula]] is a tool for saving bookmarks, lots of them. The usual way of saving them is as follows: you open Betula, you press //Save bookmark// and write in all the details you want (only URL is required, the title is often guessed correctly, description and tags are optional). It's fine, but once you get to serious bookmarking (tens or hundreds or thousands of them), you get tired of that. You want to go faster. A common question I get in this regard is “Do you have a browser extension?”. No, there isn't one as of now, as far as I'm concerned. In this note I'll tell you how to live without it.
+
+To begin with, let me tell you about a technology called **bookmarklets**. I would've linked a good article about them, but I don't know any, so I'll explain in my own words. Bookmarklet is a bookmark with the URL that has `javascript:` scheme. After the scheme, an encoded JavaScript code follows. When you click this bookmark in your bookmark bar, the code gets executed in the current page context.
+
+JavaScript with its DOM API is the best language to manipulate web page contents. Many things can be done with it. A bookmarklet that saves current page into Betula? Easy! I made this little bookmarklet in a few minutes:
+
+```url
+javascript:window.open(%22https://links.bouncepaw.com/save-link?url=%22+window.location.href+%22&title=%22+document.title,'_blank')
+```
+
+But do not use it! Betula is shipped with a much better bookmarklet, contributed by a wonderful person:. Besides popping up a bookmark saving window, it also pre-fills title and inserts the selected (with cursor selection 🖱) text. High-tech!
+
+=> https://git.sr.ht/~bouncepaw/betula/tree/master/item/web/bookmarklet.js | Betula bookmarklet source code
+
+To install it into your bookmark bar, in your Betula, go `Your profile` > `Bookmarklet`. Then drag-and-drop the link there. If you can't drag-and-drop, make a bookmark of any other page and replace its URL with the bookmarklet URL.
+
+It works in every browser I tried, including mobile browsers! I save almost every bookmark with it on both my laptop and phone, it works fine.
+
+**NB.** You might come across Internet Archive pages not being saved. They messed up something in DOM API for some reason. Save pages hosted on the Internet Archive the direct way instead.
+
+**NB.** To access the bookmarklet in Android Chrome, tap the address bar and type the name of the bookmarklet. Then click it. You might want to rename it for easier access.
+
+= Hotkey
+What about hotkeys? Some browsers provide special hotkeys to access the first nine bookmarks in the bookmark bar. I have my bookmarklet the first in the bar. I use Safari, I press Cmd+Shift+1 to access it. Some browsers do not provide such hotkeys, but basically all browsers beside Safari have advanced extension ecosystems, and there are extensions to enable such hotkeys. I will not link any here, because I myself haven't tried any of them.
