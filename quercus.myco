@@ -1,0 +1,16 @@
+**Quercus** is a virtual private server (VPS) I started bringing up at the beginning of 2024. My older server which doesn't have such a nice name is dated now. In the spirit of the Japanese tradition of rebuilding the house every few years, I'm not just upgrading the old server, I'm making a new one instead. In the process of migrating, I'll ensure better backing up, reliability and learn something new.
+
+I got bored of Debian derivates, so the new server won't have any Debian derivate.
+
+Initially, I leaned on to OpenBSD. It's not an option in the VPS provider interface, but I asked the tech support to install it for me. Well, they didn't install it per se, they installed the installer, which I was meant to use. To have them install it fully would cost additional money which I didn't want to pay. Well, in short, I messed something up.
+
+Let me cite my microblog:
+
+=> https://merveilles.town/@bouncepaw/111858545262470112
+> Due to the effective #unix_surrealism propaganda, installed OpenBSD on my new server. However, for some reason it ended up being installed on sd1, not sd0. Works fine when you select the booting device manually, but can't do that all the time. Modifying SeaBIOS boot order is like fighting the titans. Didn't succeed in merging the two. Severe skill issue. If I lose my interest tomorrow, I'll make a refund on the VPS and get a Fedora on a different machine.
+>
+> Next time, Puffy...
+
+OK.
+
+To be continued...
