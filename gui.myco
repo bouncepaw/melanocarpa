@@ -5,10 +5,6 @@
 => https://warmedal.se/~bjorn/posts/2021-11-19-lightweight-simple-and-cross-platform-gui-programming.html | Björn: Lightweight, Simple, and Cross-Platform GUI Programming?
 > Can you recommend me a better GUI programming tool that fulfills my requirements? I know Qt has some sort of XML-like markup these days, but is it easier to develop in and lighter or faster than tkinter?
 
-=> http://toastytech.com/guis/index.html | GUI Gallery
-> On these pages you will find many screen shots of various desktop computer Graphical User Interfaces and operating systems. Many different people have had different ideas of how a GUI should work and these screen shots show many of the more popular ones.
-Still maintained. A sweet collection.
-
 => https://felix.plesoianu.ro/blog/gui-dialog.html | In dialog with a GUI
 > As the name suggests, Xdialog is a graphical clone of its text-based counterpart, that tries hard to be compatible (and the other way around). Sadly, its latest version is so old it uses Gtk 1.2! Good luck finding either packaged for a modern Linux distribution.
 >
@@ -22,6 +18,3 @@ Still maintained. A sweet collection.
 
 => https://maggieappleton.com/programming-portals | Programming Portals
 Some cool screenshots here
-
-=> https://guidebookgallery.org | GUIdebook
-A collection.
