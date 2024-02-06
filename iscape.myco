@@ -1,8 +1,0 @@
-**iScape**, short for //information landscape//, was something interesting, lost in time because it was commerical. It offers users to manage their information in a 3D space, creating a [[digital palace]].
-> The iScape world is a multi-modal, multi-user, collaborative 3-D virtual environment that is interconnected with standard web pages.
-
-=> https://www.semanticscholar.org/paper/iScape%3A-A-Collaborative-Memory-Palace-for-Digital-Börner/5b8ec81f9b824cccdadb4210de69ea567d4c1850?p2df | Some page that links to
-=> https://cns.iu.edu/docs/publications/2001-borner-iscape2.pdf | this PDF
-> This paper presents iScape, a shared virtual desktop world dedicated to the collaborative exploration and management of information. Data mining and information visualization techniques are applied to extract and visualize semantic relationships in search results. A three-dimensional (3-D) online browser system is exploited to facilitate complex and sophisticated human-computer and human-human interaction.
-
-I had similar ideas, twenty years later, but never actually started implementing them because it's damn hard.
