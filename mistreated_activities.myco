@@ -1,0 +1,6 @@
+```
+2024/02/26 12:40:53 Handling activity: {"@context":"https://www.w3.org/ns/activitystreams","id":"https://lor.sh/users/rur/statuses/1119978293042153
+52/activity","type":"Announce","actor":"https://lor.sh/users/rur","published":"2024-02-26T12:40:52Z","to":["https://www.w3.org/ns/activitystreams#P
+ublic"],"cc":["https://links.bouncepaw.com/@bouncepaw","https://lor.sh/users/rur/followers"],"object":"https://links.bouncepaw.com/1155"}
+2024/02/26 12:40:53 Error while parsing incoming activity: activities: actor absent or invalid
+```
