@@ -1,6 +1,40 @@
 ```
+2024/01/31 21:57:52 Handling activity: {
+	"@context":"https://www.w3.org/ns/activitystreams","id":"https://merveilles.town/users/bouncepaw/statuses/111852799377486611/activity","type":"Announce","actor":"https://merveilles.town/users/bouncepaw","published":"2024-01-31T21:57:51Z","to":["https://www.w3.org/ns/activitystreams#Public"],"cc":["https://lain.com/users/lain","https://merveilles.town/users/bouncepaw/followers"],"object":"https://lain.com/objects/dc120483-6063-4049-9d54-28d0f5b618a7"
+}
+2024/01/31 21:57:52 Error while parsing incoming activity: activities: actor absent or invalid
+```
+
+```
 2024/02/26 12:40:53 Handling activity: {"@context":"https://www.w3.org/ns/activitystreams","id":"https://lor.sh/users/rur/statuses/1119978293042153
 52/activity","type":"Announce","actor":"https://lor.sh/users/rur","published":"2024-02-26T12:40:52Z","to":["https://www.w3.org/ns/activitystreams#P
 ublic"],"cc":["https://links.bouncepaw.com/@bouncepaw","https://lor.sh/users/rur/followers"],"object":"https://links.bouncepaw.com/1155"}
 2024/02/26 12:40:53 Error while parsing incoming activity: activities: actor absent or invalid
+```
+
+= Unsupported but I want to consider or learn about
+```
+2024/02/05 02:59:56 Ignoring unknown kind of activity: {
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "actor": "https://honk.tedunangst.com/u/tedu",
+  "cc": [
+    "https://www.w3.org/ns/activitystreams#Public",
+    "https://social.shadowfacts.net/users/shadowfacts/followers",
+    "https://social.shadowfacts.net/users/shadowfacts"
+  ],
+  "id": "https://honk.tedunangst.com/u/tedu/ack/LppD4X4gcH4MnYhVgtrB",
+  "object": "https://social.shadowfacts.net/objects/0a1924ec-bc59-4f05-a9e0-678a5a786648",
+  "published": "2024-02-05T02:59:55Z",
+  "to": "https://honk.tedunangst.com/u/tedu",
+  "type": "Read"
+}
+
+2024/02/05 03:03:39 Ignoring unknown kind of activity:
+{
+	"@context":"https://www.w3.org/ns/activitystreams",
+	"id":"https://merveilles.town/users/cathos#likes/1923442",
+	"type":"Like",
+	"actor":"https://merveilles.town/users/cathos",
+	"object":"https://links.bouncepaw.com/1109"
+}
 ```
