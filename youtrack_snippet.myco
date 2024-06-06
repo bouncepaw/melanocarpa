@@ -1,0 +1,26 @@
+To make YouTrack a bit more bearable:
+
+```css
+.color-fields__plain-color-,
+.yt-dark-grey-text
+{
+    color: black !important
+}
+
+:root
+{
+    --yt-app-fsi-max-width: 1800px;
+    --yt-primary-font-size: 16px;
+    --yt-secondary-font-size: 14px;
+}
+
+.yt-issue-title
+{
+    font-weight: bold;
+}
+
+*
+{
+    font-family: 'Arial';
+}
+```
