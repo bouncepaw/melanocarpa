@@ -4,7 +4,7 @@
 => https://fosstodon.org/@betula | Fediverse @betula@fosstodon.org
 => https://matrix.to/#/#betula-space:matrix.org | Matrix space
 => https://lists.sr.ht/~bouncepaw/betula | Mailing list about development (text only)
-=> https://boosty.to/bouncepaw | I post screenshots of development on my Boosty
+=> https://boosty.to/bouncepaw | I post screenshots of development on my Boosty rarely
 
 = Some Betulæ I know of
 The first one is mine! As you can see, the pattern of using `links` as the subdomain has emerged.
@@ -44,3 +44,19 @@ Change the URL with your own.
 
 Read more about the bookmarklet:
 => Betula bookmarklet
+
+= After releasing v1.3
+=> https://merveilles.town/@bouncepaw/112589340477407307 | Mastodon thread
+1/4 Thoughts after the recent Betula release
+
+I think I should get a separate domain for Betula at some point. Domains like betula.* are all taken, which makes no surprise to me, because this is a cool short word. Something like joinbetula.* (akin to the Fediverse tradition) or betulanet.* is manageable. Maybe the-betula.*?
+
+2/4 Also, [[https://news.ycombinator.com/item?id=40622189 | somebody posted Betula on HackerNews]], and it remained on the front page for the whole day. It doubled the number of stars on GitHub, which is fun, because it's just a mirror; the number is still two-digit, but it's big enough to impress, because most repos barely get more than 10. It also brought two subscribers to my Betula! It's not much, but I believe in slow growth.
+
+3/4 The discussions on HackerNews are not that interesting. Most of commenters compared Betula to other bookmarking solutions and approaches; this is valid, but boring. Also, people wondered what the word Betula means and whether it comes from Hebrew. No, it does not, it means Birch in Latin, my favorite tree.
+
+I thank people who answered the questions for me. I don't have an account there.
+
+Nevertheless, I had fun reading them and being on the front page.
+
+4/4 Also, the Betula Nix package maintainer reported an embarrassing bug which I had to fix quickly and release a hotfix. There's never enough testing! No unit tests would've caught that...
