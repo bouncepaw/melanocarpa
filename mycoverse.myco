@@ -1,17 +1,30 @@
-**Mycoverse** is a network of websites and tools, used by the smolfolk, running software speaking common open formats and protocols, mostly written by me and having biological naming influences.
+**Mycoverse** is a network of websites and tools, used by the smolfolk, running software speaking common open formats and protocols, mostly written by me and having biological naming influences. Usually they are focused on long-term content.
 
 Adjacent and intersecting domains are [[wiki]], [[Indie Web]] and [[Fediverse]].
 
 = Existing parts
+I am the malevolent dictator behind all these projects:
+
 * [[Mycorrhiza]], a wiki engine. Build your digital garden, share your knowledge.
 * [[Betula]], a bookmarking tool. Collect thousands of links, organize them and share.
 * [[Mycomarkup]], a markup language.
 
-= How it is now
-Both Mycorrhiza and Betula use Mycomarkup. Betula uses some microformats.
+= History of Mycoverse
+The first project was Mycorrhiza, which later gained Mycomarkup. Being a wiki, links are very central. You can link local documents, named hyphae, you can link external documents as well. For external links, URL:s exist. [[https://communitywiki.org/wiki/BeBold]] works. But there is also a special syntax: [[cw>BeBold]]. That `cw>` specifies that this is an interwiki link. These special prefixes are configured per-wiki. In general, wiki administrators set up interwiki links for sites they link the most. One could say this is the proto-Mycoverse, although I think it's a stretch.
 
-2023-09-23 the first ever federative action happened: a repost was made in Betula. It is the birthday of Mycoverse.
+Mycomarkup features the transclusion element, which lets you embed contents from one document to another by referencing it in a special way. Something like link and quotation at the same time. This garden runs Mycorrhiza, here's a little transclusion for you:
+<= mycorrhiza
+
+Interwiki transclusion is not supported yet. This is in plans for almost 4 years, I think. Interwiki transclusion, or cross-site content embeds in general are also in scope for Mycoverse.
+
+The next big project was Betula, your favorite bookmark manager. From the early times, I wanted to make it federated, so one could subscribe to other people's bookmarks. Also, Betula is inherently personal, every instance is single-user.
+
+At first, I tried to implement some Indie Web standards, somewhat extending them in a convinient way. Then I just decided that Fediverse is better, mostly because they have much more people. I never regretted this decision. There are still some microformats2 leftovers all around Betula markup. I think it's good to have it.
+
+2023-09-23 the first ever federated action happened: a repost was made in Betula. It is the birthday of Mycoverse. Mark it in your calendar.
 => https://fosstodon.org/@betula/111114850992671579 | Repost announcement
+
+So, now Mycoverse is the Betula network, as part of the wider Fediverse, and Mycorrhiza will at some point join it too. Wikis in general don't really fit the Fediverse model, because this model is made for streams, not gardens. But standards like ActivityStreams, NodeInfo and WebFinger are still useful, I can see how wikis can benefit from them.
 
 = Federation examples from the future (circa 2025)
 * Alice hosts a Betula and collects bookmarks about web development in a category named simply `webdev`.
@@ -26,8 +39,9 @@ Both Mycorrhiza and Betula use Mycomarkup. Betula uses some microformats.
 * Diana is a really good programmer, she has implemented a new software for the Mycoverse in a weekend. Her program fetches all latest changes from the three persons mentioned above, formats them and uploads them to her eink reader. This evening she will read it while sipping tea with lemon.
 
 = Standards I want to specify and implement at some point
-* **Mycomarkup** should get a spec, have broken parts fixed, missing things added, and the main library should be refactored.
-* **Mycoref** will be a way to transclude documents.
+* **Mycomarkup** should get a spec, have broken parts fixed, missing things added, and the main library should be refactored (or even rewritten).
+* Cross-site transclusion needs some careful planning.
+* Shared interwiki name servers or something? Fediverse Server Alias Database, or FediSad.
 
 = Hesitations
 [[Web]] seems to be the most fitting place for Mycoverse to exist in. The thing is, I don't want to lock on the Web, like Indie Web does. Internet is not always there, and will not always be. But all these microformats and protocols, they just smell Internet. I have no idea how a web-less transclusion would work. Mycomarkup has always been designed to avoid weblock. Maybe I should submit to the Web fully hmmm. Web is cool after all.
