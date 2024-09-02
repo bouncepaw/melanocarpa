@@ -10,7 +10,9 @@ There is the Web Archive.
 
 There is [[links>930 | ArchiveBox]]. It's not really nice to use...
 
-See [[links>/tag/archive | the archive tag on my Betula]] for more archival projects.
+Bookmarks:
+=> links>/tag/archive | The #archive tag on my Betula
+=> https://links.bouncepaw.com/search?q=%23archive+betula | Bookmarks that are directly useful to implementing archival in Betula
 
 = What to archive?
 I see two major approaches:
@@ -33,7 +35,3 @@ The copies would be private, accessible only to the owner of a given Betula.
 I want this all to fit in the single Betula binary! And the archived copies gotta be small for the Betula data file to be portable. Maybe prompt for every image? And then compress them if `imagemagick` is found on the machine?
 
 Somebody could make a good bachelor thesis out of this. **UPD.** That'll be me.
-
-= Links
-Bookmarks that might help me are to be found with this query:
-=> https://links.bouncepaw.com/search?q=%23archive+betula
