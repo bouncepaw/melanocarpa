@@ -1,0 +1,40 @@
+In the [[Megastructure]], how do I store images? I have tons of them; photos, screenshots, drawings. I can't seem to stop amassing them. I used to find [[Cyberrachel]] as //the// solution to the problem, but years after I can confidently say that I was wrong. Something file-based is the way to go.
+
+= Ontology of the Megastructure
+The ontology is best expressed with a formal language. I'm using [[Go]]'s type system here:. Pointers indicate the field's optional.
+
+```go
+type Metadata struct {
+   tags []Tag
+   description *string
+}
+
+type ImageStorage []Domain
+
+type Domain struct {
+   location Location // might be different computers altogether
+   albums []Album
+}
+
+type Album struct {
+   year uint
+   month *uint
+   title string
+   metadata *Metadata
+   images []Image
+}
+
+type Image struct {
+   year uint
+   month *uint
+   day *uint
+   metadata *Metadata
+   contents []byte
+}
+```
+
+Fits the file system perfectly. Except I'm not exactly sure where to put the metadata. JSON files nearby?
+
+Domains are synced with SyncThing.
+
+I'm incorporating it.
