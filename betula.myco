@@ -33,7 +33,7 @@ Both projects use [[Mycomarkup]] as the only markup language.
 = How to reset password?
 *. Open your Betula file with `sqlite3`.
 *. Run `delete from BetulaMeta where Key like 'Admin%';`
-*. Restart Betula. //Is it required?
+*. Restart Betula.
 *. Betula will prompt you for a new username and password when you open it.
 
 = Simplest bookmarklet
