@@ -1,26 +1,36 @@
 The seemingly simple idea of managing bookmarks is surprisingly more nuanced; I have managed to find at least five main types of bookmarking software. In this note I'll cover them. The types are:
 
 *. Bookmark bar
-*. Folksonomy
+*. Social bookmarking
 *. Forum
 *. Personal archive
 *. Annotation
 
 = 1. Bookmark bar 
-The simplest and the most widely deployed
+The simplest and the most widely deployed method of bookmarking is the bookmark bar. It's found in all browsers. In desktop ones it does indeed look like a horizontal bar of bookmarks. On mobile devices it's more like a menu, but I still call it a bookmark bar for the sake of this anthology.
 
 In browser
 
-= 2. Folksonomy 
+= 2. Social bookmarking 
 Delicious and Pinboard descendants
 
+Descriptions, tags, sharing
+
 [[Betula]]
+
+If we remove the social aspect from social bookmarking, we are still left with something usable. Such software would be more complex than a bookmark bar, and there is demand for such software. Betula started as such, [[https://shaarli.readthedocs.io/en/master/ | Shaarli]] is still like that. I don't think it's worth to make a separate category. It's in the middle between bookmark bar and social bookmarking.
 
 = 3. Forum
 Reddit Digg
 
+Social bookmarking + upvoting + threaded comments + karma + drama
+
 = 4. Personal archive
-Pocket
+Pocket, Instapaper
+
+Anti-social
+
+Littlest accent on metadata
 
 = 5. Annotation 
 Hypothesis. Zotero?
