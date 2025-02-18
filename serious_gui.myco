@@ -1,0 +1,8 @@
+Here's what a serious GUI framework must have: 
+* Good enough Unicode rendering
+* Accessibility handles 
+* Scaling support
+
+Lacking anything of that, it's not serious. Note how scriptability, crossplatformity, customization, free license, uniformity, and cetera are not included. They're all probably easier than Unicode rendering though.
+
+Not being serious by my definition is not bad. It just means I think it's a bad idea to develop an application with such a toolkit. Some visual games might be fine.
