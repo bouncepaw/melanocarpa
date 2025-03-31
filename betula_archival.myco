@@ -1,3 +1,5 @@
+++**NB.** Archival was implemented in v1.4.0. This document is of historical interest.++
+
 This article outlines a vision for a built-in **web archival** solution in [[Betula]]. This might not be what exactly will happen. Just thinking out loud!
 
 = Problem
