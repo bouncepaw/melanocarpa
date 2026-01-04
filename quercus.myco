@@ -14,3 +14,14 @@ Let me cite my microblog:
 OK.
 
 To be continued...
+
+= 2026 continuation
+Writing this in earliest 2026. That Fedora installation was quite successful, I never switched the OS since then. Updated it maybe once or twice. 
+
+Nevertheless, as of now, the setup on both Quercus and the old server is in the middle of a postponed migration and partially broken backup processes. I'm not exactly sure where everything is. Now both servers are “old” in my mind.
+
+I think I'll get a new server at some point and migrate both old ones there. I'll try to have as little state there as possible without going fanatic. I should also have a simple and robust backup solution and make servers quick to roll out, so the exact servers stop really matter. 
+
+With Quercus, there was an incident when I was wrongly blocked for a couple of days with my data erased. Things like this will happen again. Gotta be ready. 
+
+I think I should learn Ansible or something like that this year.
