@@ -1,4 +1,4 @@
-[[2022-08-19]] I accepted my first patches on SourceHut.
+2022-08-19 I accepted my first patch on SourceHut.
 
 //A link to this article was posted on my microblog for some time. It got three stars and 6 boosts. Just for the records.//
 
@@ -19,4 +19,9 @@ This classic git approach has better code review, than the pull request approach
 
 Will accept more patches in the future.
 
-[[2022-11-14]] I accepted yet another patch. This time it was much better! Mail.app was a much better program to use. I didn't hardwrap anything. The Reply-All button was working. The shell command in the lists interface to apply the patch worked somehow. OK.
+2022-11-14 I accepted yet another patch. This time it was much better! Mail.app was a much better program to use. I didn't hardwrap anything. The Reply-All button was working. The shell command in the lists interface to apply the patch worked somehow. OK.
+
+= Post scriptum 2026
+After some time, I'm not a fan of the patches approach anymore. I'm slowly moving public projects to [[Codeberg]] instead, the pull request approach is just better for everybody involved, especially me. Srht will remain a mirror for such projects.
+
+A point: I have three patches that are over 6 months old laying, waiting to be reviewed. The fact that they are patches and not PRs is what makes me postpone working on that. 
