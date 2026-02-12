@@ -31,14 +31,6 @@ There is no consensus, actually. People call everything a wiki nowadays.
 >
 > A wiki solves all these problems and more. It would be nice if I could recapture that spirit. Timely, too: over on the Community Wiki, they seem to think the medium is due for a revival, if it hasn't started already.
 
-=> https://observable.wiki.dbbs.co/view/observable-and-federated-wiki |  Observable and Federated Wiki
-> Observable is an approachable programming environment for data visualization, or really, almost anything you can imagine in Javascript. With the frame plugin, a wiki page is also a programming environment. Here we share one example integrating the two. We hope to encourage other examples.
-
-=> http://this.how/littleoutliner/ | What is Little Outliner?
-> Little Outliner is an easy to learn, entry-level outliner that runs in a web browser.
->
-> It's written in JavaScript. You must have JS turned on in the browser to be able to use it.
-
 => http://sdi.thoughtstorms.info/?p=1450 | The Lower-Case Mistake
 > The mistake is that wiki page names are obviously CamelCased for readability. A convention I like very much and continue to use. But I decided to make the file-names all lower-case. In other words, I throw away the capitalization of the name.
 
