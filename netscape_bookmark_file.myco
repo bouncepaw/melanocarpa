@@ -9,6 +9,16 @@ TODO:
 * Research in GNOME Web
 * Write a library?
 
+= Feature support matrix
+table {
+! Feature ! Safari ! FF ! Cr ! GNOME
+| Tags | ? | ? | ? | ?
+| Folders | ? | ? | ? | ?
+| Nested folders | ? | ? | ? | ?
+| Descriptions | ? | ? | ? | ?
+| Zones (?) | ? | ? | ? | ?
+}
+
 = See also
 => XBEL
 => Pinboard format
