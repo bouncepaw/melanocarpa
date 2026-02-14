@@ -1,0 +1,14 @@
+The **Netscape Bookmark File Format** is an informal standard used by many a web-browser to import/export bookmarks, i.e. those in the bookmark bar, and sometimes something else. It was originally found in the Netscape browser, then, I think, adopted by Internet Explorer, with other browsers following suite. The exact order and history doesn't matter for my use, which is, to implement this format import (and maybe export?) in [[Betula]].
+
+Microsoft has [[links>2100 | a description]] in IE docs. Can I really trust it? I don't think so! It was written for IE a long time ago, modern browsers might interpret it frivolously and playfully.
+
+TODO:
+* Research in Safari
+* Research in Firefox
+* Research in a Chromium
+* Research in GNOME Web
+* Write a library?
+
+= See also
+=> XBEL
+=> Pinboard format
