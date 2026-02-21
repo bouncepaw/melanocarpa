@@ -8,17 +8,6 @@
 
 ----
 
-=> https://nullprogram.com/blog/2021/07/30/ | strcpy: a niche function you don't need
-Милая напоминалка.
-
-----
-
-=> http://doc.cat-v.org/bell_labs/pikestyle | Rob Pike: Notes on Programming in C
-
-A read.
-
-----
-
 => http://aiju.de/misc/c-style | aiju: Notes On Programming In C
 > Do not use const or restrict. const does not have any effect during runtime. restrict can introduce extra bugs. Both have no real use.
 >
