@@ -1,0 +1,25 @@
+[[Minecraft]], I'm talking about Java Edition here, has configurable controls. This is an important topic, I'll list my findings here. 
+
+= Sprinting
+Historically, there was just one way to sprint: double-press W. Then, Mojang gave in and added a quasimode hold sprinting key; Shift was taken, so they went with Ctrl. To this day I find it the worst possible key for sprinting on a standard keyboard.
+
+= My alternative control schemes
+== Optimized Standard Keyboard
+The left side is pain.
+
+== Right hand on touchpad
+[[Caemlyn]]
+
+table {
+! Finger ! Key ! Function
+| Right index | `M` | Mine
+| Right middle | `,` | Use
+! Right thumb | Touchpad | Control camera, cursor, click in menus
+}
+
+The mouse click, I don't really use it. It could be bound to `.` or whatever you fancy. 
+
+In theory, one can scroll the hotbar with trackpad, but I found it uncomfortable. Instead, I pressed `1`–`9`. I got quite good at it.
+
+== Gamepad
+...
