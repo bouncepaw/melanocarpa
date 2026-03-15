@@ -1,14 +1,22 @@
 **Fediverse** is a decentralized social network, consisting of numerous instances running different software, all compatible with each other to some degree.
 
-Some software are more compatible with each other: Mastodon and Pleroma both implement a similar model, id est microblogging, thus they federate nicely. Some are more different.
+Some software are more compatible with each other: Mastodon and Pleroma both implement a similar model, id est microblogging, thus they federate nicely. Some are more different, like my [[Betula]].
 
 Currently, Fediverse is the go-to social network in these layers of the infosphere.
 
-= Bounced Paw VS the Fediverse
-I am present on several Fediverse instances.
+= Active personal accounts
 
-* [[https://merveilles.town/@bouncepaw]] is my main presence. Follow for mostly English posts and boosts. I used to post most of [[/category/Art]] there as well, but moved to PixelFed with that, see below.
+* [[https://merveilles.town/@bouncepaw]] is my main presence. Follow for mostly English posts and boosts. This is also the best way to contact me publicly.
 ** This instance is running Hometown, which is a fork of Mastodon, optimized for //communities//. Indeed there is a sense of a community here on [[Merveilles]]!
-** Before Merveilles, I was on LOR: ~~[[https://lor.sh/@bouncepaw]]~~. [[Devine Lu Linvega]] invited me to Merveilles, and some time afterwards I [[Merveilles migration | migrated]]. I fit there better.
-* [[https://pixelfed.social/i/web/profile/593749024036053134]] is where I post my visual art.
-* ++Got distracted, will finish later.
+* Two Betula instances:
+** One for my bookmarks (a lot of them): [[https://links.bouncepaw.com]] `@bouncepaw@links.bouncepaw.com`
+** One for announces of new posts elsewhere: [[https://feed.bouncepaw.com]] `@bouncepaw@feed.bouncepaw.com`
+
+= Project accounts
+* [[https://fosstodon.org/@betula]] for [[Betula]].
+* [[https://floss.social/@mycorrhiza]] for [[Mycorrhiza]].
+
+= Gone.
+* Before Merveilles, I was on LOR: ~~[[https://lor.sh/@bouncepaw]]~~. [[Devine Lu Linvega]] invited me to Merveilles, and some time afterwards I [[Merveilles migration | migrated]]. I fit there better. A few years later, LOR went offline.
+* Had an account on Pixelfed dot social to post art. Pixelfed didn't impress me, then I basically stopped drawing, and a long time after that I deleted it.
+* There was a secret Friendica account with a very pompous name. Perhaps it still exists. It was actually my first attempt with Fediverse.
