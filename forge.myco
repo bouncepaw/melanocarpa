@@ -1,15 +1,31 @@
-**Forge** is a software suite for [software] project development. Well-known forges are Forgejo, Sourcehut, GitHub, GitLab, Gitea, GNU Savannah.
+**Forge** is a software suite for [software] project development. Well-known forges are Forgejo, Sourcehut, GitHub, GitLab, Gitea, GNU Savannah. These days, they mostly handle Git.
 
 => links>/tag/forge
 
 = Quick comparison
-* GitHub has the most users, has the best user interface and great [[a11y]]. It is also respected by normies. There is a common joke that programmers share their GitHub profiles upon acquaintance. Imagine if a person (such as an HR) expects you to have a ‘good’ profile, but you respond that you post your code to federated Gitea only. From the ethic point of view, GitHub is really bad. Especially with that Copilot thing.
-* GitLab is like GitHub, except it's worse in every possible way. The UI is worse, there are less users, and it's just as unethical. I am talking about the main instance. If you self-host it, it's a different thing!
-* Gitea is a fork of Gogs. I kinda dismiss Gogs. Gitea is where stuff happens. It's like GitHub in UI, but a11y is reported to be much worse. They are working on federation, I really respect that. I expect Gitea to become the best choice, once the federation is on. There is also a big instance of Gitea based in Germany: [[https://codeberg.org]].
-* Sourcehut is opinionated, I respect that. It has cute UI, but is overall hard to use. It has the best ethics and good a11y. Do you know what I dislike? That's email and hardwrapped plain text. Sourcehut focuses on that. Argh. They offer a good IRC service that I use though.
+* {
+Microsoft GitHub has the most users and is respected by normies. This text used to state it had the best UI and a11y, but I'm not sure if it's true anymore.
+
+There is a common joke that programmers share their GitHub profiles upon acquaintance. Imagine if a person (such as an HR) expects you to have a ‘good’ profile, but you respond that you post your code to federated Forgejo only.
+
+From the ethic point of view, GitHub is really bad. Especially with that Copilot thing and political bans. I'm all for political bans, of course, but only if politics I like apply. 
+
+These days, I'm only using it for aurafarming (stars). Developing free software on a non-free platform? What? 
+
+I will never forgive them for making the uneducated confuse [[Git]] and [[GitHub]].
+}
+* {
+GitLab is like GitHub, except it's worse in every possible way. The UI is worse, there are less users, and it's just as unethical. I am talking about the main instance.
+
+If you self-host it, it's a different thing! First and second jobs I had used self-hosted GitLab. It's fine, but UI is still a bit confusing to me.
+}
+* Gitea is a fork of Gogs. I kinda dismiss Gogs. No reason to use Gogs. It's like GitHub in UI, but a11y is reported to be much worse. 
+* Forgejo is a fork of Gitea. There's no reason use Gitea, Forgejo is just better. The biggest instance is [[https://codeberg.org]], and these days I'm using it for public collaboration a lot.
+* Sourcehut is opinionated, I respect that. It has cute UI, but is overall hard to use. It has the best ethics and good a11y. Do you know what I dislike? That's email and hardwrapped plain text. Sourcehut focuses on that. Argh. They offer a good IRC service that I used to use. I used to use it mainly, but later opted for Codeberg.
+* CGit and friends. Are they truly forges? Not sure. 
 
 = Ditching GitHub
-//[[2022-08-21]], 4 stars//
+//From Mastodon 2022-08-21, 4 stars//
 
 Moved 7 older (2017) unused repos from GitHub to SourceHut. Small projects that went nowhere. They are unlisted for now.
 
