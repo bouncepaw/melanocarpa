@@ -2,7 +2,7 @@ On my first job, which was a job in office with employer-provided computers, we 
 
 On that first job I never quite figured out how to use the kanban board view, and so I used the flat ticket list, similar to that on many a [[forge]].
 
-The screens were bad, and the computers ran Windows, notorious for the poorest font rendering. YouTrack itself was very thin and light gray, so it was hard to see. You know, modern design. To make the experience better, I used the following [[CSS]] snippet in a custom stylesheet browser extension.
+The screens were bad, and the computers ran Windows, notorious for the poorest font rendering. YouTrack itself was very thin and light gray, so it was hard to see. You know, modern design. To make the experience better, I used the following CSS snippet in a custom stylesheet browser extension.
 
 ```css
 .color-fields__plain-color-,
