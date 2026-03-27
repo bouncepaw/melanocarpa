@@ -1,0 +1,4 @@
+```zsh
+PROMPT_EOL_MARK='%K{green} '
+PS1='%F{cyan}%n@%m %F{blue}%~ %(?.%F{green}.%F{red})%(#.#.><>)%f '
+```
