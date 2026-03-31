@@ -2,3 +2,9 @@
 PROMPT_EOL_MARK='%K{green} '
 PS1='%F{cyan}%n@%m %F{blue}%~ %(?.%F{green}.%F{red})%(#.#.><>)%f '
 ```
+
+```zsh
+PROMPT_EOL_MARK='%K{green} '
+# %n@%m for username@host
+PS1='%F{blue}%~ %(?.%F{green}.%F{red})%(#.#.><>)%f '
+```
