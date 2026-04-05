@@ -2,6 +2,8 @@ https://bouncepaw.com is generally my main website, but it basically only has so
 
 Technically, it's a folder served by Caddy. It used to be Apache before that, and Nginx before that. It could be a static website, but I don't want it to just yet.
 
+.com in the domain stands for //compassion//, //communication// and //computer//.
+
 = 2026-04-05 redesign
 After a very long delay, did this.
 img grid {
