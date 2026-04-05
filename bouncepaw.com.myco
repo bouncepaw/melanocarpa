@@ -1,0 +1,19 @@
+https://bouncepaw.com is generally my main website, but it basically only has some contact info and links. Real stuff happens elsewhere. I have some secret pages there too. One day I'll probably bring more structure to it, but for now it is what it is. In the near future (2026) it will probably host more media.
+
+Technically, it's a folder served by Caddy. It used to be Apache before that, and Nginx before that. It could be a static website, but I don't want it to just yet.
+
+= 2026-04-05 redesign
+After a very long delay, did this.
+img tile {
+https://bouncepaw.com/galleries/2026 Screenshots/2026-04-05 bouncepaw.com before.png { Before }
+https://bouncepaw.com/galleries/2026 Screenshots/2026-04-05 bouncepaw.com after.png { After }
+}
+
+*. Replaced the picture. Procrastinated on that for a couple of years.
+*. Dropped langs other than English or Russian. Sorry francophones and samideanoj.
+*. Added more descriptions.
+*. Removed the two column layout.
+*. Boasted here and there.
+*. Linked the feed (that Follow thing).
+*. Used the [[Merveilles]] Seafoam.
+*. &c.
