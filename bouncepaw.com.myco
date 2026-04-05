@@ -4,7 +4,7 @@ Technically, it's a folder served by Caddy. It used to be Apache before that, an
 
 = 2026-04-05 redesign
 After a very long delay, did this.
-img tile {
+img grid {
 https://bouncepaw.com/galleries/2026 Screenshots/2026-04-05 bouncepaw.com before.png { Before }
 https://bouncepaw.com/galleries/2026 Screenshots/2026-04-05 bouncepaw.com after.png { After }
 }
