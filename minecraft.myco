@@ -1,4 +1,4 @@
-[[Minecraft]], I'm talking about Java Edition here, has configurable controls. This is an important topic, I'll list my findings here. 
+**Minecraft**, I'm talking about Java Edition here, has configurable controls. This is an important topic, I'll list my findings here. 
 
 = Sprinting
 Historically, there was just one way to sprint: double-press W. Then, Mojang gave in and added a quasimode hold sprinting key; Shift was taken, so they went with Ctrl. To this day I find it the worst possible key for sprinting on a standard keyboard.
@@ -23,3 +23,15 @@ In theory, one can scroll the hotbar with trackpad, but I found it uncomfortable
 
 == Gamepad
 ...
+
+= Chunk trimming
+As of 2026-05-30, the server I'm operating has grown to be pretty big. An archive of the world took 6 GB. That might not sound as much, but backups add up, network transmission takes significant time, etc. After the longest hesitation, removed chunks with inhabited time less than a minute, i.e. 1.4 mln chunks. The world shrinked back to 2 GB. We'll be able to easily find the new biome from Chaos Cubed!
+
+= World border
+If you're operating a long-term server, a very important thing you have to do early is a world border. I didn't. Randomly moved to 12 thousand blocks away from spawn.
+
+If I could choose now, I'd go for a 8k by 8k world. 
+
+When I actually understood the importance, it was too late. Had to draw the line on that new faraway settlement. Calling it the northern pole now.
+
+Also make sure the Nether border is scaled accordingly.
