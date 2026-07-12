@@ -1,7 +1,7 @@
 For the NLNet [[Betula]] grant, I had to redesign the logo. The old one was not very recognisable at small sizes, barely looked like a birch, etc. June 2026, I spent several days working on the new one. Turned out, logo design and vector graphics are so much more complicated than I anticipated! Went through multiple approaches until I settled on the final logo. It's live on [[https://joinbetula.org]] or instances running newer versions, such as [[https://links.bouncepaw.com]].
 
 = Approach 1. Generative birch trunk pattern
-For some idea, I had this idea of giving every Betula instance a unique userpic/favicon, which is a randomised birch trunk pattern. Why not make the logo with the same pattern generator? Gotta make the generator first though. Spent some time and ended up with a naïve generator. Here are some generations:
+For some idea, I had this idea of giving every Betula instance a unique userpic/favicon, which is a randomised birch trunk pattern. Why not make the logo with the same pattern generator? Gotta make the generator first though. Spent some time implementing and ended up with a naïve generator. Here are some generations with different parameters:
 
 img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 1.png
@@ -10,37 +10,55 @@ https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 3.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 4.jpg
 }
 
-That's not quite what I wanted. What if I used Perlin noise for generation?
+That's fun but does not really look like a birch would. What if I used Perlin noise for generation? Looks much more believable!
 
 img grid {
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 perlin camo.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 perlin.png
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 perlin camo.jpg {
+   With some parameter combination, the generator could be used to make camo patterns.
+}
 }
 
-This is a very good pattern generator, but it must not be a logo. Devastated from such a big waste of time, went looking for new ideas.
+This is a very good pattern generator, but it must not be a logo. Devastated from such a big waste of time, went looking for new ideas. Maybe I'll revisit this generator in the future though, but definitely not for the logo.
 
 = Approach 2. Branches
-img {
+What if I bent a birch thunk? Found a piece of paper, drew lenticels and played around:
+img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 1.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 2.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 3.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 4.jpg
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 5.jpg
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper full.jpg
 }
 
 img {
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 editing birch.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 raster logo pt serif.png
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 5.jpg { This branch layout is the best! }
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper full.jpg { With text. Drew this on a paper bag. }
 }
 
+Next day went onto digitalising the idea. Instead of drawing the birch anew, took a birch photo and edited it.
+
+img {
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 editing birch.png { Process... }
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 raster logo pt serif.png { PT Serif composition. }
+}
+
+OK that won't do.
+
 = Approach 3. Vector stump
+img {
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector sketch.png {
+   The old logo was an SVG vector art which I made in text editor. Yes, I made all those Bezier curves by hand. What if I made an SVG again, but in Inkscape this time? This is a quick messy sketch. Hmm that kinda works!
+}
+}
+
 img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond italic.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector sketch.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-09 favicon aa.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-09 favicon no aa.png
+}
+
+img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 favicon.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 logo comparison.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 process.png
@@ -48,10 +66,18 @@ https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 tab comparison.png
 }
 
 = Polishing
+After seeing the logo in use for a couple of days, I thought it should be improved further. I did think of optimising for low-res favicon rendering, but I thought of 32 by 32 pixel images, which Retina displays use. I don't have a Retina screen, and I end up with regular 16 by 16 pixel favicons, and the image is not crisp enough to my taste. And overall some proportions could be improved.
+
 img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 about.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 favicon.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 inkscape.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 joinbetula.org.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 profile.png
+}
+
+img wide {
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 final.png {
+   This is the final result. I'm quite content.
+}
 }
