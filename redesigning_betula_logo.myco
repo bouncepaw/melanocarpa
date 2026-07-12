@@ -52,32 +52,57 @@ https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector sketch.png {
 }
 
 img grid {
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond italic.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-09 favicon aa.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-09 favicon no aa.png
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond italic.png {
+   In the old logo, I used a Garamond font. Not sure which one. This time I took OFL-licensed EB Garamond. Hey it's pretty good!
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond.png {
+   I really love the quirk of the italic EB Garamond, but the regular one seems to work better. Went with it.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-09 favicon aa.png {
+   The logo would go to the favicon for sure. Rendered it at 32 by 32 pixel. This is just bad.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-09 favicon no aa.png {
+   With no anti-aliasing it's bad too.
+}
 }
 
+Spent some time optimizing the image so it looks better at low-res. Unlike raster images, where more points means a smoother images, in vector images it's better to have //less// points. Peculiar.
+
 img grid {
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 favicon.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 logo comparison.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 process.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 tab comparison.png
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 favicon.png {
+   Ended up with this. Pretty good.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 process.png {
+   So many windows...
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 logo comparison.png {
+   Comparison with the old logo.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 tab comparison.png {
+   And favicon comparison.
+}
 }
 
 = Polishing
 After seeing the logo in use for a couple of days, I thought it should be improved further. I did think of optimising for low-res favicon rendering, but I thought of 32 by 32 pixel images, which Retina displays use. I don't have a Retina screen, and I end up with regular 16 by 16 pixel favicons, and the image is not crisp enough to my taste. And overall some proportions could be improved.
 
 img grid {
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 about.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 favicon.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 inkscape.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 joinbetula.org.png
-https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 profile.png
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 inkscape.png {
+   Working in Inkscape. Put on a 16 by 16 squares overlay to get a better idea what lines become what pixels.
 }
-
-img wide {
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 favicon.png {
+   Got this solid favicon.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 profile.png {
+   The stump can be found on profile. It is also federated as userpic.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 about.png {
+   Full logo with text is found on the About page.
+}
+https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 joinbetula.org.png {
+   And on the website! I also redesigned it so it looks something like a Betula.
+}
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 final.png {
-   This is the final result. I'm quite content.
+   This is the final result. I'm content.
 }
 }
