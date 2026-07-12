@@ -1,18 +1,41 @@
-img {
+For the NLNet [[Betula]] grant, I had to redesign the logo. The old one was not very recognisable at small sizes, barely looked like a birch, etc. June 2026, I spent several days working on the new one. Turned out, logo design and vector graphics are so much more complicated than I anticipated! Went through multiple approaches until I settled on the final logo. It's live on [[https://joinbetula.org]] or instances running newer versions, such as [[https://links.bouncepaw.com]].
+
+= Approach 1. Generative birch trunk pattern
+For some idea, I had this idea of giving every Betula instance a unique userpic/favicon, which is a randomised birch trunk pattern. Why not make the logo with the same pattern generator? Gotta make the generator first though. Spent some time and ended up with a naïve generator. Here are some generations:
+
+img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 1.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 2.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 3.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 naive 4.jpg
+}
+
+That's not quite what I wanted. What if I used Perlin noise for generation?
+
+img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 perlin camo.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-05 perlin.png
+}
+
+This is a very good pattern generator, but it must not be a logo. Devastated from such a big waste of time, went looking for new ideas.
+
+= Approach 2. Branches
+img {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 1.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 2.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 3.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 4.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper 5.jpg
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-07 paper full.jpg
+}
+
+img {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 editing birch.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 raster logo pt serif.png
+}
+
+= Approach 3. Vector stump
+img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond italic.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector eb garamond.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-08 vector sketch.png
@@ -22,6 +45,10 @@ https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 favicon.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 logo comparison.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 process.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-10 tab comparison.png
+}
+
+= Polishing
+img grid {
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 about.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 favicon.png
 https://bouncepaw.com/img/2026-07 Betula logo/2026-07-12 inkscape.png
