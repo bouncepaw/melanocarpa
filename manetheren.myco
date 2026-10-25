@@ -1,4 +1,6 @@
-**Quercus** is a virtual private server (VPS) I started bringing up at the beginning of 2024. My older server which doesn't have such a nice name is dated now. In the spirit of the Japanese tradition of rebuilding the house every few years, I'm not just upgrading the old server, I'm making a new one instead. In the process of migrating, I'll ensure better backing up, reliability and learn something new.
+**Manetheren** is a virtual private server (VPS) I started bringing up at the beginning of 2024. My older server which doesn't have such a nice name is dated now. In the spirit of the Japanese tradition of rebuilding the house every few years, I'm not just upgrading the old server, I'm making a new one instead. In the process of migrating, I'll ensure better backing up, reliability and learn something new.
+
+It was also briefly called Quercus.
 
 I got bored of Debian derivates, so the new server won't have any Debian derivate.
 
@@ -18,10 +20,10 @@ To be continued...
 = 2026 continuation
 Writing this in earliest 2026. That Fedora installation was quite successful, I never switched the OS since then. Updated it maybe once or twice. 
 
-Nevertheless, as of now, the setup on both Quercus and the old server is in the middle of a postponed migration and partially broken backup processes. I'm not exactly sure where everything is. Now both servers are “old” in my mind.
+Nevertheless, as of now, the setup on both Manetheren and the old server is in the middle of a postponed migration and partially broken backup processes. I'm not exactly sure where everything is. Now both servers are “old” in my mind.
 
 I think I'll get a new server at some point and migrate both old ones there. I'll try to have as little state there as possible without going fanatic. I should also have a simple and robust backup solution and make servers quick to roll out, so the exact servers stop really matter. 
 
-With Quercus, there was an incident when I was wrongly blocked for a couple of days with my data erased. Things like this will happen again. Gotta be ready. 
+With Manetheren, there was an incident when I was wrongly blocked for a couple of days with my data erased. Things like this will happen again. Gotta be ready. 
 
 I think I should learn Ansible or something like that this year.
